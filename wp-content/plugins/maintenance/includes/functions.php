@@ -209,6 +209,12 @@
 	}	
 	add_action('add_meta_boxes', 'maintenance_page_create_meta_boxes_widget_support', 13);	
 	
+	function maintenance_page_create_meta_boxes_improve_translate() {
+		global $maintenance_variable;
+		add_meta_box( 'promo-translate',   	 __( 'Translation',  'maintenance' ),  'maintenanace_improve_translate',   $maintenance_variable->options_page, 'side',   'default' );
+	}	
+	add_action('add_meta_boxes', 'maintenance_page_create_meta_boxes_improve_translate', 14);		
+	
 	function add_data_fields ($object, $box) {
 		$mt_option = mt_get_plugin_options(true);
 		$is_blur   = false; 
@@ -360,9 +366,21 @@
 		$promo_text  = '';
 		$promo_text .= '<div class="sidebar-promo" id="sidebar-promo">';
 			$promo_text .= '<h4 class="support">'. __('Have any questions?','maintenance'). '</h3>';
-			$promo_text .= '<p>'. sprintf(__('You may find answers to your questions at <a target="_blank" href="http://wordpress.org/support/plugin/maintenance">support forum</a><br>You may  <a target="_blank" href="mailto:mail@fruitfulcode.com?subject=Maintenance plugin">contact us</a> with customization requests and suggestions.<br> Please visit our website to learn about us and our services <a href="%1$s" title="%2$s">%2$s</a>', 'maintenance'), 
+			$promo_text .= '<p>'. sprintf(__('You may find answers to your questions at <a target="_blank" href="http://support.fruitfulcode.com/hc/en-us/sections/200406386">support forum</a><br>You may  <a target="_blank" href="http://support.fruitfulcode.com/hc/en-us/requests/new">contact us</a> with customization requests and suggestions.<br> Please visit our website to learn about us and our services <a href="%1$s" title="%2$s">%2$s</a>', 'maintenance'), 
 											 'http://fruitfulcode.com',
 											 'fruitfulcode.com'
+										 ).'</p>';
+		$promo_text .= '</div>';		
+		echo $promo_text;
+	}
+	
+	function maintenanace_improve_translate() {
+		$promo_text  = '';
+		$promo_text .= '<div class="sidebar-promo" id="sidebar-translate">';
+			$promo_text .= '<h4 class="translate">'. __('This plugin is translation friendly','maintenance'). '</h3>';
+			$promo_text .= '<p>'. sprintf(__('Want to improve translation or make one for your native language? <a href="%1$s" title="%2$s">%2$s</a>', 'maintenance'), 
+											 'http://support.fruitfulcode.com/hc/en-us/articles/204268628',
+											 __('Follow this tutorial', 'maintenance')
 										 ).'</p>';
 		$promo_text .= '</div>';		
 		echo $promo_text;
@@ -426,17 +444,31 @@
 	}
 	
 	function mtCheckExclude() {
-		global $mt_options;
+		global $mt_options, $post;
 		$mt_options = mt_get_plugin_options(true);
-		$is_skip = false;
-		$curUrl = mt_curPageURL();
+		$is_skip 	= false;
+		$curUrl 	= mt_curPageURL();
+		if (is_page() || is_single()) {
+			$currID = $post->ID;	
+		} else {
+			if (is_home()) {
+				$blog_id = get_option( 'page_for_posts');
+				if ($blog_id) $currID = $blog_id;
+			}
+			
+			if (is_front_page()) {
+				$front_page_id = get_option( 'show_on_front');
+				if ($front_page_id) $currID = $front_page_id;
+				
+			}
+		}
+			
 		
 		if (isset($mt_options['exclude_pages']) && !empty($mt_options['exclude_pages'])) {
 			$exlude_objs = $mt_options['exclude_pages'];
-			
 			foreach ($exlude_objs as $objs_id) {
 				foreach ($objs_id as $obj_id) {
-					if ( $curUrl == get_the_permalink($obj_id)) {
+					if ( $currID == $obj_id) {
 						 $is_skip = true;
 						 break;
 					}
@@ -456,7 +488,8 @@
 		$vdate_start = $vdate_end = date_i18n( 'Y-m-d', strtotime( current_time('mysql', 0) )); 
 		$vtime_start = date_i18n( 'h:i a', strtotime( '12:00 am')); 
 		$vtime_end 	 = date_i18n( 'h:i a', strtotime( '12:00 pm')); 
-					
+			
+		
 		$mt_options	= mt_get_plugin_options(true);
 			if (!is_user_logged_in()) {
 				if ($mt_options['state']) {
@@ -473,7 +506,7 @@
 					 
 						$vCurrTime 		 = strtotime(current_time('mysql', 0));
 						$vCurrDate_start = strtotime($vdate_start . ' ' . $vtime_start); 
-						$vCurrDate_end 	 = strtotime($vdate_end . ' ' . $vtime_end); 
+						$vCurrDate_end 	 = strtotime($vdate_end   . ' ' . $vtime_end); 
 						
 						if (mtCheckExclude()) return true;
 						
@@ -481,6 +514,7 @@
 						if ($vCurrTime >= $vCurrDate_end) {
 							if (!empty($mt_options['is_down'])) return true;
 						}
+						
 				} else {
 					return true;		
 				}				

@@ -22,7 +22,7 @@
 			else {	   $_POST['lib_options']['state'] = 1; }
 			
 			if (isset($_POST['lib_options']['htmlcss'])) {
-				$_POST['lib_options']['htmlcss'] = wp_kses_post(stripslashes($_POST['lib_options']['htmlcss']));
+				$_POST['lib_options']['htmlcss'] = wp_kses_stripslashes($_POST['lib_options']['htmlcss']);
 			}
 			
 			if (isset($_POST['lib_options'])) {
@@ -64,14 +64,12 @@
 		$mt_option = mt_get_plugin_options(true);
 	?>
 		<div id="maintenance-options" class="wrap">	
-			<h2></h2>						
 			<form method="post" action="" enctype="multipart/form-data" name="options-form">
 				<?php wp_nonce_field('maintenance_edit_post','maintenance_nonce'); ?>
 				<?php wp_nonce_field('meta-box-order',  'meta-box-order-nonce', false ); ?>
 				<?php wp_nonce_field('closedpostboxes', 'closedpostboxesnonce', false ); ?>
 				<?php screen_icon(); ?>
-				<h2>Maintenance</h2>						
-				<input type="checkbox" id="state" name="lib_options[state]" <?php checked($mt_option['state'], 1); ?> />
+				<h1><?php _e('Maintenance', 'maintenance'); ?><input type="checkbox" id="state" name="lib_options[state]" <?php checked($mt_option['state'], 1); ?> /></h1>						
 				<div class="clear"></div>
 				<div id="poststuff">
 					 <div class="metabox-holder">
