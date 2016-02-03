@@ -2,8 +2,8 @@ jQuery(function() {
     var Obj = {
       circle: new Array(40),
       radius: 300,
-      noise: 20,
-      speed: 0.3,
+      noise: 25,
+      speed: 0.1,
       size: 400,
       
       //color a = background color; color b = object color 
