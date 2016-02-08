@@ -26,11 +26,10 @@
         <section class="section section--menu" id="Adrian">
           <nav class="menu menu--adrian">
             <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">Home</span></a></li>
-              <li class="menu__item menu__item--current"><a href="#" class="menu__link"><span class="menu__helper">Recipes</span></a></li>
-              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">Health</span></a></li>
-              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">Shop</span></a></li>
-              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">Contact</span></a></li>
+              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">Главная</span></a></li>
+              <li class="menu__item menu__item--current"><a href="#" class="menu__link"><span class="menu__helper">О "MARAKATA"</span></a></li>
+              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">Протокол</span></a></li>
+              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">Новости</span></a></li>
             </ul>
           </nav>
         </section>
