@@ -2,8 +2,8 @@
 	font-family: 'codropsicons';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/codropsicons/codropsicons.eot');
-	src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	src: url('fonts/codropsicons/codropsicons.eot');
+	src: url('fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('fonts/codropsicons/codropsicons.woff') format('woff'), url('fonts/codropsicons/codropsicons.ttf') format('truetype'), url('fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
 
 *,
@@ -65,7 +65,7 @@ a:focus {
 	width: 20px;
 	height: 20px;
 	cursor: pointer;
-	background: url(../img/link.svg) no-repeat center center;
+	background: url(img/link.svg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -248,7 +248,7 @@ a:focus {
 	padding: 0em 1em 4em;
 	text-align: center;
 	color: #fff;
-	background: #d94f5c url(../img/mouse.svg) no-repeat left 50% bottom 40px;
+	background: #d94f5c url(img/mouse.svg) no-repeat left 50% bottom 40px;
 }
 
 .codrops-header h1 {
