@@ -69,3 +69,7 @@ canvas
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
 }
+body a
+{
+  text-decoration: none !important;
+}
