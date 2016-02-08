@@ -1,7 +1,7 @@
 jQuery(function() {
     var Obj = {
       circle: new Array(40),
-      radius: 400,
+      radius: 350,
       noise: 20,
       speed: 0.3,
       size: 800,
