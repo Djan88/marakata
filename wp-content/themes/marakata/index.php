@@ -17,6 +17,13 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script><![endif]-->
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        text
+      </div>
+    </div>
+  </div>
   <canvas></canvas>
   <?php wp_footer(); ?>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
