@@ -76,7 +76,7 @@ body a
 .content
 {
   color: #D6D6D6;
-  font-size: 20px
+  font-size: 20px;
 }
 .content p
 {
@@ -86,6 +86,7 @@ body a
 {
   margin-bottom: 5px;
   font-size: 40px;
+  color: #d94f5c;
 }
 .blog-post-meta 
 {
