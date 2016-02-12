@@ -39,7 +39,7 @@
   <canvas></canvas>
   <div class="container about">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 content">
         <h2 class="blog-post-title">Sample blog post</h2>
         <p class="blog-post-meta">01.01.2016</p>
         <p>внешний вид и предназначение предметовСуществуют две версии магической игры Marakata. Одна версия представляет собой интерактивный веб-проект, а другая представлена «в реале». Ниже пойдет речь о версии, представленной «в реале».</p>
