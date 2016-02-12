@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/component.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
-
+  <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
   <style></style>
   <?php wp_head(); ?> 
   <!--[if lt IE 9]>
