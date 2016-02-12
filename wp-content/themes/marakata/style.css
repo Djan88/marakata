@@ -65,6 +65,8 @@ canvas
 {
   max-width: 100%;
   margin-top: -10vh;
+  position: relative;
+  z-index: 1;
 }
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
@@ -96,4 +98,10 @@ body a
 .main-header
 {
   background: hsla(280, 95%, 5%, 1);
+  z-index: 2;
+  position: relative;
+}
+.content-block
+{
+  position: relative;
 }
