@@ -56,8 +56,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/i18n/defaults-*.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/classie.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/clipboard.min.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/parallax.js"></script>
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery.parallax.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <script>
   (function() {

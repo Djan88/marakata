@@ -95,6 +95,4 @@ jQuery(function() {
 
     };
     Obj.Init();
-
-    jQuery('#content-block').parallax();
 });
