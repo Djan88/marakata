@@ -96,5 +96,5 @@ jQuery(function() {
     };
     Obj.Init();
 
-    $('#content-block').parallax();
+    jQuery('#content-block').parallax();
 });
