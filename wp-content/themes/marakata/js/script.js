@@ -95,4 +95,16 @@ jQuery(function() {
 
     };
     Obj.Init();
+
+    var hideAll = function(){
+      jQuery('.content-block').addClass('hidden');
+    }
+    jQuery('.menu-about').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_about').removeClass('hidden').addClass('animated fadeInDown');
+    });
+    jQuery('.menu-main').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_main').removeClass('hidden').addClass('animated fadeInDown');
+    });
 });

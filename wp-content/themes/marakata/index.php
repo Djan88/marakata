@@ -7,6 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/normalize.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/demo.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/component.css" />
@@ -26,18 +27,18 @@
         <section class="section section--menu" id="Adrian">
           <nav class="menu menu--adrian">
             <ul class="menu__list">
-              <li class="menu__item menu__item--current"><a href="#" class="menu__link"><span class="menu__helper">MARAKATA</span></a></li>
-              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">О ПРОЕКТЕ</span></a></li>
-              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">ПРОТОКОЛ</span></a></li>
-              <li class="menu__item"><a href="#" class="menu__link"><span class="menu__helper">НОВОСТИ</span></a></li>
+              <li class="menu__item menu__item--current"><a href="#" class="menu__link menu-main"><span class="menu__helper">MARAKATA</span></a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu-about"><span class="menu__helper">О ПРОЕКТЕ</span></a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu-proto"><span class="menu__helper">ПРОТОКОЛ</span></a></li>
+              <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li>
             </ul>
           </nav>
         </section>
       </div>
     </div>
   </div>
-  <canvas class="content-block" id="content-block"></canvas>
-  <div class="container content-block about hidden">
+  <canvas class="content-block content-block_main"></canvas>
+  <div class="container content-block content-block_about hidden">
     <div class="row">
       <div class="col-md-12 content">
         <h2 class="blog-post-title">«MARAKATA» — магическая игра для саморазвития</h2>
