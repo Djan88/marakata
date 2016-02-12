@@ -36,8 +36,8 @@
       </div>
     </div>
   </div>
-  <canvas></canvas>
-  <div class="container about">
+  <canvas class="content-block" id="content-block"></canvas>
+  <div class="container content-block about hidden">
     <div class="row">
       <div class="col-md-12 content">
         <h2 class="blog-post-title">«MARAKATA» — магическая игра для саморазвития</h2>
@@ -56,6 +56,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/i18n/defaults-*.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/classie.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/clipboard.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <script>
   (function() {
