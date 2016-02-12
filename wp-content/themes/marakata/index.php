@@ -37,6 +37,17 @@
     </div>
   </div>
   <canvas></canvas>
+  <div class="container about">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="blog-post-title">Sample blog post</h2>
+        <p class="blog-post-meta">01.01.2016</p>
+        <p>внешний вид и предназначение предметовСуществуют две версии магической игры Marakata. Одна версия представляет собой интерактивный веб-проект, а другая представлена «в реале». Ниже пойдет речь о версии, представленной «в реале».</p>
+        <p>Игра представлена двумя основными компонентами: 1.Смысловое игровое поле (также выполняет функцию обложки для хранения органических флюидических носителей); выполнено из натуральной кожи высокого качества; Лицевая сторона имеет надпись «MARAKATA»; задняя сторона имеет надписи - краткие правила игры: «Проявленный мир исходит изнутри тебя. Измени себя - изменится проявленный мир»; «Сохраняй гармонию частей и получай удовольствие от происходящего»; А также название интерактивного веб-роекта www.marakata.ru</p>
+      </div>
+    </div>
+  </div>
+
   <?php wp_footer(); ?>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
