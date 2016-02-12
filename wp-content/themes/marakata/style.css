@@ -93,3 +93,7 @@ body a
   margin-bottom: 20px;
   color: #999;
 }
+.main-header
+{
+  background: hsla(280, 95%, 5%, 1);
+}

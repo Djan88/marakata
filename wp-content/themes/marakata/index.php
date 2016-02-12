@@ -21,7 +21,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script><![endif]-->
 </head>
 <body>
-  <div class="container">
+  <div class="container main-header">
     <div class="row">
       <div class="col-md-12">
         <section class="section section--menu" id="Adrian">
