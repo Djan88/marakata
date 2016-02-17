@@ -99,11 +99,14 @@ body a
 }
 .main-header
 {
-  background: hsla(280, 95%, 5%, 1);
   z-index: 2;
   position: relative;
 }
 .content-block
 {
   position: relative;
+}
+.menu
+{
+  background: hsla(280, 95%, 5%, 1);
 }
