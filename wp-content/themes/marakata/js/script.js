@@ -4,7 +4,7 @@ jQuery(function() {
       radius: 300,
       noise: 20,
       speed: 0.3,
-      size: 800,
+      size: 750,
       
       //color a = background color; color b = object color 
       color: {

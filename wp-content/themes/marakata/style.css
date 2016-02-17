@@ -110,3 +110,7 @@ body a
 {
   background: hsla(280, 95%, 5%, 1);
 }
+.content-block_main
+{
+  padding-top: 10vh;
+}
