@@ -48,6 +48,21 @@
       </div>
     </div>
   </div>
+  <div class="container content-block content-block_proto hidden">
+    <div class="row">
+      <div class="col-md-12 content">
+        <h2 class="blog-post-title">Протокол</h2>
+        <p class="blog-post-meta">01.01.2016</p>
+      </div>
+    </div>
+  </div>
+  <div class="container content-block content-block_news hidden">
+    <div class="row">
+      <div class="col-md-12 content">
+        <h2 class="blog-post-title">Новости проекта</h2>
+      </div>
+    </div>
+  </div>
 
   <?php wp_footer(); ?>
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
