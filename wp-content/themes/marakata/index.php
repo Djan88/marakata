@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css" />
+  <!-- <link rel="stylesheet" href="<?php //bloginfo('template_url'); ?>/css/animate.css" /> -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/normalize.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/demo.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/component.css" />
@@ -60,6 +60,50 @@
     <div class="row">
       <div class="col-md-12 content">
         <h2 class="blog-post-title">Новости проекта</h2>
+        <div class="row">
+          <?php 
+            $args = array( 'cat' => 2, 'posts_per_page' => 10 );
+            $query = new WP_Query( $args );
+            while ( $query->have_posts() ) {
+              $query->the_post();?>
+              <div class="col-md-8 single">
+                <h3 class="blog-post-title"><?php the_title(); ?></h3>
+                <p class="blog-post-meta">01.01.2016</p>
+                <p class="single-content">
+                  <?php
+                  the_content(__('Читать далее'));
+                  wp_link_pages();
+                  edit_post_link(__('Edit This'));
+                  ?>
+                </p>
+              </div>
+              <div class="col-md-4 single">
+                <?php if( get_the_post_thumbnail()){ ?>
+                  <?php the_post_thumbnail( 'thumbnail' ); ?>
+                <?php } ?>
+              </div>
+
+
+
+              <li id="post-<?php the_ID(); ?>" class="rep-block">
+                <p class="news-content">
+                  <span class="news-left-side">
+                    <?php if( get_the_post_thumbnail()){ ?>
+                      <?php the_post_thumbnail( 'thumbnail' ); ?>
+                    <?php } else { ?>
+                      <img src="/wp-content/themes/eddiemachado-bones-cfbfb62/library/images/none_sq.jpg" alt="alt">
+                    <?php } ?>
+                  </span>
+                  <span class="news-right-side"><?php the_title(); ?></br>
+                    <span class="news-sub"><?php the_field('news_sub'); ?></span></br>
+                    <a class="news_link" href="<?php the_permalink() ?>">Подробнее</a>
+                  </span>
+                </p>
+              </li>
+          <?php }
+            wp_reset_postdata();
+          ?>
+        </div>
       </div>
     </div>
   </div>
