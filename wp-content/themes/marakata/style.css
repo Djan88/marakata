@@ -114,3 +114,8 @@ body a
 {
   padding-top: 5vh;
 }
+.marakata_sim, .marakata_dot
+{
+  text-align: center;
+  border: 1px solid #fff;
+}
