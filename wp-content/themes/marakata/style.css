@@ -139,9 +139,6 @@ body a
   top: 0;
   left: 0;
   z-index: 2;
-  border: 2px solid #fff;
-  box-sizing: border-box;
-  border-radius: 6px;
   height: 250px;
   width: 100%;
   background: url(img/counter_front.png) -5px -40px/106% no-repeat;
