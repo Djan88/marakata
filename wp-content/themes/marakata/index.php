@@ -52,17 +52,17 @@
     <div class="row">
       <div class="col-md-12 content">
         <div class="row">
-          <div class="col-md-2"><div class="marakata_sim marakata_sim-active">2</div></div>
-          <div class="col-md-2"><div class="marakata_sim">0</div></div>
-          <div class="col-md-2"><div class="marakata_sim">5</div></div>
-          <div class="col-md-2"><div class="marakata_sim">7</div></div>
-          <div class="col-md-2"><div class="marakata_dot">.</div></div>
-          <div class="col-md-2"><div class="marakata_sim">9</div></div>
+          <div class="col-md-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-active">2</div></div>
+          <div class="col-md-2 marakata_sim-wrap"><div class="marakata_sim">0</div></div>
+          <div class="col-md-2 marakata_sim-wrap"><div class="marakata_sim">5</div></div>
+          <div class="col-md-2 marakata_sim-wrap"><div class="marakata_sim">7</div></div>
+          <div class="col-md-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
+          <div class="col-md-2 marakata_sim-wrap"><div class="marakata_sim">9</div></div>
         </div>
       </div>
       <div class="col-md-12 content">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3"><div class="marakata_ring"><canvas class="content-block content-block_main"></canvas></div></div>
+          <div class="col-md-6 col-md-offset-3"><div class="marakata_ring"></div></div>
         </div>
       </div>
     </div>

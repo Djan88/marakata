@@ -114,6 +114,10 @@ body a
 {
   padding-top: 5vh;
 }
+.marakata_sim-wrap
+{
+  background: url(img/counter_back.gif) top left/100% no-repeat;
+}
 .marakata_sim, .marakata_dot
 {
   text-align: center;
@@ -123,6 +127,7 @@ body a
   height: 250px;
   width: 100%;
   font-size: 230px;
+  background: url(img/counter_front.png) top left/100% no-repeat;
 }
 .marakata_sim-active
 {
