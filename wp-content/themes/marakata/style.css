@@ -116,7 +116,7 @@ body a
 }
 .marakata_sim-wrap
 {
-  background: url(img/counter_back.gif) top left/100% no-repeat;
+  background: url(img/counter_back.gif) 17px -10px/83% no-repeat;
 }
 .marakata_sim, .marakata_dot
 {
@@ -128,6 +128,23 @@ body a
   width: 100%;
   font-size: 230px;
   background: url(img/counter_front.png) top left/100% no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.marakata_sim:after, .marakata_dot:after
+{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 250px;
+  width: 100%;
+  background: url(img/counter_front.png) -5px -40px/106% no-repeat;
 }
 .marakata_sim-active
 {
