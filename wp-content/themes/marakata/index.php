@@ -51,8 +51,14 @@
   <div class="container content-block content-block_proto hidden">
     <div class="row">
       <div class="col-md-12 content">
-        <h2 class="blog-post-title">Протокол</h2>
-        <p class="blog-post-meta">01.01.2016</p>
+        <div class="row">
+          <div class="col-md-2 marakata_sim">2</div>
+          <div class="col-md-2 marakata_sim">0</div>
+          <div class="col-md-2 marakata_sim">4</div>
+          <div class="col-md-2 marakata_sim">5</div>
+          <div class="col-md-2 marakata_dot">.</div>
+          <div class="col-md-2 marakata_sim">9</div>
+        </div>
       </div>
     </div>
   </div>
