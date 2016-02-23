@@ -62,7 +62,7 @@
       </div>
       <div class="col-md-12 content">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3"><div class="marakata_ring"></div></div>
+          <div class="col-md-6 col-md-offset-3"><div class="marakata_ring"><canvas class="content-block content-block_main"></canvas></div></div>
         </div>
       </div>
     </div>
