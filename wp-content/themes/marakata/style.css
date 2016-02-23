@@ -117,5 +117,14 @@ body a
 .marakata_sim, .marakata_dot
 {
   text-align: center;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 250px;
+  width: 100%;
+  font-size: 230px;
+}
+.marakata_sim-active
+{
+  border-color: #d94f5c;
 }
