@@ -116,7 +116,7 @@ body a
 }
 .marakata_sim-wrap
 {
-  background: url(img/counter_back.gif) 17px -10px/83% no-repeat;
+  background: url(img/counter_back.gif) 17px -30px/83% no-repeat;
 }
 .marakata_sim, .marakata_dot
 {
@@ -127,7 +127,7 @@ body a
   height: 250px;
   width: 100%;
   font-size: 230px;
-  background: url(img/counter_front.png) top left/100% no-repeat;
+  background: url(img/numbers.png) top left/100% no-repeat;
   position: relative;
   z-index: 1;
 }
