@@ -120,9 +120,9 @@ jQuery(function() {
     var protocol = function(elem){
       times = 5;
       for (var i = 1; i <= times; i++) {
-        curTrY = parseFloat(jQuery('"'+elem+'"').css('backgroundPositionY'));
+        curTrY = parseFloat(jQuery(elem).css('backgroundPositionY'));
         curTrY = curTrY-212.5;
-        jQuery('"'+elem+'"').css('backgroundPositionY', curTrY+'px');
+        jQuery(elem).css('backgroundPositionY', curTrY+'px');
       }
     }
 
