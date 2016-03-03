@@ -117,7 +117,7 @@ jQuery(function() {
     });
     jQuery('.marakata_sim').on('click', function(event) {
       curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
-      curTrY = curTrY-213;
+      curTrY = curTrY-212.5;
       jQuery(this).css('backgroundPositionY', curTrY+'px');
     });
 });
