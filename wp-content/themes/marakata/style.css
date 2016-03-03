@@ -135,9 +135,9 @@ body a
   background: url(img/numbers.png) top left/101% repeat-y;
   color: transparent;
   background-position-y: 0px;
-  -webkit-transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .marakata_sim:after, .marakata_dot:after
 {
