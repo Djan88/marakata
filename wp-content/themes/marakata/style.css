@@ -127,7 +127,7 @@ body a
   height: 18vw;
   width: 100%;
   font-size: 230px;
-  background: url(img/numbers.png) top left/100% repeat-y;
+  background: url(img/numbers.png) top left/101% repeat-y;
   position: relative;
   z-index: 1;
   color: transparent;
