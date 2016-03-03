@@ -117,18 +117,42 @@ jQuery(function() {
       jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');
     });
 
-    var protocol = function(elem){
+    var protocol_1 = function(){
       times = Math.round(Math.random() * (9 - 0));
-      curTrY = parseFloat(jQuery(elem).css('backgroundPositionY'));
+      curTrY = parseFloat(jQuery('.marakata_sim-1').css('backgroundPositionY'));
       curTrY = curTrY-(212.5*times);
-      jQuery(elem).css('backgroundPositionY', curTrY+'px');
+      jQuery('.marakata_sim-1').css('backgroundPositionY', curTrY+'px');
+    }
+    var protocol_2 = function(){
+      times = Math.round(Math.random() * (9 - 0));
+      curTrY = parseFloat(jQuery('.marakata_sim-2').css('backgroundPositionY'));
+      curTrY = curTrY-(212.5*times);
+      jQuery('.marakata_sim-2').css('backgroundPositionY', curTrY+'px');
+    }
+    var protocol_3 = function(){
+      times = Math.round(Math.random() * (9 - 0));
+      curTrY = parseFloat(jQuery('.marakata_sim-3').css('backgroundPositionY'));
+      curTrY = curTrY-(212.5*times);
+      jQuery('.marakata_sim-3').css('backgroundPositionY', curTrY+'px');
+    }
+    var protocol_4 = function(){
+      times = Math.round(Math.random() * (9 - 0));
+      curTrY = parseFloat(jQuery('.marakata_sim-4').css('backgroundPositionY'));
+      curTrY = curTrY-(212.5*times);
+      jQuery('.marakata_sim-4').css('backgroundPositionY', curTrY+'px');
+    }
+    var protocol_5 = function(){
+      times = Math.round(Math.random() * (9 - 0));
+      curTrY = parseFloat(jQuery('.marakata_sim-5').css('backgroundPositionY'));
+      curTrY = curTrY-(212.5*times);
+      jQuery('.marakata_sim-5').css('backgroundPositionY', curTrY+'px');
     }
 
     jQuery('.marakata_sim').on('click', function(event) {
-      setTimeout(protocol('.marakata_sim-1'), 2000);
-      setTimeout(protocol('.marakata_sim-2'), 4000);
-      setTimeout(protocol('.marakata_sim-3'), 6000);
-      setTimeout(protocol('.marakata_sim-4'), 8000);
-      setTimeout(protocol('.marakata_sim-5'), 10000);
+      setTimeout(protocol_1, 2000);
+      setTimeout(protocol_2, 4000);
+      setTimeout(protocol_3, 6000);
+      setTimeout(protocol_4, 8000);
+      setTimeout(protocol_5, 10000);
     });
 });
