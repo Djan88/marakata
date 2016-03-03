@@ -127,9 +127,12 @@ body a
   height: 18vw;
   width: 100%;
   font-size: 230px;
-  background: url(img/numbers.png) top left/101% repeat-y;
   position: relative;
   z-index: 1;
+}
+.marakata_sim
+{
+  background: url(img/numbers.png) top left/101% repeat-y;
   color: transparent;
   background-position-y: 0px;
   -webkit-transition: all 1s ease-in-out;
