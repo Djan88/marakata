@@ -116,7 +116,7 @@ jQuery(function() {
       jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');
     });
     jQuery('.marakata_sim').on('click', function(event) {
-      curTrY = jQuery(this).css('backgroundPositionY');
+      curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
       console.log(curTrY);
     });
 });
