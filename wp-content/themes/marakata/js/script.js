@@ -150,9 +150,9 @@ jQuery(function() {
 
     jQuery('.marakata_sim').on('click', function(event) {
       setTimeout(protocol_1, 2000);
-      setTimeout(protocol_2, 4000);
-      setTimeout(protocol_3, 6000);
-      setTimeout(protocol_4, 8000);
-      setTimeout(protocol_5, 10000);
+      setTimeout(protocol_2, 3000);
+      setTimeout(protocol_3, 4000);
+      setTimeout(protocol_4, 5000);
+      setTimeout(protocol_5, 6000);
     });
 });
