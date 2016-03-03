@@ -95,7 +95,7 @@ jQuery(function() {
 
     };
     Obj.Init();
-
+    var curTrY;
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
     }
@@ -114,5 +114,9 @@ jQuery(function() {
     jQuery('.menu-news').on('click', function(event) {
       hideAll();
       jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');
+    });
+    jQuery('.marakata_sim').on('click', function(event) {
+      curTrY = jQuery(this).css('backgroundPositionY');
+      console.log(curTrY);
     });
 });

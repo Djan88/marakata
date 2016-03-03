@@ -124,13 +124,17 @@ body a
   border: 2px solid #fff;
   box-sizing: border-box;
   border-radius: 6px;
-  height: 250px;
+  height: 18vw;
   width: 100%;
   font-size: 230px;
   background: url(img/numbers.png) top left/100% no-repeat;
   position: relative;
   z-index: 1;
   color: transparent;
+  background-position-y: 0px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 .marakata_sim:after, .marakata_dot:after
 {
