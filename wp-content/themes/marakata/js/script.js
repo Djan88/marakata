@@ -96,7 +96,9 @@ jQuery(function() {
     };
     Obj.Init();
     var curTrY,
-        times;
+        times,
+        curY,
+        resultY;
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
     }
@@ -147,6 +149,36 @@ jQuery(function() {
       curTrY = curTrY-(212.5*times);
       jQuery('.marakata_sim-5').css('backgroundPositionY', curTrY+'px');
     }
+    var result_1 = function(){
+      curY = parseFloat(jQuery('.marakata_sim-1').css('backgroundPositionY'));
+      curTrY = 10 - (curY/212.5);
+      resultY = curY-(212.5*curTrY);
+      jQuery('.marakata_sim-1').css('backgroundPositionY', resultY+'px');
+    }
+    var result_2 = function(){
+      curY = parseFloat(jQuery('.marakata_sim-2').css('backgroundPositionY'));
+      curTrY = 10 - (curY/212.5);
+      resultY = curY-(212.5*curTrY);
+      jQuery('.marakata_sim-2').css('backgroundPositionY', resultY+'px');
+    }
+    var result_3 = function(){
+      curY = parseFloat(jQuery('.marakata_sim-3').css('backgroundPositionY'));
+      curTrY = 10 - (curY/212.5);
+      resultY = curY-(212.5*curTrY);
+      jQuery('.marakata_sim-3').css('backgroundPositionY', resultY+'px');
+    }
+    var result_4 = function(){
+      curY = parseFloat(jQuery('.marakata_sim-4').css('backgroundPositionY'));
+      curTrY = 10 - (curY/212.5);
+      resultY = curY-(212.5*curTrY);
+      jQuery('.marakata_sim-4').css('backgroundPositionY', resultY+'px');
+    }
+    var result_5 = function(){
+      curY = parseFloat(jQuery('.marakata_sim-5').css('backgroundPositionY'));
+      curTrY = 10 - (curY/212.5);
+      resultY = curY-(212.5*curTrY);
+      jQuery('.marakata_sim-5').css('backgroundPositionY', resultY+'px');
+    }
 
     jQuery('.marakata_sim').on('click', function(event) {
       setTimeout(protocol_1, 0);
@@ -154,5 +186,10 @@ jQuery(function() {
       setTimeout(protocol_3, 1000);
       setTimeout(protocol_4, 1500);
       setTimeout(protocol_5, 2000);
+      setTimeout(result_1, 4500);
+      setTimeout(result_2, 5000);
+      setTimeout(result_3, 5500);
+      setTimeout(result_4, 6000);
+      setTimeout(result_5, 6500);
     });
 });
