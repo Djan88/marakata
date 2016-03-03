@@ -115,9 +115,14 @@ jQuery(function() {
       hideAll();
       jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');
     });
-    jQuery('.marakata_sim').on('click', function(event) {
-      curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
+
+    var protocol = function(elem){
+      curTrY = parseFloat(jQuery('".'+elem'"').css('backgroundPositionY'));
       curTrY = curTrY-212.5;
-      jQuery(this).css('backgroundPositionY', curTrY+'px');
+      jQuery('".'+elem'"'.css('backgroundPositionY', curTrY+'px');
+    }
+
+    jQuery('.marakata_sim').on('click', function(event) {
+      protocol(jQuery(this));
     });
 });
