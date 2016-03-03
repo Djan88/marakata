@@ -123,7 +123,7 @@ jQuery(function() {
     }
 
     jQuery('.marakata_sim').on('click', function(event) {
-      console.log(jQuery(this).className);
-      protocol(jQuery(this)[0]);
+      console.log(jQuery(this).attr('class'));
+      // protocol(jQuery(this)[0]);
     });
 });
