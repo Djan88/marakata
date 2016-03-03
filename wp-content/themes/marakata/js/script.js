@@ -153,31 +153,31 @@ jQuery(function() {
       curY = parseFloat(jQuery('.marakata_sim-1').css('backgroundPositionY'));
       curTrY = 10 + (curY/212.5);
       resultY = (212.5*curTrY);
-      jQuery('.marakata_sim-6').css('backgroundPositionY', resultY+'px');
+      jQuery('.marakata_sim-6').css('backgroundPositionY', -resultY+'px');
     }
     var result_2 = function(){
       curY = parseFloat(jQuery('.marakata_sim-2').css('backgroundPositionY'));
       curTrY = 10 + (curY/212.5);
       resultY = (212.5*curTrY);
-      jQuery('.marakata_sim-7').css('backgroundPositionY', resultY+'px');
+      jQuery('.marakata_sim-7').css('backgroundPositionY', -resultY+'px');
     }
     var result_3 = function(){
       curY = parseFloat(jQuery('.marakata_sim-3').css('backgroundPositionY'));
       curTrY = 10 + (curY/212.5);
       resultY = (212.5*curTrY);
-      jQuery('.marakata_sim-8').css('backgroundPositionY', resultY+'px');
+      jQuery('.marakata_sim-8').css('backgroundPositionY', -resultY+'px');
     }
     var result_4 = function(){
       curY = parseFloat(jQuery('.marakata_sim-4').css('backgroundPositionY'));
       curTrY = 10 + (curY/212.5);
       resultY = (212.5*curTrY);
-      jQuery('.marakata_sim-9').css('backgroundPositionY', resultY+'px');
+      jQuery('.marakata_sim-9').css('backgroundPositionY', -resultY+'px');
     }
     var result_5 = function(){
       curY = parseFloat(jQuery('.marakata_sim-5').css('backgroundPositionY'));
       curTrY = 10 + (curY/212.5);
       resultY = (212.5*curTrY);
-      jQuery('.marakata_sim-10').css('backgroundPositionY', resultY+'px');
+      jQuery('.marakata_sim-10').css('backgroundPositionY', -resultY+'px');
     }
 
     jQuery('.marakata_sim').on('click', function(event) {
