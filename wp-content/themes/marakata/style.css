@@ -130,6 +130,7 @@ body a
   background: url(img/numbers.png) top left/100% no-repeat;
   position: relative;
   z-index: 1;
+  color: transparent;
 }
 .marakata_sim:after, .marakata_dot:after
 {
