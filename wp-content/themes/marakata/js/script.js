@@ -123,7 +123,7 @@ jQuery(function() {
     }
 
     jQuery('.marakata_sim').on('click', function(event) {
-      console.log(this);
+      console.log(jQuery(this));
       protocol(jQuery(this)[0]);
     });
 });
