@@ -60,6 +60,11 @@
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim">9</div></div>
         </div>
       </div>
+      <div class="col-md-12">
+        <div class="row">
+          <button type="button" class="btn btn-default start-prot hidden">MARAKATA</button>
+        </div>
+      </div>
       <div class="col-md-12 content">
         <div class="row">
           <div class="col-md-6 col-md-offset-3"><div class="marakata_ring"></div></div>
