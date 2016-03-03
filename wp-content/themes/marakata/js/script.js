@@ -95,7 +95,8 @@ jQuery(function() {
 
     };
     Obj.Init();
-    var curTrY;
+    var curTrY,
+        times;
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
     }
@@ -117,13 +118,15 @@ jQuery(function() {
     });
 
     var protocol = function(elem){
-      curTrY = parseFloat(jQuery('".'+elem+'"').css('backgroundPositionY'));
-      curTrY = curTrY-212.5;
-      jQuery('".'+elem+'"').css('backgroundPositionY', curTrY+'px');
+      times = 5;
+      for (var i = 1; i <= times; i++) {
+        curTrY = parseFloat(jQuery('".'+elem+'"').css('backgroundPositionY'));
+        curTrY = curTrY-212.5;
+        jQuery('".'+elem+'"').css('backgroundPositionY', curTrY+'px');
+      }
     }
 
     jQuery('.marakata_sim').on('click', function(event) {
-      console.log(jQuery(this).attr('class'));
-      // protocol(jQuery(this)[0]);
+      setTimeout(protocol('.marakata_sim-1'), 2000);
     });
 });
