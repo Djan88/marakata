@@ -118,7 +118,7 @@ jQuery(function() {
     });
 
     var protocol = function(elem){
-      times = 5;
+      times = Math.round(Math.random() * (9 - 0));
       curTrY = parseFloat(jQuery(elem).css('backgroundPositionY'));
       curTrY = curTrY-(212.5*times);
       jQuery(elem).css('backgroundPositionY', curTrY+'px');
@@ -126,5 +126,9 @@ jQuery(function() {
 
     jQuery('.marakata_sim').on('click', function(event) {
       setTimeout(protocol('.marakata_sim-1'), 2000);
+      setTimeout(protocol('.marakata_sim-2'), 3000);
+      setTimeout(protocol('.marakata_sim-3'), 4000);
+      setTimeout(protocol('.marakata_sim-4'), 5000);
+      setTimeout(protocol('.marakata_sim-5'), 6000);
     });
 });
