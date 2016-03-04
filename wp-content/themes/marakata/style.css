@@ -155,3 +155,13 @@ body a
 {
   border-color: #d94f5c;
 }
+.marakata_heading 
+{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: #d94f5c;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 25px;
+}
