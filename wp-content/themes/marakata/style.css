@@ -169,8 +169,12 @@ body a
 {
   width: 100px;
   height: 100px;
-  background: #FFF url(img/man.png) center/90% no-repeat;
+  background: #d94f5c url(img/man.png) center/90% no-repeat;
   border-radius: 50%;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .start-prot, .start-prot:focus
 {
