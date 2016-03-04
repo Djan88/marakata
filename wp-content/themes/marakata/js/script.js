@@ -180,7 +180,7 @@ jQuery(function() {
       jQuery('.marakata_sim-10').css('backgroundPositionY', -resultY+'px');
     }
 
-    jQuery('.marakata_sim').on('click', function(event) {
+    jQuery('.start-prot').on('click', function(event) {
       setTimeout(protocol_1, 0);
       setTimeout(protocol_2, 500);
       setTimeout(protocol_3, 1000);

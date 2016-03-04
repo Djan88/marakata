@@ -52,6 +52,7 @@
     <div class="row">
       <div class="col-md-12 content">
         <div class="row">
+          <h2 class="col-md-12">Исходные данные</h2>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-1">2</div></div>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-2">0</div></div>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-3">5</div></div>
@@ -60,6 +61,7 @@
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-5">9</div></div>
         </div>
         <div class="row">
+          <h2 class="col-md-12">Результат</h2>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-6">2</div></div>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-7">0</div></div>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-8">5</div></div>
@@ -70,7 +72,7 @@
       </div>
       <div class="col-md-12">
         <div class="row">
-          <button type="button" class="btn btn-default start-prot hidden">MARAKATA</button>
+          <button type="button" class="btn btn-default start-prot">MARAKATA</button>
         </div>
       </div>
       <div class="col-md-12 content">
