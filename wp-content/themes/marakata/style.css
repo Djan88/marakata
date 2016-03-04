@@ -165,3 +165,8 @@ body a
   padding-top: 20px;
   font-size: 25px;
 }
+.start-prot
+{
+  width: 46px;
+  background: url(img/man.png) top left/100% no-repeat;
+}

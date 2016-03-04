@@ -72,7 +72,7 @@
       </div>
       <div class="col-md-12">
         <div class="row" style="text-align: center;">
-          <button type="button" class="btn btn-default btn-lg start-prot">MARAKATA</button>
+          <button type="button" class="btn btn-default btn-lg start-prot"></button>
         </div>
       </div>
       <div class="col-md-12 content">
