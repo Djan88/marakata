@@ -218,7 +218,7 @@ jQuery(function() {
         }
         end_time = new Date();
         console.log(end_time - start_time);
-        counter += 0;
+        counter += 1;
       }
     });
 });
