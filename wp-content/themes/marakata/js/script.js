@@ -208,11 +208,11 @@ jQuery(function() {
     },
     counter = -1,
     start_time,
-    end_time = 0;
+    end_time;
     jQuery('.start-man').on('click', function(event) {
       if (counter <= 9) {
         if (counter <= -1) {
-          start_time = new Date();
+          end_time = new Date();
         } else {
           start_time = end_time;
           end_time = new Date();
