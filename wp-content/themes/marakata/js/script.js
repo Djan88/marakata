@@ -206,8 +206,8 @@ jQuery(function() {
       8: 0,
       9: 0,
     },
-    counter = -1;
-    start_time = new Date();
+    counter = -1,
+    start_time,
     end_time = 0;
     jQuery('.start-man').on('click', function(event) {
       if (counter <= 9) {
