@@ -217,10 +217,10 @@ jQuery(function() {
           start_time = end_time;
           end_time = new Date();
           elems_obj[counter] = end_time - start_time
+          console.log(elems_obj);
         }
         counter += 1;
       } else {
-        console.log(elems_obj);
       }
     });
 });
