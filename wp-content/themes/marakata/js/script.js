@@ -192,4 +192,27 @@ jQuery(function() {
       setTimeout(result_4, 6000);
       setTimeout(result_5, 6500);
     });
+
+
+    var elems_obj = {
+      0: 0,
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+      7: 0,
+      8: 0,
+      9: 0,
+    },
+    counter = 0;
+    time = 0;
+    jQuery('.start-man').on('click', function(event) {
+      if (counter <= 9) {
+        time = getMilliseconds();
+        console.log(time);
+        counter += 0;
+      }
+    });
 });
