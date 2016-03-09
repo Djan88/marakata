@@ -215,10 +215,12 @@ jQuery(function() {
           start_time = new Date();
         } else {
           start_time = end_time;
+          end_time = new Date();
+          elems_obj[counter] = end_time - start_time
         }
-        end_time = new Date();
-        console.log(end_time - start_time);
         counter += 1;
+      } else {
+        console.log(elems_obj);
       }
     });
 });
