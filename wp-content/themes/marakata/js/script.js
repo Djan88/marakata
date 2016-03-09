@@ -210,8 +210,8 @@ jQuery(function() {
     time = 0;
     jQuery('.start-man').on('click', function(event) {
       if (counter <= 9) {
-        time = getMilliseconds();
-        console.log(time);
+        time = new Date();
+        console.log(time.getMilliseconds());
         counter += 0;
       }
     });
