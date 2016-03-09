@@ -207,11 +207,17 @@ jQuery(function() {
       9: 0,
     },
     counter = 0;
-    time = 0;
+    start_time = new Date();
+    end_time = 0;
     jQuery('.start-man').on('click', function(event) {
       if (counter <= 9) {
-        time = new Date();
-        console.log(time.getMilliseconds());
+        if (counter == 0) {
+          start_time = 0;
+        } else {
+          start_time = end_time;
+        }
+        end_time = new Date();
+        console.log(end_time - start_time);
         counter += 0;
       }
     });
