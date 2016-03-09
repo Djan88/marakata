@@ -211,7 +211,7 @@ jQuery(function() {
     end_time = 0;
     jQuery('.start-man').on('click', function(event) {
       if (counter <= 9) {
-        if (counter == -1) {
+        if (counter <= -1) {
           start_time = new Date();
         } else {
           start_time = end_time;
