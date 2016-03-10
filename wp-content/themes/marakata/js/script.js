@@ -222,10 +222,11 @@ jQuery(function() {
           }
           start_time = end_time;
           end_time = new Date();
-          elems_obj[counter] = past_time = end_time - start_time
+          elems_obj[counter] = end_time - start_time
           console.log(elems_obj);
           console.log('Прошлое: '+ past_time+', Текущее: '+(end_time - start_time));
         }
+        past_time = elems_obj[counter];
         counter += 1;
       }
       // if (global_counter == 11 ) {}
