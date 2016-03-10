@@ -214,6 +214,7 @@ jQuery(function() {
     cur_item;
     jQuery('.start-man').on('click', function(event) {
       cur_item = jQuery('.marakata_sim-'+ global_counter);
+      jQuery('.marakata_sim').removeClass('marakata_sim-active');
       cur_item.addClass('marakata_sim-active');
       if (counter <= 9) {
         if (counter <= -1) {
