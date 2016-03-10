@@ -233,7 +233,7 @@ jQuery(function() {
         console.log(max_time);
       } else {
         if (global_counter <= 5 ) {
-          counter = -1;
+          counter = 0;
           elems_obj = {
                 0: 0,
                 1: 0,
