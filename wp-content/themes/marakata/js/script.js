@@ -208,19 +208,25 @@ jQuery(function() {
     },
     counter = -1,
     start_time,
-    end_time;
+    end_time,
+    max_time = 0,
+    global_counter = 1;
     jQuery('.start-man').on('click', function(event) {
       if (counter <= 9) {
         if (counter <= -1) {
           end_time = new Date();
         } else {
+          if (max_time < (end_time - start_time)) {
+            max_time == counter;
+          }
           start_time = end_time;
           end_time = new Date();
           elems_obj[counter] = end_time - start_time
           console.log(elems_obj);
+          console.log(counter);
         }
         counter += 1;
-      } else {
       }
+      // if (global_counter == 11 ) {}
     });
 });
