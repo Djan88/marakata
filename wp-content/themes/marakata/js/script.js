@@ -224,7 +224,7 @@ jQuery(function() {
             max_time = counter;
           }
           console.log(elems_obj);
-          console.log('Прошлое: '+ past_time+', Текущее: '+(end_time - start_time));
+          console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
         }
         counter += 1;
         console.log(max_time);
