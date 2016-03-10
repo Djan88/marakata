@@ -226,8 +226,13 @@ jQuery(function() {
           console.log(elems_obj);
           console.log('Прошлое: '+ past_time+', Текущее: '+(end_time - start_time));
         }
-        past_time = elems_obj[counter];
+        if (elems_obj[counter]) {
+          past_time = elems_obj[counter];
+        } else {
+          past_time = 0;
+        }
         counter += 1;
+        console.log(max_time);
       }
       // if (global_counter == 11 ) {}
     });
