@@ -209,6 +209,7 @@ jQuery(function() {
     counter = -1,
     start_time,
     end_time,
+    past_time = 0,
     max_time = 0,
     global_counter = 1;
     jQuery('.start-man').on('click', function(event) {
@@ -216,12 +217,12 @@ jQuery(function() {
         if (counter <= -1) {
           end_time = new Date();
         } else {
-          if (max_time < (end_time - start_time)) {
+          if (past_time < (end_time - start_time)) {
             max_time == counter;
           }
           start_time = end_time;
           end_time = new Date();
-          elems_obj[counter] = end_time - start_time
+          elems_obj[counter] = past_time = end_time - start_time
           console.log(elems_obj);
           console.log(counter);
         }
