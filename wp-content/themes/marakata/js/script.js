@@ -232,6 +232,9 @@ jQuery(function() {
         counter += 1;
         console.log(max_time);
       } else {
+        curTrY = parseFloat(cur_item.css('backgroundPositionY'));
+        curTrY = curTrY-(212.5*max_time);
+        cur_item.css('backgroundPositionY', curTrY+'px');
         if (global_counter <= 4 ) {
           counter = 0;
           elems_obj = {
