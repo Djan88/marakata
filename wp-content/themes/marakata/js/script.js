@@ -221,7 +221,7 @@ jQuery(function() {
           end_time = new Date();
           elems_obj[counter] = end_time - start_time;
           if (past_time < (end_time - start_time)) {
-            max_time == counter;
+            max_time = counter;
           }
           console.log(elems_obj);
           console.log('Прошлое: '+ past_time+', Текущее: '+(end_time - start_time));
