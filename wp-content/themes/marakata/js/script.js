@@ -232,7 +232,7 @@ jQuery(function() {
         counter += 1;
         console.log(max_time);
       } else {
-        if (global_counter <= 5 ) {
+        if (global_counter <= 4 ) {
           counter = 0;
           elems_obj = {
                 0: 0,
