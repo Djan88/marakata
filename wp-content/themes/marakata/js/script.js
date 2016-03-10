@@ -236,7 +236,7 @@ jQuery(function() {
         curTrY = curTrY-(212.5*max_time);
         cur_item.css('backgroundPositionY', curTrY+'px');
         if (global_counter <= 4 ) {
-          counter = 0;
+          counter = -1;
           elems_obj = {
                 0: 0,
                 1: 0,
