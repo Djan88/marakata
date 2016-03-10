@@ -251,6 +251,7 @@ jQuery(function() {
               };
           global_counter += 1;
         } else {
+          jQuery('.start-man').addClass('hidden');
           setTimeout(result_1, 500);
           setTimeout(result_2, 1000);
           setTimeout(result_3, 1500);
