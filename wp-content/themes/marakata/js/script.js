@@ -211,8 +211,9 @@ jQuery(function() {
     end_time,
     max_time = 0,
     global_counter = 1,
-    cur_item = jQuery('.marakata_sim-'+ global_counter);
+    cur_item;
     jQuery('.start-man').on('click', function(event) {
+      cur_item = jQuery('.marakata_sim-'+ global_counter);
       cur_item.addClass('marakata_sim-active');
       if (counter <= 9) {
         if (counter <= -1) {
