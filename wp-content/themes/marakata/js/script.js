@@ -250,6 +250,12 @@ jQuery(function() {
                 9: 0,
               };
           global_counter += 1;
+        } else {
+          setTimeout(result_1, 500);
+          setTimeout(result_2, 1000);
+          setTimeout(result_3, 1500);
+          setTimeout(result_4, 2000);
+          setTimeout(result_5, 2500);
         }
       }
     });
