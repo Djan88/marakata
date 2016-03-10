@@ -220,16 +220,11 @@ jQuery(function() {
           start_time = end_time;
           end_time = new Date();
           elems_obj[counter] = end_time - start_time;
-          if (past_time < (end_time - start_time)) {
+          if (elems_obj[max_time] < (end_time - start_time)) {
             max_time = counter;
           }
           console.log(elems_obj);
           console.log('Прошлое: '+ past_time+', Текущее: '+(end_time - start_time));
-        }
-        if (elems_obj[counter]) {
-          past_time = elems_obj[counter];
-        } else {
-          past_time = 0;
         }
         counter += 1;
         console.log(max_time);
