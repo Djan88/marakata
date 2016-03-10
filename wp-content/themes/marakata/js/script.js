@@ -209,10 +209,11 @@ jQuery(function() {
     counter = -1,
     start_time,
     end_time,
-    past_time = 0,
     max_time = 0,
-    global_counter = 1;
+    global_counter = 1,
+    cur_item = jQuery('.marakata_sim-'+ global_counter);
     jQuery('.start-man').on('click', function(event) {
+      cur_item.addClass('marakata_sim-active');
       if (counter <= 9) {
         if (counter <= -1) {
           end_time = new Date();
@@ -225,10 +226,14 @@ jQuery(function() {
           }
           console.log(elems_obj);
           console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
+          console.log(cur_item);
         }
         counter += 1;
         console.log(max_time);
       }
-      // if (global_counter == 11 ) {}
+      if (counter == 9 && global_counter <= 5 ) {
+        counter = -1;
+        global_counter += 1;
+      }
     });
 });
