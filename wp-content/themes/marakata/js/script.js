@@ -253,11 +253,11 @@ jQuery(function() {
           global_counter += 1;
         } else {
           jQuery('.start-man').addClass('hidden');
-          setTimeout(result_1, 500);
-          setTimeout(result_2, 1000);
-          setTimeout(result_3, 1500);
-          setTimeout(result_4, 2000);
-          setTimeout(result_5, 2500);
+          setTimeout(result_1, 2500);
+          setTimeout(result_2, 3000);
+          setTimeout(result_3, 3500);
+          setTimeout(result_4, 4000);
+          setTimeout(result_5, 4500);
         }
       }
     });
