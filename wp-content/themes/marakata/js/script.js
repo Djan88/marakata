@@ -210,12 +210,10 @@ jQuery(function() {
     start_time,
     end_time,
     max_time = 0,
-    global_counter = 1,
+    global_counter = 0,
     cur_item;
-    jQuery('.start-man').on('click', function(event) {
-      cur_item = jQuery('.marakata_sim-'+ global_counter);
-      jQuery('.marakata_sim').removeClass('marakata_sim-active');
-      cur_item.addClass('marakata_sim-active');
+    jQuery('.marakata_sim_from').on('click', function(event) {
+      jQuery(this).addClass('marakata_sim-active');
       if (counter <= 9) {
         if (counter <= -1) {
           end_time = new Date();
@@ -231,33 +229,19 @@ jQuery(function() {
           console.log(cur_item);
         }
         counter += 1;
-        console.log(max_time);
       } else {
         curTrY = parseFloat(cur_item.css('backgroundPositionY'));
         curTrY = curTrY-(212.5*max_time);
-        cur_item.css('backgroundPositionY', curTrY+'px');
-        if (global_counter <= 4 ) {
-          counter = -1;
-          elems_obj = {
-                0: 0,
-                1: 0,
-                2: 0,
-                3: 0,
-                4: 0,
-                5: 0,
-                6: 0,
-                7: 0,
-                8: 0,
-                9: 0,
-              };
-          global_counter += 1;
-        } else {
-          jQuery('.start-man').addClass('hidden');
+        jQuery(this).removeClass('marakata_sim-active, marakata_sim_from').css('backgroundPositionY', curTrY+'px');
+        counter = -1;
+        global_counter += 1;
+        if (global_counter >= 5) {
           setTimeout(result_1, 2500);
           setTimeout(result_2, 3000);
           setTimeout(result_3, 3500);
           setTimeout(result_4, 4000);
           setTimeout(result_5, 4500);
+          global_counter = 0;
         }
       }
     });
