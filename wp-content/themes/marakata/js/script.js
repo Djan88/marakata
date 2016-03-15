@@ -235,7 +235,8 @@ jQuery(function() {
           curTrY = curTrY-(212.5*max_time);
           console.log(jQuery(this));
           jQuery(this).css('backgroundPositionY', curTrY+'px');
-          jQuery(this).removeClass('marakata_sim-active, marakata_sim_from');
+          jQuery(this).removeClass('marakata_sim-active');
+          jQuery(this).removeClass('marakata_sim_from');
           counter = -1;
           global_counter += 1;
           if (global_counter >= 5) {
