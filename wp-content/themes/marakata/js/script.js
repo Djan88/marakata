@@ -213,37 +213,39 @@ jQuery(function() {
     global_counter = 0,
     cur_item;
     jQuery('.marakata_sim_from').on('click', function(event) {
-      jQuery(this).addClass('marakata_sim-active');
-      if (counter <= 9) {
-        if (counter <= -1) {
-          end_time = new Date();
-        } else {
-          start_time = end_time;
-          end_time = new Date();
-          elems_obj[counter] = end_time - start_time;
-          if (elems_obj[max_time] < (end_time - start_time)) {
-            max_time = counter;
+      if (jQuery(this).hasClass('marakata_sim_from')) {
+        jQuery(this).addClass('marakata_sim-active');
+        if (counter <= 9) {
+          if (counter <= -1) {
+            end_time = new Date();
+          } else {
+            start_time = end_time;
+            end_time = new Date();
+            elems_obj[counter] = end_time - start_time;
+            if (elems_obj[max_time] < (end_time - start_time)) {
+              max_time = counter;
+            }
+            console.log(elems_obj);
+            console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
+            console.log(cur_item);
           }
-          console.log(elems_obj);
-          console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
-          console.log(cur_item);
-        }
-        counter += 1;
-      } else {
-        curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
-        curTrY = curTrY-(212.5*max_time);
-        console.log(jQuery(this));
-        jQuery(this).css('backgroundPositionY', curTrY+'px');
-        jQuery(this).removeClass('marakata_sim-active, marakata_sim_from');
-        counter = -1;
-        global_counter += 1;
-        if (global_counter >= 5) {
-          setTimeout(result_1, 2500);
-          setTimeout(result_2, 3000);
-          setTimeout(result_3, 3500);
-          setTimeout(result_4, 4000);
-          setTimeout(result_5, 4500);
-          global_counter = 0;
+          counter += 1;
+        } else {
+          curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
+          curTrY = curTrY-(212.5*max_time);
+          console.log(jQuery(this));
+          jQuery(this).css('backgroundPositionY', curTrY+'px');
+          jQuery(this).removeClass('marakata_sim-active, marakata_sim_from');
+          counter = -1;
+          global_counter += 1;
+          if (global_counter >= 5) {
+            setTimeout(result_1, 2500);
+            setTimeout(result_2, 3000);
+            setTimeout(result_3, 3500);
+            setTimeout(result_4, 4000);
+            setTimeout(result_5, 4500);
+            global_counter = 0;
+          }
         }
       }
     });
