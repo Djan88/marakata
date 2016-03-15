@@ -211,9 +211,11 @@ jQuery(function() {
     end_time,
     max_time = 0,
     global_counter = 0,
-    cur_item;
+    cur_item,
+    that;
     jQuery('.marakata_sim_from').on('click', function(event) {
       jQuery(this).addClass('marakata_sim-active');
+      that = jQuery(this)
       if (counter <= 9) {
         if (counter <= -1) {
           end_time = new Date();
@@ -232,8 +234,8 @@ jQuery(function() {
       } else {
         curTrY = parseFloat(cur_item.css('backgroundPositionY'));
         curTrY = curTrY-(212.5*max_time);
-        console.log(jQuery(this));
-        jQuery(this).css('backgroundPositionY', curTrY+'px').removeClass('marakata_sim-active, marakata_sim_from');
+        console.log(that);
+        that.css('backgroundPositionY', curTrY+'px').removeClass('marakata_sim-active, marakata_sim_from');
         counter = -1;
         global_counter += 1;
         if (global_counter >= 5) {
