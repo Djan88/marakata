@@ -238,6 +238,18 @@ jQuery(function() {
           jQuery(this).removeClass('marakata_sim-active');
           jQuery(this).removeClass('marakata_sim_from');
           counter = -1;
+          elems_obj = {
+                0: 0,
+                1: 0,
+                2: 0,
+                3: 0,
+                4: 0,
+                5: 0,
+                6: 0,
+                7: 0,
+                8: 0,
+                9: 0,
+              };
           global_counter += 1;
           if (global_counter >= 5) {
             setTimeout(result_1, 2500);
