@@ -74,6 +74,7 @@
         <div class="row" style="text-align: center;">
           <button type="button" class="btn btn-default btn-lg start-prot hidden"></button>
           <button type="button" class="btn btn-default btn-lg start-man hidden"></button>
+          <button type="button" class="btn btn-primary btn-lg btn_reset">Начать с начала</button>
         </div>
       </div>
       <div class="col-md-12 content">
