@@ -75,6 +75,7 @@
           <button type="button" class="btn btn-default btn-lg start-prot hidden"></button>
           <button type="button" class="btn btn-default btn-lg start-man hidden"></button>
           <button type="button" class="btn btn-default btn-lg btn_reset">Начать с начала</button>
+          
         </div>
       </div>
       <div class="col-md-12 content">
