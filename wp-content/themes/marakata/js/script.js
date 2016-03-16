@@ -262,4 +262,22 @@ jQuery(function() {
         }
       }
     });
+    jQuery('.btn_reset').on('click', function(event) {
+      jQuery('.marakata_sim').css('backgroundPositionY', '0px');
+      elems_obj = {
+      0: 0,
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+      7: 0,
+      8: 0,
+      9: 0,
+    };
+    counter = -1;
+    max_time = 0;
+    global_counter = 0;
+    });
 });
