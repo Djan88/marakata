@@ -88,7 +88,7 @@
   <div class="container content-block content-block_news hidden">
     <div class="row">
       <div class="col-md-12 content">
-        <h2 class="blog-post-title">Новости проекта</h2>
+        <h2 class="blog-post-title" style="text-align: center;">Новости проекта</h2>
         <?php 
           $args = array( 'cat' => 2, 'posts_per_page' => 10 );
           $query = new WP_Query( $args );
