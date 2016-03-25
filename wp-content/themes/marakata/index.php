@@ -98,7 +98,7 @@
             <div class="col-md-2 single"></div>
             <div class="col-md-8 single">
               <h3 class="blog-post-title"><?php the_title(); ?></h3>
-              <p class="blog-post-meta">01.01.2016</p>
+              <p class="blog-post-meta"><?php echo get_the_date('n-j-Y'); ?></p>
               <p class="single-content">
                 <?php
                 the_content(__('Читать далее'));
