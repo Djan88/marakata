@@ -106,29 +106,6 @@
                   ?>
                 </p>
               </div>
-              <div class="col-md-4 single">
-                <?php if( get_the_post_thumbnail()){ ?>
-                  <?php the_post_thumbnail( 'thumbnail' ); ?>
-                <?php } ?>
-              </div>
-
-
-
-              <li id="post-<?php the_ID(); ?>" class="rep-block">
-                <p class="news-content">
-                  <span class="news-left-side">
-                    <?php if( get_the_post_thumbnail()){ ?>
-                      <?php the_post_thumbnail( 'thumbnail' ); ?>
-                    <?php } else { ?>
-                      <img src="/wp-content/themes/eddiemachado-bones-cfbfb62/library/images/none_sq.jpg" alt="alt">
-                    <?php } ?>
-                  </span>
-                  <span class="news-right-side"><?php the_title(); ?></br>
-                    <span class="news-sub"><?php the_field('news_sub'); ?></span></br>
-                    <a class="news_link" href="<?php the_permalink() ?>">Подробнее</a>
-                  </span>
-                </p>
-              </li>
           <?php }
             wp_reset_postdata();
           ?>
