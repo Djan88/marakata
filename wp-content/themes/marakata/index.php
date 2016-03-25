@@ -89,29 +89,29 @@
     <div class="row">
       <div class="col-md-12 content">
         <h2 class="blog-post-title">Новости проекта</h2>
-        <div class="row">
-          <?php 
-            $args = array( 'cat' => 2, 'posts_per_page' => 10 );
-            $query = new WP_Query( $args );
-            while ( $query->have_posts() ) {
-              $query->the_post();?>
-              <div class="col-md-2 single"></div>
-              <div class="col-md-8 single">
-                <h3 class="blog-post-title"><?php the_title(); ?></h3>
-                <p class="blog-post-meta">01.01.2016</p>
-                <p class="single-content">
-                  <?php
-                  the_content(__('Читать далее'));
-                  wp_link_pages();
-                  edit_post_link(__('Edit This'));
-                  ?>
-                </p>
-              </div>
-              <div class="col-md-2 single"></div>
-          <?php }
-            wp_reset_postdata();
-          ?>
-        </div>
+        <?php 
+          $args = array( 'cat' => 2, 'posts_per_page' => 10 );
+          $query = new WP_Query( $args );
+          while ( $query->have_posts() ) {
+            $query->the_post();?>
+          <div class="row">
+            <div class="col-md-2 single"></div>
+            <div class="col-md-8 single">
+              <h3 class="blog-post-title"><?php the_title(); ?></h3>
+              <p class="blog-post-meta">01.01.2016</p>
+              <p class="single-content">
+                <?php
+                the_content(__('Читать далее'));
+                wp_link_pages();
+                edit_post_link(__('Edit This'));
+                ?>
+              </p>
+            </div>
+            <div class="col-md-2 single"></div>
+          </div>
+        <?php }
+          wp_reset_postdata();
+        ?>
       </div>
     </div>
   </div>
