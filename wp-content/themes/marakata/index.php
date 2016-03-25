@@ -95,6 +95,7 @@
             $query = new WP_Query( $args );
             while ( $query->have_posts() ) {
               $query->the_post();?>
+              <div class="col-md-2 single"></div>
               <div class="col-md-8 single">
                 <h3 class="blog-post-title"><?php the_title(); ?></h3>
                 <p class="blog-post-meta">01.01.2016</p>
@@ -106,6 +107,7 @@
                   ?>
                 </p>
               </div>
+              <div class="col-md-2 single"></div>
           <?php }
             wp_reset_postdata();
           ?>
