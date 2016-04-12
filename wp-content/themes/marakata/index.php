@@ -59,7 +59,7 @@
             <input type="radio" name="options" id="option3"> Личная история
           </label>
         </div>
-        <div class="personal">
+        <div class="personal hidden">
           <h2 class="col-md-12 marakata_heading">Личная история</h2>
           <div class="bs-example col-md-6 col-md-offset-3">
             <form role="form">
@@ -67,7 +67,7 @@
             </form>
           </div>
         </div>
-        <div class="actuality hidden">
+        <div class="actuality">
           <h2 class="col-md-12 marakata_heading">Актуальность</h2>
           <div id="carousel-example-generic" class="carousel carousel_marakata slide" data-ride="carousel">
             <!-- Indicators -->
