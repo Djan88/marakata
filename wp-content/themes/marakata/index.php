@@ -51,6 +51,49 @@
   <div class="container content-block content-block_proto hidden">
     <div class="row">
       <div class="col-md-12 content">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carousel-caption">
+                <h3>Ярлык первого слайда</h3>
+                <p>Здесь произвольный текст. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">
+                <h3>Ярлык второго слайда</h3>
+                <p>Здесь произвольный текст. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption">
+                <h3>Ярлык третьего слайда</h3>
+                <p>Здесь произвольный текст. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+            ...
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 content">
         <div class="row">
           <h2 class="col-md-12 marakata_heading">Исходные данные</h2>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-1 marakata_sim_from"></div></div>
