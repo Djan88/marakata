@@ -51,43 +51,58 @@
   <div class="container content-block content-block_proto hidden">
     <div class="row">
       <div class="col-md-12 no_padding_wrap content">
-        <div id="carousel-example-generic" class="carousel carousel_marakata slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
+        <div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option1"> Актуальность
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="option3"> Личная история
+          </label>
+        </div>
+        <div class="personal">
+          <h2 class="col-md-12 marakata_heading">Личная история</h2>
+          
+        </div>
+        <div class="actuality hidden">
+          <h2 class="col-md-12 marakata_heading">Актуальность</h2>
+          <div id="carousel-example-generic" class="carousel carousel_marakata slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="carousel-caption">
-                <h3>Ярлык первого слайда</h3>
-                <p>Здесь размещается текст заявки 1.</p>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="carousel-caption">
+                  <h3>Ярлык первого слайда</h3>
+                  <p>Здесь размещается текст заявки 1.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Ярлык второго слайда</h3>
+                  <p>Здесь размещается текст заявки 2.</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Ярлык третьего слайда</h3>
+                  <p>Здесь размещается текст заявки 3.</p>
+                </div>
               </div>
             </div>
-            <div class="item">
-              <div class="carousel-caption">
-                <h3>Ярлык второго слайда</h3>
-                <p>Здесь размещается текст заявки 2.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="carousel-caption">
-                <h3>Ярлык третьего слайда</h3>
-                <p>Здесь размещается текст заявки 3.</p>
-              </div>
-            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
           </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
         </div>
       </div>
     </div>
