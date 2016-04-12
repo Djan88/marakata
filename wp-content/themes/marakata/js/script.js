@@ -238,7 +238,7 @@ jQuery(function() {
           jQuery(this).css('backgroundPositionY', curTrY+'px');
           jQuery(this).removeClass('marakata_sim-active');
           jQuery(this).removeClass('marakata_sim_from');
-          cur_elem = '.marakata_sim_'+(global_counter+1);
+          cur_elem = '.marakata_sim_'+(global_counter+2);
           console.log(cur_elem);
           jQuery(cur_elem).addClass('marakata_sim-active');
           counter = -1;
