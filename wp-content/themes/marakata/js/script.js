@@ -236,11 +236,14 @@ jQuery(function() {
           curTrY = curTrY-(212.5*max_time);
           console.log(jQuery(this));
           jQuery(this).css('backgroundPositionY', curTrY+'px');
-          jQuery(this).removeClass('marakata_sim-active');
+          jQuery('.marakata_sim').removeClass('marakata_sim-active');
           jQuery(this).removeClass('marakata_sim_from');
-          cur_elem = '.marakata_sim_'+(global_counter+2);
-          console.log(cur_elem);
-          jQuery(cur_elem).addClass('marakata_sim-active');
+          if (global_counter <= 4) {
+            cur_elem = global_counter+1
+          } else {
+            cur_elem = global_counter+2
+          }
+          jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
           counter = -1;
           elems_obj = {
                 0: 0,
