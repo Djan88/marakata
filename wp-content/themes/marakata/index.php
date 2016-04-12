@@ -52,10 +52,10 @@
     <div class="row">
       <div class="col-md-12 no_padding_wrap content" style="text-align: center;">
         <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-default active option1">
+          <label class="btn btn-default btn-lg active option1">
             <input type="radio" name="options" id="option1"> Актуальность
           </label>
-          <label class="btn btn-default option2">
+          <label class="btn btn-default btn-lg option2">
             <input type="radio" name="options" id="option3"> Личная история
           </label>
         </div>
@@ -81,8 +81,7 @@
             <div class="carousel-inner">
               <div class="item active">
                 <div class="carousel-caption">
-                  <h3>Ярлык первого слайда</h3>
-                  <p>Здесь размещается текст заявки 1.</p>
+                  <h3>Приходилось ли вам испытывать страх или тревогу?</h3>
                 </div>
               </div>
               <div class="item">
