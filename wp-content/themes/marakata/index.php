@@ -86,14 +86,57 @@
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Ярлык второго слайда</h3>
-                  <p>Здесь размещается текст заявки 2.</p>
+                  <h3>Приходилось ли вам испытывать злость и проявлять агрессию?</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Ярлык третьего слайда</h3>
-                  <p>Здесь размещается текст заявки 3.</p>
+                  <h3>Приходилось ли вам вынужденно соглашаться с чужим мнением?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Приходилось ли вам чувствовать себя виноватым?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Приходилось ли вам завидовать кому-либо?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Приходилось ли вам обижаться?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Приходилось ли вам что-либо ценное терять?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Приходилось ли вам расставаться с людьми, к которым вы были глубоко привязаны?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Приходилось ли вам чего-либо невыносимо хотеть?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Приходилось ли вам отказывать себе в чем-либо?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Испытывали ли вы сложности с выбором варианта отношений между людьми?</h3>
+                </div>
+              </div>
+              <div class="item">
+                <div class="carousel-caption">
+                  <h3>Испытывали ли вы сложности с выбором варианта предметов/вещей?</h3>
                 </div>
               </div>
             </div>
