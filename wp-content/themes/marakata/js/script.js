@@ -274,6 +274,7 @@ jQuery(function() {
     jQuery('.btn_reset').on('click', function(event) {
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
       jQuery('.marakata_sim-1, .marakata_sim-2, .marakata_sim-3, .marakata_sim-4, .marakata_sim-5').addClass('marakata_sim_from')
+      jQuery('.marakata_sim').removeClass('marakata_sim-active');
       jQuery('.marakata_sim-1').addClass('marakata_sim-active');
       jQuery('.personal_history').val('');
       elems_obj = {
