@@ -241,7 +241,7 @@ jQuery(function() {
           if (global_counter <= 3) {
             cur_elem = global_counter+1
           } else {
-            cur_elem = global_counter+2
+            cur_elem = global_counter+3
           }
           console.log(global_counter);
           jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
