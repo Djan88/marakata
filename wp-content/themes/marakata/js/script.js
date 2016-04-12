@@ -214,6 +214,7 @@ jQuery(function() {
     global_counter = 0,
     cur_item;
     jQuery('.marakata_sim_from').on('click', function(event) {
+      jQuery('.personal_history').attr('disabled', 'true');
       if (jQuery(this).hasClass('marakata_sim_from')) {
         jQuery(this).addClass('marakata_sim-active');
         if (counter <= 9) {
@@ -277,6 +278,7 @@ jQuery(function() {
       jQuery('.marakata_sim').removeClass('marakata_sim-active');
       jQuery('.marakata_sim-1').addClass('marakata_sim-active');
       jQuery('.personal_history').val('');
+      jQuery('.personal_history').attr('disabled', 'false');
       elems_obj = {
       0: 0,
       1: 0,
