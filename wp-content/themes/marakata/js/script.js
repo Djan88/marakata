@@ -278,7 +278,7 @@ jQuery(function() {
       jQuery('.marakata_sim').removeClass('marakata_sim-active');
       jQuery('.marakata_sim-1').addClass('marakata_sim-active');
       jQuery('.personal_history').val('');
-      jQuery('.personal_history').attr('disabled', 'false');
+      jQuery('.personal_history').removeAttr('disabled');
       elems_obj = {
       0: 0,
       1: 0,
