@@ -63,17 +63,20 @@
           <div class="carousel-inner">
             <div class="item active">
               <div class="carousel-caption">
-                <h3>Здесь размещается текст заявки 1.</h3>
+                <h3>Ярлык первого слайда</h3>
+                <p>Здесь размещается текст заявки 1.</p>
               </div>
             </div>
             <div class="item">
               <div class="carousel-caption">
-                <h3>Здесь размещается текст заявки 2.</h3>
+                <h3>Ярлык второго слайда</h3>
+                <p>Здесь размещается текст заявки 2.</p>
               </div>
             </div>
             <div class="item">
               <div class="carousel-caption">
-                <h3>Здесь размещается текст заявки 3.</h3>
+                <h3>Ярлык третьего слайда</h3>
+                <p>Здесь размещается текст заявки 3.</p>
               </div>
             </div>
           </div>
