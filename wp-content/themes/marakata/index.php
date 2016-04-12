@@ -52,10 +52,10 @@
     <div class="row">
       <div class="col-md-12 no_padding_wrap content" style="text-align: center;">
         <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-default active">
+          <label class="btn btn-default active option1">
             <input type="radio" name="options" id="option1"> Актуальность
           </label>
-          <label class="btn btn-default">
+          <label class="btn btn-default option2">
             <input type="radio" name="options" id="option3"> Личная история
           </label>
         </div>

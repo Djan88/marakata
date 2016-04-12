@@ -294,11 +294,11 @@ jQuery(function() {
     jQuery('.carousel_marakata').carousel({
       interval: 0
     })
-    jQuery('#option1').on('click', function(event) {
+    jQuery('.option1').on('click', function(event) {
       jQuery('.personal').addClass('hidden');
       jQuery('.actuality').removeClass('hidden');
     });
-    jQuery('#option2').on('click', function(event) {
+    jQuery('.option2').on('click', function(event) {
       jQuery('.actuality').addClass('hidden');
       jQuery('.personal').removeClass('hidden');
     });
