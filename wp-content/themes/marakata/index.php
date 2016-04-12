@@ -61,9 +61,9 @@
         </div>
         <div class="personal">
           <h2 class="col-md-12 marakata_heading">Личная история</h2>
-          <div class="bs-example">
+          <div class="bs-example col-md-6 col-md-offset-3">
             <form role="form">
-              <textarea class="form-control" rows="3"></textarea>
+              <textarea class="form-control personal_history" rows="3"></textarea>
             </form>
           </div>
         </div>
