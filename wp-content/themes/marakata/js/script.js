@@ -245,7 +245,7 @@ jQuery(function() {
           }
           console.log(global_counter);
           jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
-          jQuery('.marakata_sim_6').removeClass('marakata_sim-active');
+          jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
           counter = -1;
           elems_obj = {
                 0: 0,
