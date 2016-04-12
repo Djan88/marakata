@@ -52,7 +52,7 @@
     <div class="row">
       <div class="col-md-12 no_padding_wrap content" style="text-align: center;">
         <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-default">
+          <label class="btn btn-default active">
             <input type="radio" name="options" id="option1"> Актуальность
           </label>
           <label class="btn btn-default">
@@ -61,7 +61,11 @@
         </div>
         <div class="personal">
           <h2 class="col-md-12 marakata_heading">Личная история</h2>
-          
+          <div class="bs-example">
+            <form role="form">
+              <textarea class="form-control" rows="3"></textarea>
+            </form>
+          </div>
         </div>
         <div class="actuality hidden">
           <h2 class="col-md-12 marakata_heading">Актуальность</h2>
