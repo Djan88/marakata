@@ -50,12 +50,12 @@
   </div>
   <div class="container content-block content-block_proto hidden">
     <div class="row">
-      <div class="col-md-12 no_padding_wrap content">
+      <div class="col-md-12 no_padding_wrap content" style="text-align: center;">
         <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-primary">
+          <label class="btn btn-default">
             <input type="radio" name="options" id="option1"> Актуальность
           </label>
-          <label class="btn btn-primary">
+          <label class="btn btn-default">
             <input type="radio" name="options" id="option3"> Личная история
           </label>
         </div>
