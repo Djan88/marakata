@@ -53,14 +53,14 @@
       <div class="col-md-12 no_padding_wrap content" style="text-align: center;">
         <div class="btn-group" data-toggle="buttons">
           <label class="btn btn-default btn-lg active option1">
-            <input type="radio" name="options" id="option1"> Актуальность
+            <input type="radio" name="options" id="option1">Личная история
           </label>
           <label class="btn btn-default btn-lg option2">
-            <input type="radio" name="options" id="option3"> Личная история
+            <input type="radio" name="options" id="option3">Актуальность
           </label>
         </div>
         <div class="personal hidden">
-          <h2 class="col-md-12 marakata_heading">Личная история</h2>
+          <h2 class="col-md-12 marakata_heading">Актуальность</h2>
           <div class="bs-example col-md-6 col-md-offset-3">
             <form role="form">
               <textarea class="form-control personal_history" rows="3"></textarea>
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="actuality">
-          <h2 class="col-md-12 marakata_heading">Актуальность</h2>
+          <h2 class="col-md-12 marakata_heading">Личная история</h2>
           <div id="carousel-example-generic" class="carousel carousel_marakata slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
