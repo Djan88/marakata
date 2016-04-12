@@ -238,10 +238,10 @@ jQuery(function() {
           jQuery(this).css('backgroundPositionY', curTrY+'px');
           jQuery('.marakata_sim').removeClass('marakata_sim-active');
           jQuery(this).removeClass('marakata_sim_from');
-          if (global_counter <= 3) {
+          if (global_counter <= 2) {
             cur_elem = global_counter+1
           } else {
-            cur_elem = -1
+            cur_elem = global_counter+2
           }
           console.log(global_counter);
           jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
