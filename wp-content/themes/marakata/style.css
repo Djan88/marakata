@@ -185,3 +185,7 @@ body a
 {
     height: 200px;
 }
+.no_padding_wrap
+{
+  padding: 0;
+}

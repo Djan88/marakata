@@ -50,7 +50,7 @@
   </div>
   <div class="container content-block content-block_proto hidden">
     <div class="row">
-      <div class="col-md-12 content">
+      <div class="col-md-12 no_padding_wrap content">
         <div id="carousel-example-generic" class="carousel carousel_marakata slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -92,7 +92,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 content">
+      <div class="col-md-12 no_padding_wrap content">
         <div class="row">
           <h2 class="col-md-12 marakata_heading">Исходные данные</h2>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim-1 marakata_sim_from"></div></div>
