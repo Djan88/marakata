@@ -210,7 +210,7 @@ jQuery(function() {
     start_time,
     end_time,
     max_time = 0,
-    cur_elem,
+    cur_elem = 0,
     global_counter = 0,
     cur_item;
     jQuery('.marakata_sim_from').on('click', function(event) {
