@@ -51,7 +51,7 @@
   <div class="container content-block content-block_proto hidden">
     <div class="row">
       <div class="col-md-12 content">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" class="carousel carousel_marakata slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -79,7 +79,6 @@
                 <p>Здесь произвольный текст. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
               </div>
             </div>
-            ...
           </div>
 
           <!-- Controls -->

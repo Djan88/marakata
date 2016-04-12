@@ -181,3 +181,7 @@ body a
   outline: none;
 }
 
+.item 
+{
+    height: 200px;
+}

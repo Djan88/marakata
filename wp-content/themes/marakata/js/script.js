@@ -281,4 +281,7 @@ jQuery(function() {
     max_time = 0;
     global_counter = 0;
     });
+    jQuery('.carousel_marakata').carousel({
+      interval: 0
+    })
 });
