@@ -105,8 +105,9 @@ jQuery(function() {
       page_h = jQuery("html").width();
       console.log(page_h);
     }
-    window.on('resize', function(event) {
-      cur_window_width();
+    window.resize(function(event) {
+      console.log('test');
+      cur_window_width;
     });
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
