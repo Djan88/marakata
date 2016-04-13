@@ -97,9 +97,17 @@ jQuery(function() {
     Obj.Init();
     var curTrY,
         times,
+        page_h,
         curY,
         scroll_val = 212.5,
         resultY;
+    var cur_window_width = function(){
+      page_h = jQuery("html").width();
+      console.log(page_h);
+    }
+    jQuery('body').on('resize', function(event) {
+      cur_window_width;
+    });
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
     }
