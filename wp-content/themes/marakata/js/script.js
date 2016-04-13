@@ -99,14 +99,18 @@ jQuery(function() {
         times,
         page_h,
         curY,
-        scroll_val = 212.5,
+        scroll_val,
         resultY;
     var cur_window_width = function(){
       page_h = jQuery("html").width();
       console.log(page_h);
+      if (page_h > 1200) {
+        scroll_val = 212.5;
+      } else {
+        scroll_val = 190;
+      }
     }
     jQuery(window).on('resize', function(event) {
-      console.log('test');
       cur_window_width();
     });
     var hideAll = function(){
