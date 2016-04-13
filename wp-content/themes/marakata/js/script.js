@@ -110,10 +110,10 @@ jQuery(function() {
         scroll_val = 190;
       }
     }
+    cur_window_width();
     jQuery(window).on('resize', function(event) {
       cur_window_width();
     });
-    cur_window_width();
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
     }
