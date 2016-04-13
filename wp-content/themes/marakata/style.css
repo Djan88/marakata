@@ -206,5 +206,6 @@ body a
   .marakata_sim, .marakata_dot
   {
     height: 180px;
+    font-size: 180px;
   }
 }
