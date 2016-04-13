@@ -107,7 +107,7 @@ jQuery(function() {
       if (page_h > 1200) {
         scroll_val = 212.5;
       } else {
-        scroll_val = 190;
+        scroll_val = 170;
       }
     }
     cur_window_width();
