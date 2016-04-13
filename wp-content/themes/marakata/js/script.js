@@ -105,7 +105,7 @@ jQuery(function() {
       page_h = jQuery("html").width();
       console.log(page_h);
     }
-    jQuery('window').on('resize', function(event) {
+    jQuery(window).on('resize', function(event) {
       console.log('test');
       cur_window_width();
     });
