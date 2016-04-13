@@ -113,6 +113,7 @@ jQuery(function() {
     jQuery(window).on('resize', function(event) {
       cur_window_width();
     });
+    cur_window_width();
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
     }
