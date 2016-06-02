@@ -216,3 +216,37 @@ body a
     font-size: 130px;
   }
 }
+#loginform 
+{
+  border: 2px solid #d94f5c;
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: -150px;
+  text-align: center;
+}
+#loginform p 
+{
+  color: #929292;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+#loginform .input 
+{
+  width: 90%;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#wp-submit 
+{
+  width: 120px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background: #d94f5c;
+  color: #fff;
+  font-weight: bold;
+}
