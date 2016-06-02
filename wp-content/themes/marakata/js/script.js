@@ -324,6 +324,6 @@ jQuery(function() {
       jQuery('.personal').removeClass('hidden');
     });
     jQuery('.menu-logout').on('click', function(event) {
-      window.location.href = "/wp-login.php?action=logout&_wpnonce=70d68623f4"ж
+      window.location.href = "/wp-login.php?action=logout&_wpnonce=70d68623f4";
     });
 });
