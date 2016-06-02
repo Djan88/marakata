@@ -66,7 +66,7 @@
                   do_action( 'login_form' );
                   ?>
                   <p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever" <?php checked( $rememberme ); ?> /> <?php esc_attr_e('Remember Me'); ?></label></p>
-                  <p class="note_small">По вопросам получения доступа на проект "MARAKATA" пишите на почту <a class="bablosadres" href="mailto:info@bablosstudio.ru" style="color: #fff;">info@bablosstudio.ru</a></p>
+                  <p class="note_small">Вопросы связанные с получением доступа на проект "MARAKATA" можно задать на <a class="bablosadres" href="mailto:info@bablosstudio.ru" style="color: #fff;">info@bablosstudio.ru</a></p>
                   <p class="submit">
                       <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="<?php esc_attr_e('Log In'); ?>" />
               <?php   if ( $interim_login ) { ?>
