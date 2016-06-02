@@ -34,7 +34,7 @@
                      <li class="menu__item"><a href="#" class="menu__link menu-about"><span class="menu__helper">О ПРОЕКТЕ</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-proto"><span class="menu__helper">ПРОТОКОЛ</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li>
-                     <li class="menu__item"><a href="/wp-login.php?action=logout&_wpnonce=bc0c947e8d" class="menu__link menu-logout"><span class="menu__helper">ВЫХОД</span></a></li>
+                     <li class="menu__item"><a href="/wp-login.php?action=logout&_wpnonce=70d68623f4" class="menu__link menu-logout"><span class="menu__helper">ВЫХОД</span></a></li>
                    </ul>
                  </nav>
                </section>
