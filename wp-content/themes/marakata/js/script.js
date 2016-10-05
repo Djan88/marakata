@@ -106,7 +106,7 @@ jQuery(function() {
       console.log(page_h);
       if (page_h > 1200) {
         scroll_val = 212.5;
-        scroll_game = 280;
+        scroll_game = 180;
       } else if (page_h < 1200 && page_h > 990) {
         scroll_val = 170;
       } else {
