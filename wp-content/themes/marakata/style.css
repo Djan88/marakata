@@ -259,3 +259,10 @@ body a
   float: none;
   background: url(img/counter_back.gif) 17px -30px/91% no-repeat;
 }
+.marakata_game .marakata_sim
+{
+  height: 500px;
+}
+.marakata_game .marakata_sim {
+  background: url(img/numbers_game.png) top left/101% repeat-y;
+}
