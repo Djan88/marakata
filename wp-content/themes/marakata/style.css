@@ -250,3 +250,12 @@ body a
   color: #fff;
   font-weight: bold;
 }
+
+/*GAME*/
+.marakata_game
+{
+  display: block;
+  margin: auto;
+  float: none;
+  background: url(img/counter_back.gif) 17px -30px/91% no-repeat;
+}
