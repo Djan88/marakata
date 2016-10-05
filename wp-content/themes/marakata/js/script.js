@@ -105,7 +105,7 @@ jQuery(function() {
       page_h = jQuery("html").width();
       console.log(page_h);
       if (page_h > 1200) {
-        scroll_val = 370;
+        scroll_val = 385;
         scroll_game = 212.5;
       } else if (page_h < 1200 && page_h > 990) {
         scroll_val = 170;
