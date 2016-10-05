@@ -267,3 +267,7 @@ body a
 .marakata_game .marakata_sim {
   background: url(img/numbers_game.png) top left/107% repeat-y;
 }
+.btn_reset
+{
+  margin-bottom: 30px;
+}
