@@ -337,7 +337,7 @@ jQuery(function() {
           console.log(jQuery(this));
           jQuery(this).css('backgroundPositionY', curTrY+'px');
           jQuery('.marakata_sim').removeClass('marakata_sim-active');
-          jQuery(this).removeClass('marakata_sim_from');
+          jQuery(this).removeClass('marakata_sim_game');
           if (global_counter <= 2) {
             cur_elem = global_counter+1
           } else {
