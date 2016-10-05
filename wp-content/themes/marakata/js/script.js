@@ -245,6 +245,7 @@ jQuery(function() {
     start_time,
     end_time,
     max_time = 0,
+    max_time_game = 1,
     cur_elem = 0,
     global_counter = 0,
     cur_item;
@@ -317,17 +318,17 @@ jQuery(function() {
             start_time = end_time;
             end_time = new Date();
             elems_obj_game[counter_game] = end_time - start_time;
-            if (elems_obj_game[max_time] < (end_time - start_time)) {
-              max_time = counter_game;
+            if (elems_obj_game[max_time_game] < (end_time - start_time)) {
+              max_time_game = counter_game;
             }
             console.log(elems_obj_game);
-            console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
+            console.log('Лучшее: '+ max_time_game+', Текущее: '+(end_time - start_time));
             console.log(cur_item);
           }
           counter_game += 1;
         } else {
           curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
-          curTrY = curTrY-(scroll_game*max_time);
+          curTrY = curTrY-(scroll_game*max_time_game);
           console.log(jQuery(this));
           jQuery(this).css('backgroundPositionY', curTrY+'px');
           jQuery('.marakata_sim').removeClass('marakata_sim-active');
