@@ -230,7 +230,6 @@ jQuery(function() {
       9: 0,
     },
     elems_obj_game = {
-      0: 0,
       1: 0,
       2: 0,
       3: 0,
@@ -239,8 +238,10 @@ jQuery(function() {
       6: 0,
       7: 0,
       8: 0,
+      9: 0,
     },
     counter = -1,
+    counter_game = 0,
     start_time,
     end_time,
     max_time = 0,
@@ -309,21 +310,21 @@ jQuery(function() {
     jQuery('.marakata_sim_game').on('click', function(event) {
       if (jQuery(this).hasClass('marakata_sim_game')) {
         jQuery(this).addClass('marakata_sim-active');
-        if (counter <= 8) {
-          if (counter <= -1) {
+        if (counter_game <= 9) {
+          if (counter_game <= 0) {
             end_time = new Date();
           } else {
             start_time = end_time;
             end_time = new Date();
-            elems_obj_game[counter] = end_time - start_time;
+            elems_obj_game[counter_game] = end_time - start_time;
             if (elems_obj_game[max_time] < (end_time - start_time)) {
-              max_time = counter;
+              max_time = counter_game;
             }
             console.log(elems_obj_game);
             console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
             console.log(cur_item);
           }
-          counter += 1;
+          counter_game += 1;
         } else {
           curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
           curTrY = curTrY-(scroll_game*max_time);
@@ -339,9 +340,8 @@ jQuery(function() {
           console.log(global_counter);
           jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
           jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
-          counter = -1;
+          counter_game = 0;
           elems_obj_game = {
-            0: 0,
             1: 0,
             2: 0,
             3: 0,
@@ -350,6 +350,7 @@ jQuery(function() {
             6: 0,
             7: 0,
             8: 0,
+            9: 0,
           };
         }
       }
@@ -387,6 +388,7 @@ jQuery(function() {
       8: 0,
     };
     counter = -1;
+    counter_game = 0;
     max_time = 0;
     global_counter = 0;
     });
