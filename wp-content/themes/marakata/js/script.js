@@ -107,12 +107,12 @@ jQuery(function() {
       console.log(page_h);
       if (page_h > 1200) {
         scroll_val = 212.5;
-        scroll_game = 400;
       } else if (page_h < 1200 && page_h > 990) {
         scroll_val = 170;
       } else {
         scroll_val = 123;
       }
+      scroll_game = 375;
     }
     cur_window_width();
     jQuery(window).on('resize', function(event) {
