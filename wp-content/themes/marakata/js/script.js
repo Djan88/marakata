@@ -131,6 +131,10 @@ jQuery(function() {
       hideAll();
       jQuery('.content-block_proto').removeClass('hidden').addClass('animated fadeInDown');
     });
+    jQuery('.menu-game').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_game').removeClass('hidden').addClass('animated fadeInDown');
+    });
     jQuery('.menu-news').on('click', function(event) {
       hideAll();
       jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');

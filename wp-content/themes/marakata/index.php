@@ -33,6 +33,7 @@
                      <li class="menu__item menu__item--current"><a href="#" class="menu__link menu-main"><span class="menu__helper">MARAKATA</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-about"><span class="menu__helper">О ПРОЕКТЕ</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-proto"><span class="menu__helper">ПРОТОКОЛ</span></a></li>
+                     <li class="menu__item"><a href="#" class="menu__link menu-game"><span class="menu__helper">ПРОТОКОЛ</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li>
                      <li class="menu__item"><a href="/wp-login.php?action=logout&_wpnonce=fefebf4937" class="menu__link menu-logout"><span class="menu__helper menu-logout">ВЫХОД</span></a></li>
                    </ul>
@@ -197,7 +198,6 @@
                 </div>
               </div>
             </div>
-
             <!-- Controls -->
             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
               <span class="glyphicon glyphicon-chevron-left"></span>
@@ -241,6 +241,29 @@
       <div class="col-md-12 content">
         <div class="row">
           <div class="col-md-6 col-md-offset-3"><div class="marakata_ring"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container content-block content-block_game hidden">
+    <div class="row">
+      <div class="col-md-12 no_padding_wrap content">
+        <div class="row">
+          <h2 class="col-md-12 marakata_heading">Исходные данные</h2>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game"><div class="marakata_sim marakata_sim-1 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-2 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-3 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-4 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-5 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-5 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-5 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-5 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap marakata_game hidden"><div class="marakata_sim marakata_sim-5 marakata_sim_from"></div></div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row" style="text-align: center;">
+          <button type="button" class="btn btn-default btn-lg btn_reset">Начать с начала</button>
         </div>
       </div>
     </div>
