@@ -112,7 +112,7 @@ jQuery(function() {
       } else {
         scroll_val = 123;
       }
-      scroll_game = 212.5;
+      scroll_game = 400;
     }
     cur_window_width();
     jQuery(window).on('resize', function(event) {
