@@ -112,7 +112,7 @@ jQuery(function() {
       } else {
         scroll_val = 123;
       }
-      scroll_game = 390;
+      scroll_game = 212.5;
     }
     cur_window_width();
     jQuery(window).on('resize', function(event) {
@@ -230,6 +230,7 @@ jQuery(function() {
       9: 0,
     },
     elems_obj_game = {
+      0: 0,
       1: 0,
       2: 0,
       3: 0,
@@ -238,7 +239,6 @@ jQuery(function() {
       6: 0,
       7: 0,
       8: 0,
-      9: 0,
     },
     counter = -1,
     start_time,
@@ -341,6 +341,7 @@ jQuery(function() {
           jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
           counter = -1;
           elems_obj_game = {
+            0: 0,
             1: 0,
             2: 0,
             3: 0,
@@ -349,7 +350,6 @@ jQuery(function() {
             6: 0,
             7: 0,
             8: 0,
-            9: 0,
           };
         }
       }
@@ -376,6 +376,7 @@ jQuery(function() {
       9: 0,
     };
     elems_obj_game = {
+      0: 0,
       1: 0,
       2: 0,
       3: 0,
@@ -384,7 +385,6 @@ jQuery(function() {
       6: 0,
       7: 0,
       8: 0,
-      9: 0,
     };
     counter = -1;
     max_time = 0;
