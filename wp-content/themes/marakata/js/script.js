@@ -248,7 +248,7 @@ jQuery(function() {
     max_time_game = 1,
     cur_elem = 0,
     global_counter = 0,
-    game_counter = 0;
+    game_counter = 0,
     cur_item;
     jQuery('.marakata_sim_from').on('click', function(event) {
       jQuery('.personal_history').attr('disabled', 'true');
