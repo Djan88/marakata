@@ -372,6 +372,7 @@ jQuery(function() {
       jQuery('.game_numbers').text('');
       game_counter = 0;
       jQuery('.btn_reset').removeClass('hidden');
+      jQuery('.marakata_sim').css('backgroundPositionY', '0px');
     });
     jQuery('.btn_reset, .menu-game').on('click', function(event) {
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
