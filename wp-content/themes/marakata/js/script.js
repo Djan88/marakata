@@ -312,6 +312,19 @@ jQuery(function() {
       if (jQuery(this).hasClass('marakata_sim_game')) {
         jQuery(this).addClass('marakata_sim-active');
         if (counter_game <= 9) {
+          if (counter_game <= 0) {
+            end_time = new Date();
+          } else {
+            start_time = end_time;
+            end_time = new Date();
+            elems_obj[counter_game] = end_time - start_time;
+            if (elems_obj[max_time] < (end_time - start_time)) {
+              max_time = counter_game;
+            }
+            console.log(elems_obj);
+            console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
+            console.log(cur_item);
+          }
           counter_game += 1;
         } else {
           curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
