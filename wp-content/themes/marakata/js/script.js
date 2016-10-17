@@ -248,6 +248,7 @@ jQuery(function() {
     max_time_game = 1,
     cur_elem = 0,
     global_counter = 0,
+    game_counter = 0;
     cur_item;
     jQuery('.marakata_sim_from').on('click', function(event) {
       jQuery('.personal_history').attr('disabled', 'true');
@@ -309,70 +310,78 @@ jQuery(function() {
       }
     });
     jQuery('.marakata_sim_game').on('click', function(event) {
-      if (jQuery(this).hasClass('marakata_sim_game')) {
-        jQuery(this).addClass('marakata_sim-active');
-        if (counter_game <= 9) {
-          if (counter_game <= 0) {
-            end_time = new Date();
-          } else {
-            start_time = end_time;
-            end_time = new Date();
-            elems_obj_game[counter_game] = end_time - start_time;
-            if (elems_obj_game[max_time_game] < (end_time - start_time)) {
-              max_time_game = counter_game;
+      if (game_counter <= 9) {
+        if (jQuery(this).hasClass('marakata_sim_game')) {
+          jQuery(this).addClass('marakata_sim-active');
+          if (counter_game <= 9) {
+            if (counter_game <= 0) {
+              end_time = new Date();
+            } else {
+              start_time = end_time;
+              end_time = new Date();
+              elems_obj_game[counter_game] = end_time - start_time;
+              if (elems_obj_game[max_time_game] < (end_time - start_time)) {
+                max_time_game = counter_game;
+              }
+              console.log(elems_obj_game);
+              console.log('Лучшее: '+ max_time_game+', Текущее: '+(end_time - start_time));
+              console.log(cur_item);
             }
-            console.log(elems_obj_game);
-            console.log('Лучшее: '+ max_time_game+', Текущее: '+(end_time - start_time));
-            console.log(cur_item);
-          }
-          counter_game += 1;
-        } else {
-          curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
-          if (max_time_game == 1) {
-            curTrY = 0;
+            counter_game += 1;
           } else {
-            max_time_game = max_time_game -1;
-            curTrY = curTrY-(scroll_game*max_time_game);
-          }
-          console.log(jQuery(this));
-          jQuery(this).css('backgroundPositionY', curTrY+'px');
-          jQuery('.marakata_sim').removeClass('marakata_sim-active');
-          jQuery(this).removeClass('marakata_sim_game');
-          if (global_counter <= 2) {
-            cur_elem = global_counter+1
-          } else {
-            cur_elem = global_counter+2
-          }
-          console.log(global_counter);
-          jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
-          jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
-          counter_game = 0;
-          elems_obj_game = {
-            1: 0,
-            2: 0,
-            3: 0,
-            4: 0,
-            5: 0,
-            6: 0,
-            7: 0,
-            8: 0,
-            9: 0,
+            curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
+            if (max_time_game == 1) {
+              curTrY = 0;
+            } else {
+              max_time_game = max_time_game -1;
+              curTrY = curTrY-(scroll_game*max_time_game);
+            }
+            console.log(jQuery(this));
+            jQuery(this).css('backgroundPositionY', curTrY+'px');
+            jQuery('.game_numbers').append('<span class="game_number">'+max_time_game+'</span>;')
+            jQuery('.marakata_sim').removeClass('marakata_sim-active');
+            jQuery(this).removeClass('marakata_sim_game');
+            if (global_counter <= 2) {
+              cur_elem = global_counter+1
+            } else {
+              cur_elem = global_counter+2
+            }
+            console.log(global_counter);
+            jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
+            jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
+            counter_game = 0;
+            elems_obj_game = {
+              1: 0,
+              2: 0,
+              3: 0,
+              4: 0,
+              5: 0,
+              6: 0,
+              7: 0,
+              8: 0,
+              9: 0,
+            };
           };
-        }
+        };
+        game_counter += 1;
+      } else {
+        jQuery('.btn_reset').addClass('hidden');
       }
+      
     });
 
-    jQuery('.btn_game').on('click', function(event) {
-      jQuery('.marakata_sim_g').addClass('marakata_sim_game');
+    jQuery('.btn_game, .menu-game').on('click', function(event) {
+      jQuery('.game_numbers').text('');
+      game_counter = 0;
     });
-    jQuery('.btn_reset').on('click', function(event) {
+    jQuery('.btn_reset, .menu-game').on('click', function(event) {
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
       jQuery('.marakata_sim_m').addClass('marakata_sim_from')
       jQuery('.marakata_sim').removeClass('marakata_sim-active');
       jQuery('.marakata_sim-1').addClass('marakata_sim-active');
       jQuery('.personal_history').val('');
       jQuery('.personal_history').removeAttr('disabled');
-      jQuery('.game_numbers').text('');
+      jQuery('.marakata_sim_g').addClass('marakata_sim_game');
       elems_obj = {
       0: 0,
       1: 0,
