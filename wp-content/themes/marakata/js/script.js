@@ -362,10 +362,12 @@ jQuery(function() {
       }
     });
 
+    jQuery('.btn_game').on('click', function(event) {
+      jQuery('.marakata_sim_g').addClass('marakata_sim_game');
+    });
     jQuery('.btn_reset').on('click', function(event) {
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
       jQuery('.marakata_sim_m').addClass('marakata_sim_from')
-      jQuery('.marakata_sim_g').addClass('marakata_sim_game')
       jQuery('.marakata_sim').removeClass('marakata_sim-active');
       jQuery('.marakata_sim-1').addClass('marakata_sim-active');
       jQuery('.personal_history').val('');
