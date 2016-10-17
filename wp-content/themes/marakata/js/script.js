@@ -334,7 +334,17 @@ jQuery(function() {
           jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
           jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
           counter_game = 0;
-          elems_obj_game = [];
+          elems_obj_game = {
+            1: 0,
+            2: 0,
+            3: 0,
+            4: 0,
+            5: 0,
+            6: 0,
+            7: 0,
+            8: 0,
+            9: 0,
+          };
         }
       }
     });
@@ -347,6 +357,7 @@ jQuery(function() {
       jQuery('.marakata_sim-1').addClass('marakata_sim-active');
       jQuery('.personal_history').val('');
       jQuery('.personal_history').removeAttr('disabled');
+      jQuery('.game_numbers').text('');
       elems_obj = {
       0: 0,
       1: 0,
@@ -359,7 +370,17 @@ jQuery(function() {
       8: 0,
       9: 0,
     };
-    elems_obj_game = [];
+    elems_obj_game = {
+      1: 0,
+      2: 0,
+      3: 0,
+      4: 0,
+      5: 0,
+      6: 0,
+      7: 0,
+      8: 0,
+      9: 0,
+    };
     counter = -1;
     counter_game = 0;
     max_time = 0;
