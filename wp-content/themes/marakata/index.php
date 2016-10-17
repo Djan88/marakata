@@ -253,8 +253,6 @@
         <div class="row">
           <h2 class="col-md-12 marakata_heading">
             <span class="game_numbers">
-              <span class="game_number">1</span>;
-              <span class="game_number">5</span>;
             </span>
             <button type="button" class="btn btn-default btn-small btn_game">Начать с начала</button>
           </h2>
