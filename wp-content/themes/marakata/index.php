@@ -257,7 +257,7 @@
       </div>
       <div class="col-md-12">
         <div class="row" style="text-align: center;">
-          <button type="button" class="btn btn-default btn-lg btn_game_reset">Начать с начала</button>
+          <button type="button" class="btn btn-default btn-lg btn_game_reset">Сброс</button>
         </div>
       </div>
     </div>
