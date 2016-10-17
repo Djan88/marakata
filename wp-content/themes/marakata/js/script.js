@@ -310,7 +310,7 @@ jQuery(function() {
       }
     });
     jQuery('.marakata_sim_game').on('click', function(event) {
-        if (jQuery(this).hasClass('marakata_sim_game') && game_counter < 9) {
+        if (jQuery(this).hasClass('marakata_sim_game')) {
           jQuery(this).addClass('marakata_sim-active');
           if (counter_game <= 9) {
             if (counter_game <= 0) {
@@ -361,8 +361,9 @@ jQuery(function() {
               9: 0,
             };
           };
-          game_counter += 1;
-        } else if( game_counter >= 9) {
+        };
+        game_counter += 1;
+        if (game_counter >= 9) {
           jQuery('.btn_reset').addClass('hidden');
         }
     });
