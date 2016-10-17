@@ -252,10 +252,10 @@
       <div class="col-md-12 no_padding_wrap content">
         <div class="row">
           <h2 class="col-md-12 marakata_heading">
-            <div class="game_numbers">
+            <span class="game_numbers">
               <span class="game_number">1</span>;
               <span class="game_number">5</span>;
-            </div>
+            </span>
             <button type="button" class="btn btn-default btn-small btn_game">Начать с начала</button>
           </h2>
           <div class="col-md-4 col-sm-6 col-xs-9 marakata_sim-wrap marakata_game"><div class="marakata_sim marakata_sim_g marakata_sim-0 marakata_sim_game"></div></div>
@@ -263,7 +263,7 @@
       </div>
       <div class="col-md-12">
         <div class="row" style="text-align: center;">
-          <button type="button" class="btn btn-default btn-lg btn_game_reset">Сброс</button>
+          <button type="button" class="btn btn-default btn-lg btn_reset">Сброс</button>
         </div>
       </div>
     </div>
