@@ -317,12 +317,12 @@ jQuery(function() {
           } else {
             start_time = end_time;
             end_time = new Date();
-            elems_obj[counter_game] = end_time - start_time;
-            if (elems_obj[max_time] < (end_time - start_time)) {
-              max_time = counter_game;
+            elems_obj_game[counter_game] = end_time - start_time;
+            if (elems_obj_game[max_time_game] < (end_time - start_time)) {
+              max_time_game = counter_game;
             }
-            console.log(elems_obj);
-            console.log('Лучшее: '+ max_time+', Текущее: '+(end_time - start_time));
+            console.log(elems_obj_game);
+            console.log('Лучшее: '+ max_time_game+', Текущее: '+(end_time - start_time));
             console.log(cur_item);
           }
           counter_game += 1;
@@ -384,6 +384,7 @@ jQuery(function() {
       9: 0,
     };
     elems_obj_game = {
+      0: 0,
       1: 0,
       2: 0,
       3: 0,
@@ -392,7 +393,6 @@ jQuery(function() {
       6: 0,
       7: 0,
       8: 0,
-      9: 0,
     };
     counter = -1;
     counter_game = 0;
