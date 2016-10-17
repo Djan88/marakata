@@ -338,7 +338,6 @@ jQuery(function() {
             }
             console.log(jQuery(this));
             jQuery(this).css('backgroundPositionY', curTrY+'px');
-            jQuery('.game_numbers').append('<span class="game_number">'+max_time_game+'</span>;')
             jQuery('.marakata_sim').removeClass('marakata_sim-active');
             jQuery(this).removeClass('marakata_sim_game');
             if (global_counter <= 2) {
