@@ -310,61 +310,59 @@ jQuery(function() {
       }
     });
     jQuery('.marakata_sim_game').on('click', function(event) {
-        if (game_counter <= 9) {
-          if (jQuery(this).hasClass('marakata_sim_game')) {
-            jQuery(this).addClass('marakata_sim-active');
-            if (counter_game <= 9) {
-              if (counter_game <= 0) {
-                end_time = new Date();
-              } else {
-                start_time = end_time;
-                end_time = new Date();
-                elems_obj_game[counter_game] = end_time - start_time;
-                if (elems_obj_game[max_time_game] < (end_time - start_time)) {
-                  max_time_game = counter_game;
-                }
-                console.log(elems_obj_game);
-                console.log('Лучшее: '+ max_time_game+', Текущее: '+(end_time - start_time));
-                console.log(cur_item);
-              }
-              counter_game += 1;
+        if (jQuery(this).hasClass('marakata_sim_game') && game_counter < 9) {
+          jQuery(this).addClass('marakata_sim-active');
+          if (counter_game <= 9) {
+            if (counter_game <= 0) {
+              end_time = new Date();
             } else {
-              curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
-              if (max_time_game == 1) {
-                curTrY = 0;
-              } else {
-                max_time_game = max_time_game -1;
-                curTrY = curTrY-(scroll_game*max_time_game);
+              start_time = end_time;
+              end_time = new Date();
+              elems_obj_game[counter_game] = end_time - start_time;
+              if (elems_obj_game[max_time_game] < (end_time - start_time)) {
+                max_time_game = counter_game;
               }
-              console.log(jQuery(this));
-              jQuery(this).css('backgroundPositionY', curTrY+'px');
-              jQuery('.game_numbers').append(' <span class="game_number">'+(max_time_game+1)+'</span> ;')
-              jQuery('.marakata_sim').removeClass('marakata_sim-active');
-              jQuery(this).removeClass('marakata_sim_game');
-              if (global_counter <= 2) {
-                cur_elem = global_counter+1
-              } else {
-                cur_elem = global_counter+2
-              }
-              console.log(global_counter);
-              jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
-              jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
-              counter_game = 0;
-              elems_obj_game = {
-                1: 0,
-                2: 0,
-                3: 0,
-                4: 0,
-                5: 0,
-                6: 0,
-                7: 0,
-                8: 0,
-                9: 0,
-              };
+              console.log(elems_obj_game);
+              console.log('Лучшее: '+ max_time_game+', Текущее: '+(end_time - start_time));
+              console.log(cur_item);
+            }
+            counter_game += 1;
+          } else {
+            curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
+            if (max_time_game == 1) {
+              curTrY = 0;
+            } else {
+              max_time_game = max_time_game -1;
+              curTrY = curTrY-(scroll_game*max_time_game);
+            }
+            console.log(jQuery(this));
+            jQuery(this).css('backgroundPositionY', curTrY+'px');
+            jQuery('.game_numbers').append(' <span class="game_number">'+(max_time_game+1)+'</span> ;')
+            jQuery('.marakata_sim').removeClass('marakata_sim-active');
+            jQuery(this).removeClass('marakata_sim_game');
+            if (global_counter <= 2) {
+              cur_elem = global_counter+1
+            } else {
+              cur_elem = global_counter+2
+            }
+            console.log(global_counter);
+            jQuery('.marakata_sim-wrap').eq(cur_elem).find('.marakata_sim').addClass('marakata_sim-active');
+            jQuery('.marakata_sim-6').removeClass('marakata_sim-active');
+            counter_game = 0;
+            elems_obj_game = {
+              1: 0,
+              2: 0,
+              3: 0,
+              4: 0,
+              5: 0,
+              6: 0,
+              7: 0,
+              8: 0,
+              9: 0,
             };
           };
           game_counter += 1;
-        } else {
+        } else if( game_counter >= 9) {
           jQuery('.btn_reset').addClass('hidden');
         }
     });
