@@ -23,7 +23,7 @@
 <body>
   <?php if(is_user_logged_in()){ ?>
       <!-- Если зашел подписчик -->
-      <?php if(current_user_can('contributor') || current_user_can('administrator')) { ?>
+      <?php if(is_user_role('contributor') || is_user_role('administrator')) { ?>
          <div class="container main-header">
            <div class="row">
              <div class="col-md-12">
@@ -33,7 +33,7 @@
                      <li class="menu__item menu__item--current"><a href="#" class="menu__link menu-main"><span class="menu__helper">MARAKATA</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-about"><span class="menu__helper">О ПРОЕКТЕ</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-proto"><span class="menu__helper">ПРОТОКОЛ</span></a></li>
-                     <?php if(current_user_can('administrator')) { ?>
+                     <?php if(is_user_role('administrator')) { ?>
                      <li class="menu__item"><a href="#" class="menu__link menu-game"><span class="menu__helper">ИГРА</span></a></li>
                      <?php } ?>
                      <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li>
