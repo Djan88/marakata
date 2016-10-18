@@ -280,3 +280,9 @@ body a
   margin-right: 10px;
   border-radius: 6px;
 }
+::selection {
+background: transparent; /* Safari */
+}
+::-moz-selection {
+background: transparent; /* Firefox */
+}
