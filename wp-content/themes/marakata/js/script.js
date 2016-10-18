@@ -395,7 +395,6 @@ jQuery(function() {
       9: 0,
     };
     elems_obj_game = {
-      0: 0,
       1: 0,
       2: 0,
       3: 0,
