@@ -330,7 +330,7 @@ jQuery(function() {
           } else {
             curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
             if (max_time_game <= 1) {
-              curTrY = 1;
+              curTrY = 0;
             } else {
               max_time_game = max_time_game -1;
               curTrY = curTrY-(scroll_game*max_time_game);
