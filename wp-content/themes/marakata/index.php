@@ -22,7 +22,7 @@
 </head>
 <body>
   <?php if(is_user_logged_in()){ ?>
-      <!-- Если зашел подписчик -->
+      <!-- Если зашел участник -->
       <?php if(is_user_role('contributor') || is_user_role('administrator')) { ?>
          <div class="container main-header">
            <div class="row">
@@ -36,7 +36,25 @@
                      <?php if(is_user_role('administrator')) { ?>
                      <li class="menu__item"><a href="#" class="menu__link menu-game"><span class="menu__helper">ИГРА</span></a></li>
                      <?php } ?>
-                     <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li>
+                     <!-- <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li> -->
+                     <li class="menu__item"><a href="/wp-login.php?action=logout&_wpnonce=fefebf4937" class="menu__link menu-logout"><span class="menu__helper menu-logout">ВЫХОД</span></a></li>
+                   </ul>
+                 </nav>
+               </section>
+             </div>
+           </div>
+         </div>    
+      <?php } ?>
+      <!-- Если зашел подписчик -->
+      <?php if(is_user_role('subscriber')) { ?>
+         <div class="container main-header">
+           <div class="row">
+             <div class="col-md-12">
+               <section class="section section--menu" id="Adrian">
+                 <nav class="menu menu--adrian">
+                   <ul class="menu__list">
+                     <li class="menu__item"><a href="#" class="menu__link menu-game"><span class="menu__helper">ИГРА</span></a></li>
+                     <!-- <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li> -->
                      <li class="menu__item"><a href="/wp-login.php?action=logout&_wpnonce=fefebf4937" class="menu__link menu-logout"><span class="menu__helper menu-logout">ВЫХОД</span></a></li>
                    </ul>
                  </nav>
