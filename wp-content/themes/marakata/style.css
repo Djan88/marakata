@@ -271,6 +271,15 @@ body a
 {
   margin-bottom: 30px;
 }
+.content-block_game .btn_reset
+{
+  margin: 0;
+}
+.btn_game
+{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 .game_numbers
 {
   border: 2px solid #fff;
