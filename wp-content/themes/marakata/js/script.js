@@ -329,12 +329,8 @@ jQuery(function() {
             counter_game += 1;
           } else {
             curTrY = parseFloat(jQuery(this).css('backgroundPositionY'));
-            if (max_time_game == 1) {
-              curTrY = 1;
-            } else {
-              max_time_game = max_time_game -1;
-              curTrY = curTrY-(scroll_game*max_time_game);
-            }
+            max_time_game = max_time_game -1;
+            curTrY = curTrY-(scroll_game*max_time_game);
             console.log(jQuery(this));
             jQuery(this).css('backgroundPositionY', curTrY+'px');
             game_counter += 1;
