@@ -374,6 +374,7 @@ jQuery(function() {
       jQuery('.btn_reset').removeClass('hidden');
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
       max_time_game = 1;
+      jQuery('.marakata_sim_g').addClass('marakata_sim_game');
     });
     jQuery('.btn_reset, .menu-game').on('click', function(event) {
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
