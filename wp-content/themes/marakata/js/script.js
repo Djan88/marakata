@@ -1,4 +1,27 @@
 jQuery(function() {
+    var hideAll = function(){
+      jQuery('.content-block').addClass('hidden');
+    }
+    jQuery('.menu-about').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_about').removeClass('hidden').addClass('animated fadeInDown');
+    });
+    jQuery('.menu-main').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_main').removeClass('hidden').addClass('animated fadeInDown');
+    });
+    jQuery('.menu-proto').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_proto').removeClass('hidden').addClass('animated fadeInDown');
+    });
+    jQuery('.menu-game').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_game').removeClass('hidden').addClass('animated fadeInDown');
+    });
+    jQuery('.menu-news').on('click', function(event) {
+      hideAll();
+      jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');
+    });
     var Obj = {
       circle: new Array(40),
       radius: 200,
@@ -118,29 +141,7 @@ jQuery(function() {
     jQuery(window).on('resize', function(event) {
       cur_window_width();
     });
-    var hideAll = function(){
-      jQuery('.content-block').addClass('hidden');
-    }
-    jQuery('.menu-about').on('click', function(event) {
-      hideAll();
-      jQuery('.content-block_about').removeClass('hidden').addClass('animated fadeInDown');
-    });
-    jQuery('.menu-main').on('click', function(event) {
-      hideAll();
-      jQuery('.content-block_main').removeClass('hidden').addClass('animated fadeInDown');
-    });
-    jQuery('.menu-proto').on('click', function(event) {
-      hideAll();
-      jQuery('.content-block_proto').removeClass('hidden').addClass('animated fadeInDown');
-    });
-    jQuery('.menu-game').on('click', function(event) {
-      hideAll();
-      jQuery('.content-block_game').removeClass('hidden').addClass('animated fadeInDown');
-    });
-    jQuery('.menu-news').on('click', function(event) {
-      hideAll();
-      jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');
-    });
+    
 
     var protocol_1 = function(){
       times = Math.round(Math.random() * (9 - 0));
