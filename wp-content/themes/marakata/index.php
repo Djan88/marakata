@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/normalize.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/demo.css" />
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/component.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
   <style></style>
@@ -319,8 +319,8 @@
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/holder/2.3.0/holder.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/i18n/defaults-*.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/i18n/defaults-*.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/classie.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/clipboard.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
