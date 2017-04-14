@@ -2,23 +2,23 @@ jQuery(function() {
     var hideAll = function(){
       jQuery('.content-block').addClass('hidden');
     }
-    jQuery('.menu-about').on('tap', function(event) {
+    jQuery('.menu-about').on('click', function(event) {
       hideAll();
       jQuery('.content-block_about').removeClass('hidden').addClass('animated fadeInDown');
     });
-    jQuery('.menu-main').on('tap', function(event) {
+    jQuery('.menu-main').on('click', function(event) {
       hideAll();
       jQuery('.content-block_main').removeClass('hidden').addClass('animated fadeInDown');
     });
-    jQuery('.menu-proto').on('tap', function(event) {
+    jQuery('.menu-proto').on('click', function(event) {
       hideAll();
       jQuery('.content-block_proto').removeClass('hidden').addClass('animated fadeInDown');
     });
-    jQuery('.menu-game').on('tap', function(event) {
+    jQuery('.menu-game').on('click', function(event) {
       hideAll();
       jQuery('.content-block_game').removeClass('hidden').addClass('animated fadeInDown');
     });
-    jQuery('.menu-news').on('tap', function(event) {
+    jQuery('.menu-news').on('click', function(event) {
       hideAll();
       jQuery('.content-block_news').removeClass('hidden').addClass('animated fadeInDown');
     });
@@ -204,7 +204,7 @@ jQuery(function() {
       jQuery('.marakata_sim-10').css('backgroundPositionY', -resultY+'px');
     }
 
-    jQuery('.start-prot').on('tap', function(event) {
+    jQuery('.start-prot').on('click', function(event) {
       setTimeout(protocol_1, 0);
       setTimeout(protocol_2, 500);
       setTimeout(protocol_3, 1000);
@@ -251,7 +251,7 @@ jQuery(function() {
     global_counter = 0,
     game_counter = 0,
     cur_item;
-    jQuery('.marakata_sim_from').on('tap', function(event) {
+    jQuery('.marakata_sim_from').on('click', function(event) {
       jQuery('.personal_history').attr('disabled', 'true');
       if (jQuery(this).hasClass('marakata_sim_from')) {
         jQuery(this).addClass('marakata_sim-active');
@@ -310,7 +310,7 @@ jQuery(function() {
         }
       }
     });
-    jQuery('.marakata_sim_game').on('tap', function(event) {
+    jQuery('.marakata_sim_game').on('click', function(event) {
         if (jQuery(this).hasClass('marakata_sim_game')) {
           jQuery(this).addClass('marakata_sim-active');
           if (counter_game <= 9) {
@@ -369,7 +369,7 @@ jQuery(function() {
         }
     });
 
-    jQuery('.btn_game, .menu-game').on('tap', function(event) {
+    jQuery('.btn_game, .menu-game').on('click', function(event) {
       jQuery('.game_numbers').text('');
       game_counter = 0;
       jQuery('.btn_reset').removeClass('hidden');
@@ -377,7 +377,7 @@ jQuery(function() {
       max_time_game = 1;
       jQuery('.marakata_sim_g').addClass('marakata_sim_game');
     });
-    jQuery('.btn_reset, .menu-game').on('tap', function(event) {
+    jQuery('.btn_reset, .menu-game').on('click', function(event) {
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
       jQuery('.marakata_sim_m').addClass('marakata_sim_from')
       jQuery('.marakata_sim').removeClass('marakata_sim-active');
@@ -415,15 +415,15 @@ jQuery(function() {
     jQuery('.carousel_marakata').carousel({
       interval: 0
     })
-    jQuery('.option1').on('tap', function(event) {
+    jQuery('.option1').on('click', function(event) {
       jQuery('.personal').addClass('hidden');
       jQuery('.actuality').removeClass('hidden');
     });
-    jQuery('.option2').on('tap', function(event) {
+    jQuery('.option2').on('click', function(event) {
       jQuery('.actuality').addClass('hidden');
       jQuery('.personal').removeClass('hidden');
     });
-    jQuery('.menu-logout').on('tap', function(event) {
+    jQuery('.menu-logout').on('click', function(event) {
       window.location.href = "/wp-login.php?action=logout&_wpnonce=70d68623f4";
     });
 });
