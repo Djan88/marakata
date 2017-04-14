@@ -109,7 +109,7 @@
         </div>
       </div>
   <?php } ?>
-  <div class="content-block content-block_main">test</div>
+  <canvas class="content-block content-block_main"></canvas>
   <div class="container content-block content-block_about hidden">
     <div class="row">
       <div class="col-md-12 content">
