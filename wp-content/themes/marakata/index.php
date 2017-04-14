@@ -34,9 +34,12 @@
                      <li class="menu__item"><a href="#" class="menu__link menu-about"><span class="menu__helper">О ПРОЕКТЕ</span></a></li>
                      <li class="menu__item"><a href="#" class="menu__link menu-proto"><span class="menu__helper">ПРОТОКОЛ</span></a></li>
                      <?php if(is_user_role('administrator') || is_user_role('author')) { ?>
-                     <li class="menu__item"><a href="#" class="menu__link menu-game"><span class="menu__helper">ИГРА</span></a></li>
+                     <li class="menu__item">
+                      <a href="#" class="menu__link menu-game">
+                        <span class="menu__helper">ИГРА</span>
+                      </a>
+                    </li>
                      <?php } ?>
-                     <!-- <li class="menu__item"><a href="#" class="menu__link menu-news"><span class="menu__helper">НОВОСТИ</span></a></li> -->
                      <li class="menu__item"><a href="/wp-login.php?action=logout&_wpnonce=fefebf4937" class="menu__link menu-logout"><span class="menu__helper menu-logout">ВЫХОД</span></a></li>
                    </ul>
                  </nav>
@@ -323,6 +326,7 @@
   <script src="<?php bloginfo('template_url'); ?>/js/i18n/defaults-*.min.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/classie.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/clipboard.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/jquery.tap.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   <script>
   (function() {
