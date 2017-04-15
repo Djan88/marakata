@@ -21,7 +21,6 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script><![endif]-->
 </head>
 <body>
-  <?php if(is_user_logged_in()){ ?>
       <!-- Если зашел участник или автор -->
       <?php if(is_user_role('contributor') || is_user_role('administrator') || is_user_role('author')) { ?>
          <div class="container main-header">
@@ -66,7 +65,6 @@
          </div>    
       <?php } ?>
   
-  <?php } else { ?>
     <div class="login__form">
       <div class="container main-header">
         <div class="row">
@@ -107,7 +105,6 @@
         </div>
       </div>
     </div>
-  <?php } ?>
   <div class="container content-block content-block_about hidden">
     <div class="row">
       <div class="col-md-12 content">
