@@ -215,12 +215,18 @@ body a
     height: 130px;
     font-size: 130px;
   }
+  .marakata_sim-wrap {
+    background: url(img/counter_back.gif) 17px -30px/79% no-repeat;
+  }
 }
 @media (max-width:700px) {
   .marakata_sim, .marakata_dot
   {
     height: 110px;
     font-size: 110px;
+  }
+  .marakata_sim-wrap {
+    background: url(img/counter_back.gif) 17px -30px/74% no-repeat;
   }
 }
 #loginform 
