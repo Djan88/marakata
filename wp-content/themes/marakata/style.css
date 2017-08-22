@@ -216,6 +216,13 @@ body a
     font-size: 130px;
   }
 }
+@media (max-width:700px) {
+  .marakata_sim, .marakata_dot
+  {
+    height: 110px;
+    font-size: 110px;
+  }
+}
 #loginform 
 {
   border: 2px solid #d94f5c;
