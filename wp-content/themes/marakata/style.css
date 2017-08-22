@@ -229,6 +229,16 @@ body a
     background: url(img/counter_back.gif) 17px -30px/74% no-repeat;
   }
 }
+@media (max-width:600px) {
+  .marakata_sim, .marakata_dot
+  {
+    height: 90px;
+    font-size: 90px;
+  }
+  .marakata_sim-wrap {
+    background: url(img/counter_back.gif) 17px -30px/68% no-repeat;
+  }
+}
 #loginform 
 {
   border: 2px solid #d94f5c;

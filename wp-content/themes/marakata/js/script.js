@@ -38,8 +38,10 @@ jQuery(function() {
         scroll_val = 170;
       } else if (page_h < 900 && page_h > 700) {
         scroll_val = 120;
+      } else if (page_h < 500 && page_h > 600) {
+        scroll_val = 95;
       } else {
-        scroll_val = 105;
+        scroll_val = 95;
       }
       scroll_game = 495;
     }
