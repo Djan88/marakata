@@ -25,16 +25,27 @@ jQuery(function() {
     var curTrY,
         times,
         block_w,
+        page_h = jQuery("html").width(),
         curY,
         scroll_val,
         scroll_game,
         resultY;
     var cur_window_width = function(){
         block_w = parseFloat(jQuery(".marakata_sim").css('width'));
+        page_h = jQuery("html").width();
         console.log(block_w);
-        scroll_val =  block_w * 1.23756862745098;
-        jQuery(".marakata_sim").css('height', scroll_val+'px');
-        jQuery(".marakata_dot").css('height', scroll_val+'px');
+        if (page_h > 1200) {
+            scroll_val = 212.5;
+        } else if (page_h < 1200 && page_h > 990) {
+            scroll_val = 170;
+        } else if (page_h < 900 && page_h > 750) {
+            scroll_val = 120;
+        } else {
+            scroll_val =  block_w * 1.23756862745098;
+            jQuery(".marakata_sim").css('height', scroll_val+'px');
+            jQuery(".marakata_dot").css('height', scroll_val+'px');
+        }
+        scroll_game = 495;
     }
     cur_window_width();
     jQuery(window).on('resize', function(event) {
