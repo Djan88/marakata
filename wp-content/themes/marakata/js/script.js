@@ -36,6 +36,7 @@ jQuery(function() {
         jQuery(".marakata_sim").css('height', scroll_val+'px');
         jQuery(".marakata_dot").css('height', scroll_val+'px');
     }
+    cur_window_width();
     jQuery(window).on('resize', function(event) {
       cur_window_width();
     });
@@ -43,30 +44,35 @@ jQuery(function() {
 
     var protocol_1 = function(){
       times = Math.round(Math.random() * (9 - 0));
+      console.log(times);
       curTrY = parseFloat(jQuery('.marakata_sim-1').css('backgroundPositionY'));
       curTrY = curTrY-(scroll_val*times);
       jQuery('.marakata_sim-1').css('backgroundPositionY', curTrY+'px');
     }
     var protocol_2 = function(){
       times = Math.round(Math.random() * (9 - 0));
+        console.log(times);
       curTrY = parseFloat(jQuery('.marakata_sim-2').css('backgroundPositionY'));
       curTrY = curTrY-(scroll_val*times);
       jQuery('.marakata_sim-2').css('backgroundPositionY', curTrY+'px');
     }
     var protocol_3 = function(){
       times = Math.round(Math.random() * (9 - 0));
+        console.log(times);
       curTrY = parseFloat(jQuery('.marakata_sim-3').css('backgroundPositionY'));
       curTrY = curTrY-(scroll_val*times);
       jQuery('.marakata_sim-3').css('backgroundPositionY', curTrY+'px');
     }
     var protocol_4 = function(){
       times = Math.round(Math.random() * (9 - 0));
+        console.log(times);
       curTrY = parseFloat(jQuery('.marakata_sim-4').css('backgroundPositionY'));
       curTrY = curTrY-(scroll_val*times);
       jQuery('.marakata_sim-4').css('backgroundPositionY', curTrY+'px');
     }
     var protocol_5 = function(){
       times = Math.round(Math.random() * (9 - 0));
+        console.log(times);
       curTrY = parseFloat(jQuery('.marakata_sim-5').css('backgroundPositionY'));
       curTrY = curTrY-(scroll_val*times);
       jQuery('.marakata_sim-5').css('backgroundPositionY', curTrY+'px');
@@ -420,5 +426,4 @@ jQuery(function() {
 
     };
     Obj.Init();
-    cur_window_width();
 });
