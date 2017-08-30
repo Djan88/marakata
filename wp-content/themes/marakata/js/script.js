@@ -39,7 +39,7 @@ jQuery(function() {
         } else if (page_h < 1200 && page_h > 1000) {
             scroll_val = 167;
         } else if (page_h < 1000 && page_h > 900) {
-            scroll_val = 118;
+            scroll_val = 121.6;
         } else if (page_h < 900 && page_h > 750) {
             scroll_val = 120;
         } else {
