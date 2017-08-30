@@ -31,8 +31,8 @@ jQuery(function() {
         resultY;
     var cur_window_width = function(){
         block_w = jQuery(".marakata_sim").css('width');
-        console.log(block_w);
-        
+        console.log(parseFloat(block_w));
+
 
     }
     cur_window_width();
