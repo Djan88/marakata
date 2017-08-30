@@ -24,26 +24,16 @@ jQuery(function() {
     });
     var curTrY,
         times,
-        page_h,
+        block_w,
         curY,
         scroll_val,
         scroll_game,
         resultY;
     var cur_window_width = function(){
-      page_h = jQuery("html").width();
-      console.log(page_h);
-      if (page_h > 1200) {
-        scroll_val = 212.5;
-      } else if (page_h < 1200 && page_h > 990) {
-        scroll_val = 170;
-      } else if (page_h < 900 && page_h > 700) {
-        scroll_val = 120;
-      } else if (page_h < 500 && page_h > 600) {
-        scroll_val = 84;
-      } else {
-        scroll_val = 84;
-      }
-      scroll_game = 495;
+        block_w = jQuery(".marakata_sim").css('width');
+        console.log(block_w);
+        
+
     }
     cur_window_width();
     jQuery(window).on('resize', function(event) {
