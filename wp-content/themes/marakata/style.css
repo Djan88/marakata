@@ -233,28 +233,28 @@ body a
     .marakata_sim, .marakata_dot
     {
       /*height: 90px;*/
-      font-size: 80px;
+      font-size: 60px;
     }
   }
   @media (max-width:400px) {
     .marakata_sim, .marakata_dot
     {
       /*height: 90px;*/
-      font-size: 70px;
+      font-size: 50px;
     }
   }
   @media (max-width:300px) {
     .marakata_sim, .marakata_dot
     {
       /*height: 90px;*/
-      font-size: 60px;
+      font-size: 40px;
     }
   }
   @media (max-width:200px) {
     .marakata_sim, .marakata_dot
     {
       /*height: 90px;*/
-      font-size: 50px;
+      font-size: 30px;
     }
   }
 #loginform 
