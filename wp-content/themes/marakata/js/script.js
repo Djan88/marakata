@@ -44,9 +44,9 @@ jQuery(function() {
         scroll_game = 495;
     };
     jQuery('.menu-proto').on('click', function(event) {
-        cur_window_width();
         hideAll();
         jQuery('.content-block_proto').removeClass('hidden').addClass('animated fadeInDown');
+        cur_window_width();
     })
     cur_window_width();
     jQuery(window).on('resize', function(event) {
