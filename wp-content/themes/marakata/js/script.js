@@ -36,7 +36,6 @@ jQuery(function() {
         jQuery(".marakata_sim").css('height', scroll_val+'px');
         jQuery(".marakata_dot").css('height', scroll_val+'px');
     }
-    cur_window_width();
     jQuery(window).on('resize', function(event) {
       cur_window_width();
     });
@@ -421,4 +420,5 @@ jQuery(function() {
 
     };
     Obj.Init();
+    cur_window_width();
 });
