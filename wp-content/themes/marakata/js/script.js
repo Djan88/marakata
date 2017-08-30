@@ -294,6 +294,7 @@ jQuery(function() {
       jQuery('.marakata_sim_g').addClass('marakata_sim_game');
     });
     jQuery('.btn_reset, .menu-game').on('click', function(event) {
+      cur_window_width();
       jQuery('.marakata_sim').css('backgroundPositionY', '0px');
       jQuery('.marakata_sim_m').addClass('marakata_sim_from')
       jQuery('.marakata_sim').removeClass('marakata_sim-active');
