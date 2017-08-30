@@ -37,7 +37,7 @@ jQuery(function() {
         if (page_h > 1200) {
             scroll_val = 212.5;
         } else if (page_h < 1200 && page_h > 990) {
-            scroll_val = 170;
+            scroll_val = 160;
         } else if (page_h < 900 && page_h > 750) {
             scroll_val = 120;
         } else {
