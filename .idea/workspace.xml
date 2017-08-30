@@ -17,8 +17,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/marakata/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+            <state relative-caret-position="214">
+              <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -27,9 +27,10 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/marakata/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="127" column="13" lean-forward="false" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+            <state relative-caret-position="260">
+              <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
               <folding>
+                <marker date="1504015558000" expanded="true" signature="2019:2127" ph="..." />
                 <marker date="1504015558000" expanded="true" signature="3973:4054" ph="..." />
               </folding>
             </state>
@@ -190,6 +191,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -201,12 +265,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503389008807</updated>
       <workItem from="1503389011470" duration="3640000" />
-      <workItem from="1504012529533" duration="2402000" />
+      <workItem from="1504012529533" duration="2821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6042000" />
+    <option name="totallyTimeSpent" value="6461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -257,6 +321,7 @@
         <state relative-caret-position="3570">
           <caret line="238" column="55" lean-forward="false" selection-start-line="238" selection-start-column="55" selection-end-line="238" selection-end-column="55" />
           <folding>
+            <marker date="1504015558000" expanded="true" signature="2019:2127" ph="..." />
             <marker date="1504015558000" expanded="true" signature="3973:4054" ph="..." />
           </folding>
         </state>
@@ -264,9 +329,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marakata/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="127" column="13" lean-forward="false" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+        <state relative-caret-position="260">
+          <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
           <folding>
+            <marker date="1504015558000" expanded="true" signature="2019:2127" ph="..." />
             <marker date="1504015558000" expanded="true" signature="3973:4054" ph="..." />
           </folding>
         </state>
@@ -274,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marakata/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="32" column="66" lean-forward="false" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        <state relative-caret-position="214">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding />
         </state>
       </provider>

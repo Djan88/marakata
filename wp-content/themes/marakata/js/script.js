@@ -32,8 +32,8 @@ jQuery(function() {
     var cur_window_width = function(){
         block_w = parseFloat(jQuery(".marakata_sim").css('width'));
         console.log(block_w);
-
-
+        scroll_val =  block_w * 1.253;
+        jQuery(".marakata_sim").css('height', scroll_val+'px');
     }
     cur_window_width();
     jQuery(window).on('resize', function(event) {
