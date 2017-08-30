@@ -36,7 +36,7 @@ jQuery(function() {
         console.log(block_w);
         if (page_h > 1200) {
             scroll_val = 212.5;
-        } else if (page_h < 1200 && page_h > 990) {
+        } else if (page_h < 1200 && page_h > 900) {
             scroll_val = 167;
         } else if (page_h < 900 && page_h > 750) {
             scroll_val = 120;
