@@ -215,13 +215,6 @@ body a
     height: 130px;
     font-size: 130px;
   }
-}@media (max-width:750px) {
-  .marakata_sim, .marakata_dot
-  {
-    height: 110px;
-    font-size: 110px;
-  }
-}
 @media (max-width:700px) {
   .marakata_sim, .marakata_dot
   {
