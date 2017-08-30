@@ -10,10 +10,6 @@ jQuery(function() {
       hideAll();
       jQuery('.content-block_main').removeClass('hidden').addClass('animated fadeInDown');
     });
-    jQuery('.menu-proto').on('click', function(event) {
-      hideAll();
-      jQuery('.content-block_proto').removeClass('hidden').addClass('animated fadeInDown');
-    });
     jQuery('.menu-game').on('click', function(event) {
       hideAll();
       jQuery('.content-block_game').removeClass('hidden').addClass('animated fadeInDown');
@@ -46,7 +42,12 @@ jQuery(function() {
             jQuery(".marakata_dot").css('height', scroll_val+'px');
         }
         scroll_game = 495;
-    }
+    };
+    jQuery('.menu-proto').on('click', function(event) {
+        cur_window_width();
+        hideAll();
+        jQuery('.content-block_proto').removeClass('hidden').addClass('animated fadeInDown');
+    })
     cur_window_width();
     jQuery(window).on('resize', function(event) {
       cur_window_width();
