@@ -30,8 +30,8 @@ jQuery(function() {
         scroll_game,
         resultY;
     var cur_window_width = function(){
-        block_w = jQuery(".marakata_sim").css('width');
-        console.log(parseFloat(block_w));
+        block_w = +jQuery(".marakata_sim").css('width');
+        console.log(block_w);
 
 
     }
