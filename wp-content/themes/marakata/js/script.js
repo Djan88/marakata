@@ -41,7 +41,7 @@ jQuery(function() {
             jQuery(".marakata_sim").css('height', scroll_val+'px');
             jQuery(".marakata_dot").css('height', scroll_val+'px');
         } else {
-            scroll_val =  block_w * 1.198381424059719;
+            scroll_val =  block_w * 1.199377930902479;
             jQuery(".marakata_sim").css('height', scroll_val+'px');
             jQuery(".marakata_dot").css('height', scroll_val+'px');
         }
