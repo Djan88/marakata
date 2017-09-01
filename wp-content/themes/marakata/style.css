@@ -203,55 +203,55 @@ body a
   margin-top: 50px;
 }
 @media (max-width:1200px) {
-  .marakata_sim, .marakata_dot
+  .marakata_sim.marakata_sim_prot, .marakata_dot
   {
     height: 180px;
     font-size: 180px;
   }
 }
 @media (max-width:990px) {
-    .marakata_sim, .marakata_dot {
+    .marakata_sim.marakata_sim_prot, .marakata_dot {
         height: 130px;
         font-size: 130px;
     }
 }
 @media (max-width:700px) {
-  .marakata_sim, .marakata_dot
+  .marakata_sim.marakata_sim_prot, .marakata_dot
   {
     /*height: 110px;*/
     font-size: 110px;
   }
 }
 @media (max-width:600px) {
-  .marakata_sim, .marakata_dot
+  .marakata_sim.marakata_sim_prot, .marakata_dot
   {
     /*height: 90px;*/
     font-size: 90px;
   }
 }
   @media (max-width:500px) {
-    .marakata_sim, .marakata_dot
+    .marakata_sim.marakata_sim_prot, .marakata_dot
     {
       /*height: 90px;*/
       font-size: 60px;
     }
   }
   @media (max-width:400px) {
-    .marakata_sim, .marakata_dot
+    .marakata_sim.marakata_sim_prot, .marakata_dot
     {
       /*height: 90px;*/
       font-size: 50px;
     }
   }
   @media (max-width:300px) {
-    .marakata_sim, .marakata_dot
+    .marakata_sim.marakata_sim_prot, .marakata_dot
     {
       /*height: 90px;*/
       font-size: 40px;
     }
   }
   @media (max-width:200px) {
-    .marakata_sim, .marakata_dot
+    .marakata_sim.marakata_sim_prot, .marakata_dot
     {
       /*height: 90px;*/
       font-size: 30px;

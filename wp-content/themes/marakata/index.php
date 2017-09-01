@@ -235,21 +235,21 @@
       <div class="col-md-12 no_padding_wrap content">
         <div class="row">
           <h2 class="col-md-12 marakata_heading">Исходные данные</h2>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-1 marakata_sim_from"></div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-2 marakata_sim_from"></div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-3 marakata_sim_from"></div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-4 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-1 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-2 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-3 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-4 marakata_sim_from"></div></div>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-5 marakata_sim_from"></div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-5 marakata_sim_from"></div></div>
         </div>
         <div class="row">
           <h2 class="col-md-12 marakata_heading">Результат</h2>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-6">2</div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-7">0</div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-8">5</div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-9">7</div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-6">2</div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-7">0</div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-8">5</div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-9">7</div></div>
           <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
-          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_m marakata_sim-10">9</div></div>
+          <div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-10">9</div></div>
         </div>
       </div>
       <div class="col-md-12">
