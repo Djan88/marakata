@@ -27,11 +27,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/marakata/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="291" column="1" lean-forward="false" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
+            <state relative-caret-position="462">
+              <caret line="293" column="0" lean-forward="true" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
               <folding>
-                <marker date="1504254666000" expanded="true" signature="2019:2131" ph="..." />
-                <marker date="1504254666000" expanded="true" signature="3973:4050" ph="..." />
+                <marker date="1504254848000" expanded="true" signature="2019:2131" ph="..." />
+                <marker date="1504254848000" expanded="true" signature="3975:4060" ph="..." />
               </folding>
             </state>
           </provider>
@@ -277,12 +277,12 @@
       <updated>1503389008807</updated>
       <workItem from="1503389011470" duration="3640000" />
       <workItem from="1504012529533" duration="10324000" />
-      <workItem from="1504252391769" duration="1842000" />
+      <workItem from="1504252391769" duration="2006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15806000" />
+    <option name="totallyTimeSpent" value="15970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -333,8 +333,8 @@
         <state relative-caret-position="3840">
           <caret line="256" column="18" lean-forward="false" selection-start-line="256" selection-start-column="18" selection-end-line="256" selection-end-column="18" />
           <folding>
-            <marker date="1504254666000" expanded="true" signature="2019:2131" ph="..." />
-            <marker date="1504254666000" expanded="true" signature="3973:4050" ph="..." />
+            <marker date="1504254848000" expanded="true" signature="2019:2131" ph="..." />
+            <marker date="1504254848000" expanded="true" signature="3975:4060" ph="..." />
           </folding>
         </state>
       </provider>
@@ -352,8 +352,8 @@
         <state relative-caret-position="3570">
           <caret line="238" column="55" lean-forward="false" selection-start-line="238" selection-start-column="55" selection-end-line="238" selection-end-column="55" />
           <folding>
-            <marker date="1504254666000" expanded="true" signature="2019:2131" ph="..." />
-            <marker date="1504254666000" expanded="true" signature="3973:4050" ph="..." />
+            <marker date="1504254848000" expanded="true" signature="2019:2131" ph="..." />
+            <marker date="1504254848000" expanded="true" signature="3975:4060" ph="..." />
           </folding>
         </state>
       </provider>
@@ -368,11 +368,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marakata/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="291" column="1" lean-forward="false" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
+        <state relative-caret-position="462">
+          <caret line="293" column="0" lean-forward="true" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
           <folding>
-            <marker date="1504254666000" expanded="true" signature="2019:2131" ph="..." />
-            <marker date="1504254666000" expanded="true" signature="3973:4050" ph="..." />
+            <marker date="1504254848000" expanded="true" signature="2019:2131" ph="..." />
+            <marker date="1504254848000" expanded="true" signature="3975:4060" ph="..." />
           </folding>
         </state>
       </provider>
