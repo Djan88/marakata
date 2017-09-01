@@ -290,7 +290,7 @@ body a
   background: #d94f5c;
   color: #fff;
   font-weight: bold;
-}
+
 
 /*GAME*/
 .marakata_game
@@ -329,6 +329,16 @@ body a
   padding-right: 10px;
   margin-right: 10px;
   border-radius: 6px;
+}
+}
+.marakata_sim-wrap.marakata_game {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.marakata_sim.marakata_sim_g {
+    height: 470px;
 }
 ::selection {
 background: transparent; /* Safari */
