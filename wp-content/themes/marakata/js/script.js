@@ -299,7 +299,7 @@ jQuery(function() {
     });
     jQuery('.btn_reset_prot').on('click', function(event) {
         cur_window_width();
-    }
+    })
     jQuery('.btn_reset, .menu-game').on('click', function(event) {
             jQuery('.marakata_sim').css('backgroundPositionY', '0px');
             jQuery('.marakata_sim_m').addClass('marakata_sim_from')
@@ -335,10 +335,10 @@ jQuery(function() {
             max_time = 0;
             global_counter = 0;
         });
-    }
+    });
     jQuery('.carousel_marakata').carousel({
       interval: 0
-    })
+    });
     jQuery('.option1').on('click', function(event) {
       jQuery('.personal').addClass('hidden');
       jQuery('.actuality').removeClass('hidden');
