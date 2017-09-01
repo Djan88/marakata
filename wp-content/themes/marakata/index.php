@@ -256,7 +256,7 @@
         <div class="row" style="text-align: center;">
           <button type="button" class="btn btn-default btn-lg start-prot hidden"></button>
           <button type="button" class="btn btn-default btn-lg start-man hidden"></button>
-          <button type="button" class="btn btn-default btn-lg btn_reset">Начать с начала</button>
+          <button type="button" class="btn btn-default btn-lg btn_reset btn_reset_prot">Начать с начала</button>
           
         </div>
       </div>
