@@ -161,62 +161,62 @@
             <div class="carousel-inner">
               <div class="item active">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам испытывать страх или тревогу?</h3>
+                  <h3>Физическое переживание непереносимости одиночества</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам испытывать злость и проявлять агрессию?</h3>
+                  <h3>Состояние нехватки воздуха</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам вынужденно соглашаться с чужим мнением?</h3>
+                  <h3>Переживание чувства вины</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам чувствовать себя виноватым?</h3>
+                  <h3>Переживание обиды</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам завидовать кому-либо?</h3>
+                  <h3>Самообман</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам обижаться?</h3>
+                  <h3>Переживание потери или неудачи</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам что-либо ценное терять?</h3>
+                  <h3>Суета, беспокойства, страх</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам расставаться с людьми, к которым вы были глубоко привязаны?</h3>
+                  <h3>Раздраженная злость</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам чего-либо невыносимо хотеть?</h3>
+                  <h3>Самоограничения и занижения самооценки</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Приходилось ли вам отказывать себе в чем-либо?</h3>
+                  <h3>Важность мнения чужих людей</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Испытывали ли вы сложности с выбором варианта отношений между людьми?</h3>
+                  <h3>Моя правда</h3>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption">
-                  <h3>Испытывали ли вы сложности с выбором варианта предметов/вещей?</h3>
+                  <h3>Несправедливость и непримиримость</h3>
                 </div>
               </div>
             </div>
