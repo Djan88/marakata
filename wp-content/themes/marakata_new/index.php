@@ -114,12 +114,10 @@
 						</a>
 					</li><!--
 					--><li>
-						<a href="#enter" id="enter"
-							data-toggle="modal"
-							data-target="#notify-my">
+						<a href="#protocol">
 							<span class="hidden-xs hidden-sm">
-								<i class="hover-label">Войти</i>
-								Войти
+								<i class="hover-label">Выход</i>
+								Выход
 							</span>
 							<span class="hidden-md hidden-lg icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 29 18" enable-background="new 0 0 29 18" xml:space="preserve" width="29" height="18">
