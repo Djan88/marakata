@@ -61,18 +61,46 @@
 		<div class="col-sm-5 header-box">
 			<div id="main-menu" class="main-menu">
 				<ul>
+					<?php if(is_user_logged_in()){ ?>
+						<?php if(is_user_role('contributor') || is_user_role('administrator') || is_user_role('author')){ ?>
+							<li>
+								<a class="lc" href="#marakata">
+									<span class="hidden-xs hidden-sm">
+										<i class="hover-label">MARAKATA</i>
+										MARAKATA
+									</span>
+									<span class="hidden-md hidden-lg icon">
+										M
+									</span>
+								</a>
+							</li>
+						<?php } else { ?>
+							<li>
+								<a class="lc lc_mar" href="#locked">
+									<span class="hidden-xs hidden-sm">
+										<i class="hover-label">MARAKATA</i>
+										MARAKATA
+									</span>
+									<span class="hidden-md hidden-lg icon">
+										M
+									</span>
+								</a>
+							</li>
+						<?php } ?>
+					<?php } else { ?>
+						<li>
+							<a class="lc lc_mar" href="#locked">
+								<span class="hidden-xs hidden-sm">
+									<i class="hover-label">MARAKATA</i>
+									MARAKATA
+								</span>
+								<span class="hidden-md hidden-lg icon">
+									M
+								</span>
+							</a>
+						</li>
+					<?php } ?>
 					<li>
-						<a class="lc" href="#marakata">
-							<span class="hidden-xs hidden-sm">
-								<i class="hover-label">MARAKATA</i>
-								MARAKATA
-							</span>
-							<span class="hidden-md hidden-lg icon">
-								M
-							</span>
-						</a>
-					</li><!--
-			--> <li>
 						<a class="lc" href="#deviatochka">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">Девяточка</i>
@@ -184,7 +212,7 @@
 								</p>
 							</div>
 						</div>
-						
+						<?php if(!is_user_logged_in()){ ?>
 						<a href="#"
 							class="btn btn-default btn-main"
 							data-hover='В "MARAKATA"'
@@ -194,6 +222,7 @@
 							data-out-animation-delay="600"
 							data-toggle="modal"
 							data-target="#notify-my"><span class="button-label">ВОЙТИ</span></a>
+						<?php } ?>
 					</div>
 				</div>
 			</div><!-- .section-content -->

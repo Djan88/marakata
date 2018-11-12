@@ -209,6 +209,14 @@ span.hidden-md.hidden-lg.icon
 {
   color: #d94f5c;
 }
+.ls.ls_mar
+{
+  cursor: default;
+}
+.ls.ls_mar span i
+{
+  color: rgba(152, 152, 152, 0.3);
+}
 span.anno 
 {
   background: rgba(255, 255, 255,1);
