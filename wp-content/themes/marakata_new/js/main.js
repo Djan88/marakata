@@ -208,3 +208,33 @@ $(document).ready(function(){
 			player.api('pause');
 		}
 	});
+
+//Window Resize
+(function(){
+	var delay = (function(){
+		var timer = 0;
+		return function(callback, ms){
+			clearTimeout (timer);
+			timer = setTimeout(callback, ms);
+		};
+	})();
+
+	function resizeFunctions(){
+		//Functions
+		videoBg();
+		contentScroll();
+		notifyMy();
+	}
+
+	if(navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|Windows Phone)/)){
+		$(window).on('orientationchange', function(){
+			resizeFunctions();
+		});
+	} else {
+		$(window).on('resize', function(){
+			delay(function(){
+				resizeFunctions();
+			}, 500);
+		});
+	}
+}());
