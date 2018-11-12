@@ -1,6 +1,80 @@
 "use strict";
 var $ = jQuery;
 
+//Main Menu
+function mainMenu(){
+	var menu   = $('.main-menu'),
+			link   = $('.main-menu a, .go-section'),
+			url    = window.location.href,
+			hash   = url.substring(url.indexOf('#')),
+			homeId = 'home';
+
+	link.on('click', function(e){
+		var $this    = $(this),
+				id       = $this.attr('href').split('#').pop(),
+				duration = 1;
+
+		e.preventDefault();
+
+		if (!$('#' + id).length) {
+			console.log('No such section!');
+			return false;
+		}
+
+		link.removeClass('active');
+
+		animateFinish();
+
+		$('.section.active [data-out-animation]').each(function(){
+			var $this = $(this);
+			
+			if ($this.data('outAnimationDelay')){
+				if ($this.data('outAnimationDelay') >= duration) {
+					duration = $this.data('outAnimationDelay');
+				}
+			}
+		});
+
+		if (!$this.hasClass('open')) {
+			link.removeClass('open');
+
+			menu.find('[href="#'+ id +'"]').addClass('active').addClass('open');
+
+			$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
+				$('.section').removeClass('active');
+
+				$('#' + id).addClass('active');
+
+				$(this).fadeOut(400);
+
+				setTimeout(function(){
+					contentScroll();
+					animateStart();
+				}, 0);
+
+				document.location.hash = '#' + id;
+			});
+		} else {
+			$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
+				link.removeClass('open');
+
+				$('.section').removeClass('active');
+
+				$('#' + homeId).addClass('active');
+
+				$(this).fadeOut(400);
+
+				setTimeout(function(){
+					contentScroll();
+					animateStart();
+				}, 0);
+
+				document.location.hash = '#' + homeId;
+			});
+		}
+	});
+}
+
 //Animate Start
 function animateStart(){
 	var activeSection = $('.section.active');
@@ -142,6 +216,7 @@ $(document).ready(function(){
 	});
 
 	//Functions
+	mainMenu();
 
 	//Functions(load)
 	$(window).on('load', function(){
