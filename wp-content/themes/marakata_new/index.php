@@ -650,7 +650,7 @@
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.touchwipe.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/included-plagins.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/froogaloop2.min.js"></script>
-<!-- <script src="<?php //bloginfo('template_url'); ?>/js/main.js"></script> -->
+<script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
