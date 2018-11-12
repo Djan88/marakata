@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-select.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
+  <!-- <link rel="stylesheet" href="<?php //bloginfo('template_url'); ?>/css/animate.css"> -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.mCustomScrollbar.min.css">
 
