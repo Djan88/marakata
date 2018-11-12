@@ -201,6 +201,10 @@ span.hidden-md.hidden-lg.icon
 {
   margin-top: 15px;
 }
+#enter
+{
+  color: #d94f5c;
+}
 span.anno 
 {
   background: rgba(255, 255, 255,1);

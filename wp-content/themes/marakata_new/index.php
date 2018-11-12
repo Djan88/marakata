@@ -13,7 +13,7 @@
   <link rel="shortcut icon" href="img/favicon.ico">
   
   <!-- Fonts -->
-  <link href="//fdonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900" rel="stylesheet">
+ <!--  <link href="//fdonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900" rel="stylesheet"> -->
 
   <!-- Plugins CSS -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
@@ -113,10 +113,10 @@
 						</a>
 					</li><!--
 					--><li>
-						<a href="#protocol">
+						<a href="#enter" id="enter">
 							<span class="hidden-xs hidden-sm">
-								<i class="hover-label">Выход</i>
-								Выход
+								<i class="hover-label">Войти</i>
+								Войти
 							</span>
 							<span class="hidden-md hidden-lg icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 29 18" enable-background="new 0 0 29 18" xml:space="preserve" width="29" height="18">
