@@ -25,6 +25,29 @@
 
   <!-- Theme CSS -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+  <?php if(is_user_logged_in()){ ?>
+    <?php if(!current_user_can('administrator')){ ?>
+      <style>
+        #wpadminbar
+        {
+          display: none;
+        }
+        html.mdl-js#html
+        {
+          margin-top: 0!important;
+          padding-top: 0!important; 
+        }
+
+        html { margin-top: 0 !important; }
+        * html body { margin-top: 0 !important; }
+        @media screen and ( max-width: 782px ) {
+          html { margin-top: 0 !important; }
+          * html body { margin-top: 0 !important; }
+        }
+
+      </style>
+    <?php } ?>
+  <?php } ?>
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
