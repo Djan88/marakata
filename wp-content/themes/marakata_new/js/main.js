@@ -44,62 +44,63 @@ function mainMenu(){
 
 		e.preventDefault();
 
-		// if (!$('#' + id).length) {
-		// 	console.log('No such section!');
-		// 	return false;
-		// }
-
-		link.removeClass('active');
-
-		animateFinish();
-
-		$('.section.active [data-out-animation]').each(function(){
-			var $this = $(this);
-			
-			if ($this.data('outAnimationDelay')){
-				if ($this.data('outAnimationDelay') >= duration) {
-					duration = $this.data('outAnimationDelay');
-				}
-			}
-		});
-
-		if (!$this.hasClass('open')) {
-			link.removeClass('open');
-
-			menu.find('[href="#'+ id +'"]').addClass('active').addClass('open');
-
-			$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
-				$('.section').removeClass('active');
-
-				$('#' + id).addClass('active');
-
-				$(this).fadeOut(400);
-
-				setTimeout(function(){
-					contentScroll();
-					animateStart();
-				}, 0);
-
-				document.location.hash = '#' + id;
-			});
+		if (!$('#' + id).length) {
+			console.log('No such section!');
 		} else {
-			$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
+			link.removeClass('active');
+
+			animateFinish();
+
+			$('.section.active [data-out-animation]').each(function(){
+				var $this = $(this);
+				
+				if ($this.data('outAnimationDelay')){
+					if ($this.data('outAnimationDelay') >= duration) {
+						duration = $this.data('outAnimationDelay');
+					}
+				}
+			});
+
+			if (!$this.hasClass('open')) {
 				link.removeClass('open');
 
-				$('.section').removeClass('active');
+				menu.find('[href="#'+ id +'"]').addClass('active').addClass('open');
 
-				$('#' + homeId).addClass('active');
+				$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
+					$('.section').removeClass('active');
 
-				$(this).fadeOut(400);
+					$('#' + id).addClass('active');
 
-				setTimeout(function(){
-					contentScroll();
-					animateStart();
-				}, 0);
+					$(this).fadeOut(400);
 
-				document.location.hash = '#' + homeId;
-			});
+					setTimeout(function(){
+						contentScroll();
+						animateStart();
+					}, 0);
+
+					document.location.hash = '#' + id;
+				});
+			} else {
+				$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
+					link.removeClass('open');
+
+					$('.section').removeClass('active');
+
+					$('#' + homeId).addClass('active');
+
+					$(this).fadeOut(400);
+
+					setTimeout(function(){
+						contentScroll();
+						animateStart();
+					}, 0);
+
+					document.location.hash = '#' + homeId;
+				});
+			}
 		}
+
+		
 	});
 }
 
