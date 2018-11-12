@@ -114,7 +114,9 @@
 						</a>
 					</li><!--
 					--><li>
-						<a href="#protocol">
+						<a href="#protocol"
+							data-toggle="modal"
+							data-target="#notify-my">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">Выход</i>
 								Выход
