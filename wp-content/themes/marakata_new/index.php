@@ -644,7 +644,6 @@
 <![endif]-->
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/bootstrap-select.min.js"></script>
-<script src="<?php bloginfo('template_url'); ?>/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 <!-- Yandex.Metrika counter -->
