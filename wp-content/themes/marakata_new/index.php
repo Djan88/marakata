@@ -629,7 +629,7 @@
 							<input id="user_login" class="form-control email" type="text" name="log" placeholder="Логин" value="<?php echo esc_attr($user_login); ?>" size="20">
 						</div>
 						<div class="mc-field-group form-group">
-							<input id="user_pass" class="form-control email" type="password" name="log" placeholder="Логин" size="20">
+							<input id="user_pass" class="form-control email" type="password" name="pwd" placeholder="Пароль" size="20">
 						</div>
 						<div class="clearfix">
 				    <?php
