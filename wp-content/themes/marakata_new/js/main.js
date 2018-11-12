@@ -142,7 +142,6 @@ $(document).ready(function(){
 	});
 
 	//Functions
-	mainMenu();
 
 	//Functions(load)
 	$(window).on('load', function(){
