@@ -13,7 +13,7 @@
   <link rel="shortcut icon" href="img/favicon.ico">
   
   <!-- Fonts -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900" rel="stylesheet">
+  <link href="//fdonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900" rel="stylesheet">
 
   <!-- Plugins CSS -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
@@ -366,7 +366,7 @@
 						data-animation="fadeInDown"
 						data-animation-delay="100"
 						data-out-animation="fadeOutUp"
-						data-out-animation-delay="100">Игровой код</h2>
+						data-out-animation-delay="100">Ицифратор для игры</h2>
 					
 					<div class="row section-description text-center no_padding_wrap"
 								data-animation="fadeInDown"
