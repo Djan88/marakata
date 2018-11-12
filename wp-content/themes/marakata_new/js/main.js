@@ -261,149 +261,6 @@ function carousels(){
 	});
 }
 
-//Google Map
-function initialize(){
-	var mapCanvas = $('.map-canvas');
-
-	mapCanvas.each(function (){
-	var $this           = $(this),
-			zoom            = 8,
-			lat             = -34,
-			lng             = 150,
-			scrollwheel     = false,
-			draggable       = true,
-			mapType         = google.maps.MapTypeId.ROADMAP,
-			title           = '',
-			contentString   = '';
-
-	if ($this.data('zoom')){
-		zoom = parseFloat($this.data('zoom'));
-	}
-
-	if ($this.data('lat')){
-		lat = parseFloat($this.data('lat'));
-	}
-
-	if ($this.data('lng')){
-		lng = parseFloat($this.data('lng'));
-	}
-
-	if ($this.data('scrollwheel')){
-		scrollwheel = $this.data('scrollwheel');
-	}
-
-	if ($this.data('type')){
-		if ($this.data('type') == 'satellite'){
-			mapType = google.maps.MapTypeId.SATELLITE;
-		} else if ($this.data('type') == 'hybrid'){
-			mapType = google.maps.MapTypeId.HYBRID;
-		} else if ($this.data('type') == 'terrain'){
-			mapType = google.maps.MapTypeId.TERRAIN;
-		}
-	}
-
-	if ($this.data('title')){
-		title = $this.data('title');
-	}
-
-	if( navigator.userAgent.match(/iPad|iPhone|Android/i) ){
-		draggable = false;
-	}
-
-	var mapOptions = {
-		zoom              : zoom,
-		scrollwheel       : scrollwheel,
-		draggable         : draggable,
-		center            : new google.maps.LatLng(lat, lng),
-		mapTypeId         : mapType,
-		streetViewControl : false
-	};
-
-	var map = new google.maps.Map($this[0], mapOptions);
-
-	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-	var image = ( is_internetExplorer11 ) ? 'img/map-marker.png' : 'img/svg/map-marker.svg';
-
-	if ($this.data('content')){
-		contentString = '<div class="map-content">' +
-		'<h3 class="title">' + title + '</h3>' +
-		$this.data('content') +
-		'</div>';
-	}
-
-	var infowindow = new google.maps.InfoWindow({
-			content: contentString
-	});
-
-	var marker = new google.maps.Marker({
-		position : new google.maps.LatLng(lat, lng),
-		map      : map,
-		icon     : image,
-		title    : title
-	});
-
-		if ($this.data('content')){
-			google.maps.event.addListener(marker, 'click', function(){
-				infowindow.open(map,marker);
-			});
-		}
-	});
-}
-
-// Load google maps script
-function loadScript(){
-	var script      = document.createElement('script');
-			script.type = 'text/javascript';
-			script.src  = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
-
-	document.body.appendChild(script);
-}
-
-window.onload = loadScript;
-
-//Map
-function mapBox(){
-	$('.map-show').on('click', function(e){
-		var id = $(this).attr('href');
-
-		e.preventDefault();
-
-		$(id).addClass('active animated zoomIn');
-	});
-
-	$('.map-box .close').on('click', function(e){
-		var mapBox = $(this).closest('.map-box');
-
-		e.preventDefault();
-
-		mapBox.removeClass('zoomIn').addClass('zoomOut');
-
-		setTimeout(function() {
-			mapBox.removeClass('active').removeClass('zoomOut');
-		}, 500);
-	});
-}
-
-//HTML5 Video Background
-function videoBg(){
-	var $this = $('.background-video');
-
-	if ($this.find('video').length){
-		var video = $this.find('video');
-
-		if (video.width() == $this.width()){
-			video.css({
-				marginLeft : 0,
-				marginTop : -((video.height() - $this.height()) / 2)
-			});
-		} else {
-			video.css({
-				marginTop : 0,
-				marginLeft : -((video.width() - $this.width()) / 2)
-			});
-		}
-	}
-}
 
 //Slider Background
 function backgroundSlider() {
@@ -498,14 +355,11 @@ $(document).ready(function(){
 	//Functions
 	formStylization();
 	mainMenu();
-	mapBox();
 	backgroundSlider();
 
 	//Functions(load)
 	$(window).on('load', function(){
 		animateStart();
-		carousels();
-		videoBg();
 		contentScroll();
 
 		//Preloader
