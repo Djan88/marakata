@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/jquery.mCustomScrollbar.min.css">
 
   <!-- Theme CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
 
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -41,15 +41,15 @@
   
   <div class="layer clouds">
 		<div class="cloud cloud-1">
-			<img src="content/img/cloud-1.png" width="1600" height="850" alt="#">
+			<img src="<?php bloginfo('template_url'); ?>/img/cloud-1.png" width="1600" height="850" alt="#">
 		</div>
 		
 		<div class="cloud cloud-2">
-			<img src="content/img/cloud-2.png" width="1600" height="850" alt="#">
+			<img src="<?php bloginfo('template_url'); ?>/img/cloud-2.png" width="1600" height="850" alt="#">
 		</div>
 		
 		<div class="cloud cloud-3">
-			<img src="content/img/cloud-1.png" width="1600" height="850" alt="#">
+			<img src="<?php bloginfo('template_url'); ?>/img/cloud-1.png" width="1600" height="850" alt="#">
 		</div>
   </div>
 </div><!-- .background -->
