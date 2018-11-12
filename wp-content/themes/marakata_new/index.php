@@ -100,17 +100,45 @@
 							</a>
 						</li>
 					<?php } ?>
-					<li>
-						<a class="lc" href="#deviatochka">
-							<span class="hidden-xs hidden-sm">
-								<i class="hover-label">Девяточка</i>
-								Девяточка
-							</span>
-							<span class="hidden-md hidden-lg icon">
-								9
-							</span>
-						</a>
-					</li>
+					<?php if(is_user_logged_in()){ ?>
+						<?php if(is_user_role('subscriber') || is_user_role('administrator') || is_user_role('author')) { ?>
+							<li>
+								<a class="lc" href="#deviatochka">
+									<span class="hidden-xs hidden-sm">
+										<i class="hover-label">Девяточка</i>
+										Девяточка
+									</span>
+									<span class="hidden-md hidden-lg icon">
+										9
+									</span>
+								</a>
+							</li>
+						<?php } else { ?>
+							<li>
+								<a class="lc lc_mar" href="#deviatochka" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "9"'>
+									<span class="hidden-xs hidden-sm">
+										<i class="hover-label">Девяточка</i>
+										Девяточка
+									</span>
+									<span class="hidden-md hidden-lg icon">
+										9
+									</span>
+								</a>
+							</li>
+						<?php } ?>
+					<?php } else { ?>
+						<li>
+							<a class="lc lc_mar" href="#deviatochka" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "9"'>
+								<span class="hidden-xs hidden-sm">
+									<i class="hover-label">Девяточка</i>
+									Девяточка
+								</span>
+								<span class="hidden-md hidden-lg icon">
+									9
+								</span>
+							</a>
+						</li>
+					<?php } ?>
 				</ul>
 			</div>
 		</div><!-- .header-box -->
