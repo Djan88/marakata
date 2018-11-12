@@ -44,10 +44,10 @@ function mainMenu(){
 
 		e.preventDefault();
 
-		if (!$('#' + id).length) {
-			console.log('No such section!');
-			return false;
-		}
+		// if (!$('#' + id).length) {
+		// 	console.log('No such section!');
+		// 	return false;
+		// }
 
 		link.removeClass('active');
 
