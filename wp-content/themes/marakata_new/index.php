@@ -257,221 +257,230 @@
 		</div><!-- .section-wrap -->
   </section><!-- #home.section -->
   
-  <section id="marakata" class="section">
-		<div class="section-wrap">
-			<div class="section-content">
-				<div class="container">
-					<div class="row">
-					  <div class="col-md-12 no_padding_wrap content" style="text-align: center; margin-bottom: 15px">
-					    <div class="btn-group btn_mode_wrap" data-toggle="buttons">
-					      <label class="btn btn-default btn_mode btn-lg active option1">
-					        <input type="radio" name="options" id="option1">Личная история
-					      </label>
-					      <label class="btn btn-default btn_mode btn-lg option2">
-					        <input type="radio" name="options" id="option3">Актуальность
-					      </label>
-					    </div>
-					    <div class="personal hidden">
-					      <h2 class="text-center section-title"
-					      	data-animation="fadeInDown"
-					      	data-animation-delay="100"
-					      	data-out-animation="fadeOutUp"
-					      	data-out-animation-delay="100">Актуальность</h2>
-					      <div class="bs-example col-md-6 col-md-offset-3"
-					      	data-animation="fadeInDown"
-					      	data-animation-delay="200"
-					      	data-out-animation="fadeOutUp"
-					      	data-out-animation-delay="200">
-					        <form role="form">
-					          <textarea class="form-control personal_history" rows="3"></textarea>
-					        </form>
-					      </div>
-					    </div>
-					    <div class="actuality">
-					      <h2 class="text-center section-title"
-					      	data-animation="fadeInDown"
-					      	data-animation-delay="100"
-					      	data-out-animation="fadeOutUp"
-					      	data-out-animation-delay="100">Личная история</h2>
-					      <div id="carousel-example-generic" class="carousel carousel_marakata slide"
-					       data-ride="carousel"
-					       data-animation="fadeInDown"
-					       data-animation-delay="200"
-					       data-out-animation="fadeOutUp"
-					       data-out-animation-delay="200">
-					        <!-- Indicators -->
-					        <ol class="carousel-indicators">
-					          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="10"></li>
-					          <li data-target="#carousel-example-generic" data-slide-to="11"></li>
-					        </ol>
+  <?php if(is_user_logged_in()){ ?>
+  	<?php if(is_user_role('subscriber') || is_user_role('administrator') || is_user_role('author')) { ?>
+		  <section id="marakata" class="section">
+				<div class="section-wrap">
+					<div class="section-content">
+						<div class="container">
+							<div class="row">
+							  <div class="col-md-12 no_padding_wrap content" style="text-align: center; margin-bottom: 15px">
+							    <div class="btn-group btn_mode_wrap" data-toggle="buttons">
+							      <label class="btn btn-default btn_mode btn-lg active option1">
+							        <input type="radio" name="options" id="option1">Личная история
+							      </label>
+							      <label class="btn btn-default btn_mode btn-lg option2">
+							        <input type="radio" name="options" id="option3">Актуальность
+							      </label>
+							    </div>
+							    <div class="personal hidden">
+							      <h2 class="text-center section-title"
+							      	data-animation="fadeInDown"
+							      	data-animation-delay="100"
+							      	data-out-animation="fadeOutUp"
+							      	data-out-animation-delay="100">Актуальность</h2>
+							      <div class="bs-example col-md-6 col-md-offset-3"
+							      	data-animation="fadeInDown"
+							      	data-animation-delay="200"
+							      	data-out-animation="fadeOutUp"
+							      	data-out-animation-delay="200">
+							        <form role="form">
+							          <textarea class="form-control personal_history" rows="3"></textarea>
+							        </form>
+							      </div>
+							    </div>
+							    <div class="actuality">
+							      <h2 class="text-center section-title"
+							      	data-animation="fadeInDown"
+							      	data-animation-delay="100"
+							      	data-out-animation="fadeOutUp"
+							      	data-out-animation-delay="100">Личная история</h2>
+							      <div id="carousel-example-generic" class="carousel carousel_marakata slide"
+							       data-ride="carousel"
+							       data-animation="fadeInDown"
+							       data-animation-delay="200"
+							       data-out-animation="fadeOutUp"
+							       data-out-animation-delay="200">
+							        <!-- Indicators -->
+							        <ol class="carousel-indicators">
+							          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+							          <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+							        </ol>
 
-					        <!-- Wrapper for slides -->
-					        <div class="carousel-inner">
-					          <div class="item active">
-					            <div class="carousel-caption">
-					              <h3>Физическое переживание непереносимости одиночества</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Состояние нехватки воздуха</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Переживание чувства вины</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Переживание обиды</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Самообман</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Переживание потери или неудачи</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Суета, беспокойства, страх</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Раздраженная злость</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Самоограничения и занижения самооценки</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Важность мнения чужих людей</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Моя правда</h3>
-					            </div>
-					          </div>
-					          <div class="item">
-					            <div class="carousel-caption">
-					              <h3>Несправедливость и непримиримость</h3>
-					            </div>
-					          </div>
-					        </div>
-					        <!-- Controls -->
-					        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-					          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10 11" enable-background="new 0 0 10 11" xml:space="preserve" width="30">
-			          		<path fill="#000" d="M10,6H0V5h10V6L10,6z M0,6V5l5-5l1,0L0,6z M5,11L0,6V5l6,6L5,11z"/>
-			          	  </svg>
-					        </a>
-					        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-					          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10 11" enable-background="new 0 0 10 11" xml:space="preserve" width="30">
-			          		<path fill="#000" d="M0,6V5h10v1H0L0,6z M4,0h1l5,5v1L4,0z M4,11l6-6v1l-5,5L4,11z"/>
-			          	  </svg>
-					        </a>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<h2 class="text-center section-title"
-						data-animation="fadeInDown"
-						data-animation-delay="100"
-						data-out-animation="fadeOutUp"
-						data-out-animation-delay="100">Исходные данные</h2>
-					
-					<div class="row section-description text-center no_padding_wrap"
+							        <!-- Wrapper for slides -->
+							        <div class="carousel-inner">
+							          <div class="item active">
+							            <div class="carousel-caption">
+							              <h3>Физическое переживание непереносимости одиночества</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Состояние нехватки воздуха</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Переживание чувства вины</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Переживание обиды</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Самообман</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Переживание потери или неудачи</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Суета, беспокойства, страх</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Раздраженная злость</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Самоограничения и занижения самооценки</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Важность мнения чужих людей</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Моя правда</h3>
+							            </div>
+							          </div>
+							          <div class="item">
+							            <div class="carousel-caption">
+							              <h3>Несправедливость и непримиримость</h3>
+							            </div>
+							          </div>
+							        </div>
+							        <!-- Controls -->
+							        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+							          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10 11" enable-background="new 0 0 10 11" xml:space="preserve" width="30">
+					          		<path fill="#000" d="M10,6H0V5h10V6L10,6z M0,6V5l5-5l1,0L0,6z M5,11L0,6V5l6,6L5,11z"/>
+					          	  </svg>
+							        </a>
+							        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+							          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 10 11" enable-background="new 0 0 10 11" xml:space="preserve" width="30">
+					          		<path fill="#000" d="M0,6V5h10v1H0L0,6z M4,0h1l5,5v1L4,0z M4,11l6-6v1l-5,5L4,11z"/>
+					          	  </svg>
+							        </a>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<h2 class="text-center section-title"
 								data-animation="fadeInDown"
-								data-animation-delay="200"
+								data-animation-delay="100"
 								data-out-animation="fadeOutUp"
-								data-out-animation-delay="200">
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-1 marakata_sim_from"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-2 marakata_sim_from"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-3 marakata_sim_from"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-4 marakata_sim_from"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-5 marakata_sim_from"></div></div>
-					</div>
-					<h2 class="text-center section-title"
-						data-animation="fadeInDown"
-						data-animation-delay="300"
-						data-out-animation="fadeOutUp"
-						data-out-animation-delay="300">Результат</h2>
-					<div class="row section-description text-center no_padding_wrap"
+								data-out-animation-delay="100">Исходные данные</h2>
+							
+							<div class="row section-description text-center no_padding_wrap"
+										data-animation="fadeInDown"
+										data-animation-delay="200"
+										data-out-animation="fadeOutUp"
+										data-out-animation-delay="200">
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-1 marakata_sim_from"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-2 marakata_sim_from"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-3 marakata_sim_from"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-4 marakata_sim_from"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-5 marakata_sim_from"></div></div>
+							</div>
+							<h2 class="text-center section-title"
 								data-animation="fadeInDown"
-								data-animation-delay="400"
+								data-animation-delay="300"
 								data-out-animation="fadeOutUp"
-								data-out-animation-delay="400">
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-6"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-7"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-8"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-9"></div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
-						<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-10"></div></div>
-					</div>
-					<div class="row" style="text-align: center;">
-					  <button type="button" class="btn btn-default btn-lg btn_reset btn_reset_prot">Начать с начала</button>
-					  
-					</div>
-				</div>
-			</div><!-- .section-content -->
-		</div><!-- .section-wrap -->
-  </section><!-- #marakata.section --> 
+								data-out-animation-delay="300">Результат</h2>
+							<div class="row section-description text-center no_padding_wrap"
+										data-animation="fadeInDown"
+										data-animation-delay="400"
+										data-out-animation="fadeOutUp"
+										data-out-animation-delay="400">
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-6"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-7"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-8"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-9"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-10"></div></div>
+							</div>
+							<div class="row" style="text-align: center;">
+							  <button type="button" class="btn btn-default btn-lg btn_reset btn_reset_prot">Начать с начала</button>
+							  
+							</div>
+						</div>
+					</div><!-- .section-content -->
+				</div><!-- .section-wrap -->
+		  </section><!-- #marakata.section --> 
+  	<?php } ?>
+  <?php } ?>
 
-  <section id="deviatochka" class="section">
-		<div class="section-wrap">
-			<div class="section-content">
-				<div class="container">
-					<h2 class="text-center section-title"
-						data-animation="fadeInDown"
-						data-animation-delay="100"
-						data-out-animation="fadeOutUp"
-						data-out-animation-delay="100">Оцифратор для игры</h2>
-					
-					<div class="row section-description text-center no_padding_wrap"
+
+	<?php if(is_user_logged_in()){ ?>
+		<?php if(is_user_role('subscriber') || is_user_role('administrator') || is_user_role('author')) { ?>
+		  <section id="deviatochka" class="section">
+				<div class="section-wrap">
+					<div class="section-content">
+						<div class="container">
+							<h2 class="text-center section-title"
 								data-animation="fadeInDown"
-								data-animation-delay="200"
+								data-animation-delay="100"
 								data-out-animation="fadeOutUp"
-								data-out-animation-delay="200">
-					  <div class="col-md-12 no_padding_wrap content">
-					    <div class="row">
-					      <h2 class="col-md-12 marakata_heading">
-					        <span class="game_numbers">
-					        </span>
-					        <button type="button" class="btn btn-default btn-lg btn_reset">Сброс</button>
-					      </h2>
-					      <div class="col-md-4 col-sm-6 col-xs-9 marakata_sim-wrap marakata_game"><div class="marakata_sim marakata_sim_g marakata_sim-0 marakata_sim_game"></div></div>
-					    </div>
-					  </div>
-					  <div class="col-md-12">
-					    <div class="row" style="text-align: center;">
-					        <button type="button" class="btn btn-default btn-small btn_game">Начать с начала</button>
-					    </div>
-					  </div>
-					</div>
-				</div>
-			</div><!-- .section-content -->
-		</div><!-- .section-wrap -->
-  </section><!-- #deviatochka.section -->
+								data-out-animation-delay="100">Оцифратор для игры</h2>
+							
+							<div class="row section-description text-center no_padding_wrap"
+										data-animation="fadeInDown"
+										data-animation-delay="200"
+										data-out-animation="fadeOutUp"
+										data-out-animation-delay="200">
+							  <div class="col-md-12 no_padding_wrap content">
+							    <div class="row">
+							      <h2 class="col-md-12 marakata_heading">
+							        <span class="game_numbers">
+							        </span>
+							        <button type="button" class="btn btn-default btn-lg btn_reset">Сброс</button>
+							      </h2>
+							      <div class="col-md-4 col-sm-6 col-xs-9 marakata_sim-wrap marakata_game"><div class="marakata_sim marakata_sim_g marakata_sim-0 marakata_sim_game"></div></div>
+							    </div>
+							  </div>
+							  <div class="col-md-12">
+							    <div class="row" style="text-align: center;">
+							        <button type="button" class="btn btn-default btn-small btn_game">Начать с начала</button>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div><!-- .section-content -->
+				</div><!-- .section-wrap -->
+		  </section><!-- #deviatochka.section -->
+		<?php } ?>
+	<?php } ?>
   
   <section id="contact" class="section">
 		<div class="section-wrap">
