@@ -213,7 +213,7 @@ span.hidden-md.hidden-lg.icon
 {
   cursor: default;
 }
-.site-header .header-wrap .header-box .main-menu ul li a.lc.lc_mar span i, .site-header .header-wrap .header-box .main-menu ul li a.lc.lc_mar .icon
+.site-header .header-wrap .header-box .main-menu ul li a.lc.lc_mar span i, .site-header .header-wrap .header-box .main-menu ul li a.lc.lc_mar span.hidden-md.hidden-lg.icon
 {
   color: rgba(152, 152, 152, 0.3);
 }
