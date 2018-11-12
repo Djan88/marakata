@@ -554,23 +554,7 @@
 								</div> -->
 							</div>
 						</div>
-			
 						<div class="clearfix"></div>
-						
-						<div id="map" class="map-box">
-							<div class="map-wrap">
-								<a href="#" class="close">&times;</a>
-								
-								<div
-									class="map-canvas"
-									data-zoom="6"
-									data-lat="40.748441"
-									data-lng="-73.985664"
-									data-title="Bryant Park"
-									data-content="New York, NY">
-								</div>
-							</div>
-						</div>
 					</div><!-- .contact-wrap -->
 				</div>
 			</div><!-- .section-content -->
@@ -618,7 +602,7 @@
 				</form> -->
 				
 				<!-- MailChimp -->
-				<form action="" method="post" name="mc-embedded-subscribe-form" class="validate mailchimp" target="_blank" novalidate>
+				<!-- <form action="" method="post" name="mc-embedded-subscribe-form" class="validate mailchimp" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
 						<div class="mc-field-group form-group">
 							<input class="form-control email" type="text" name="login" placeholder="Логин">
@@ -630,7 +614,7 @@
 							<input type="submit" value="Войти" name="enter" id="mc-embedded-subscribe" class="button btn btn-default">
 						</div>
 					</div>
-				</form>
+				</form> -->
 			</div>
 		</div>
   </div>

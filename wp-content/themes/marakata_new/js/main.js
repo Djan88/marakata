@@ -160,40 +160,6 @@ function animateFinish(){
 	});
 }
 
-
-
-//Slider Background
-function backgroundSlider() {
-	var slider = $('.background-slider');
-
-	if (slider.length) {
-		var autoplayTimeout = 2000,
-				animateIn       = 'fadeIn',
-				animateOut      = 'fadeOut';
-
-		if (slider.data('animateIn')) {
-			animateIn = slider.data('animateIn');
-		}
-
-		if (slider.data('animateOut')) {
-			animateOut = slider.data('animateOut');
-		}
-
-		if (slider.data('timeout')) {
-			autoplayTimeout = slider.data('timeout');
-		}
-
-		slider.owlCarousel({
-			animateIn       : animateIn,
-			animateOut      : animateOut,
-			items           : 1,
-			loop            : true,
-			autoplay        : true,
-			autoplayTimeout : autoplayTimeout
-		});
-	}
-}
-
 //Content Scroll
 function contentScroll(){
 	var section = $('.section.active');
@@ -254,7 +220,6 @@ $(document).ready(function(){
 
 	//Functions
 	mainMenu();
-	backgroundSlider();
 
 	//Functions(load)
 	$(window).on('load', function(){
