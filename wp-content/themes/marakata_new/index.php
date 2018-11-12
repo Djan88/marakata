@@ -87,7 +87,7 @@
 		
 		<div class="col-sm-2 header-box logo-box text-center">
 			<!-- <a href="index.html"><img src="img/logo.svg" width="108" height="78" alt="#"></a> -->
-			<a href="index-1.html"><img src="img/logo_mara.svg" width="108" height="78" alt="#"></a>
+			<a href="index-1.html"><img src="<?php bloginfo('template_url'); ?>/img/logo_mara.svg" width="108" height="78" alt="#"></a>
 			<!-- <a href="index.html"><img src="img/mara.png" alt="#"></a> -->
 		</div><!-- .header-box -->
 		
