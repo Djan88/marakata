@@ -115,7 +115,7 @@
 					</li><!--
 					--><li>
 						<?php if(is_user_logged_in()){ ?>
-							<a href="<?php echo home_url(); ?>/wp-login.php?action=logout&amp;_wpnonce=a6cad512ba" id="enter">
+							<a href="<?php echo home_url(); ?>/wp-login.php?action=logout&_wpnonce=b4eeaf6e42" id="enter">
 								<span class="hidden-xs hidden-sm">
 									<i class="hover-label">Выйти</i>
 									Выйти
