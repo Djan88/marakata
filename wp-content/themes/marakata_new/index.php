@@ -169,13 +169,13 @@
 						
 						<a href="#"
 							class="btn btn-default btn-main"
-							data-hover="К MARAKATA"
+							data-hover='В "MARAKATA"'
 							data-animation="fadeInDown"
 							data-animation-delay="600"
 							data-out-animation="fadeOutUp"
 							data-out-animation-delay="600"
 							data-toggle="modal"
-							data-target="#notify-my"><span class="button-label">ПОЛУЧИТЬ ДОСТУП</span></a>
+							data-target="#notify-my"><span class="button-label">ВОЙТИ</span></a>
 					</div>
 				</div>
 			</div><!-- .section-content -->
@@ -490,7 +490,7 @@
 									</div>
 								</form> -->
 							
-								<div class="row">
+								<!-- <div class="row">
 									<div class="col-sm-5 col-md-5">
 										<div class="contacts-box xs-text-center"
 											data-animation="fadeInDown"
@@ -550,7 +550,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 			
@@ -598,9 +598,9 @@
 			
 			<div class="modal-body">
 				<h4 class="modal-title">Войти в программу</h4>
-				<p>Enter your email address to get notified when site is ready</p>
+				<p>Для входи в программу введите ниже Ваши логин и пароль</p>
 				
-				<form class="under-construction" method="post">
+				<!-- <form class="under-construction" method="post">
 					<div class="form-group email">
 						<input class="form-control email" type="email" name="email" placeholder="Insert your e-mail">
 					</div>
@@ -614,24 +614,19 @@
 						<span class="error"></span>
 						<span class="progress"></span>
 					</button>
-				</form>
+				</form> -->
 				
 				<!-- MailChimp -->
 				<form action="" method="post" name="mc-embedded-subscribe-form" class="validate mailchimp" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
 						<div class="mc-field-group form-group">
-							<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-							<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+							<input class="form-control email" type="text" name="login" placeholder="Логин">
 						</div>
-						<div id="mce-responses" class="clear">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
-						</div>
-						<div style="position: absolute; left: -5000px;">
-							<input type="text" name="b_69007f000c70b89e124b9308d_1225ba8aee" tabindex="-1" value="">
+						<div class="mc-field-group form-group">
+							<input class="form-control email" type="text" name="pass" placeholder="Пароль">
 						</div>
 						<div class="clearfix">
-							<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-default">
+							<input type="submit" value="Войти" name="enter" id="mc-embedded-subscribe" class="button btn btn-default">
 						</div>
 					</div>
 				</form>
