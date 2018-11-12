@@ -404,7 +404,7 @@
 				<div class="container">
 					<div class="contact-wrap relative">
 						<div class="row">
-							<div class="col-xs-offset-0 col-sm-10 col-sm-offset-1 col-md-12">
+							<div class="col-xs-offset-0 col-sm-12">
 								<h2 class="text-center section-title"
 									data-animation="fadeInDown"
 									data-animation-delay="900"
