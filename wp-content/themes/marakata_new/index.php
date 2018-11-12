@@ -636,7 +636,6 @@
 </div>
 <?php wp_footer(); ?>
 <!--[if (!IE)|(gt IE 8)]><!-->
-  <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.3.min.js"></script>
 <!--<![endif]-->
 
 <!--[if lte IE 8]>
