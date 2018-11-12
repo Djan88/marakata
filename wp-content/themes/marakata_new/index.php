@@ -114,7 +114,9 @@
 						</a>
 					</li><!--
 					--><li>
-						<a href="#enter" id="enter">
+						<a href="#enter" id="enter"
+							data-toggle="modal"
+							data-target="#notify-my">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">Войти</i>
 								Войти
@@ -605,20 +607,7 @@
 					</button>
 				</form> -->
 				
-				<!-- MailChimp -->
-				<!-- <form action="" method="post" name="mc-embedded-subscribe-form" class="validate mailchimp" target="_blank" novalidate>
-					<div id="mc_embed_signup_scroll">
-						<div class="mc-field-group form-group">
-							<input class="form-control email" type="text" name="login" placeholder="Логин">
-						</div>
-						<div class="mc-field-group form-group">
-							<input class="form-control email" type="text" name="pass" placeholder="Пароль">
-						</div>
-						<div class="clearfix">
-							<input type="submit" value="Войти" name="enter" id="mc-embedded-subscribe" class="button btn btn-default">
-						</div>
-					</div>
-				</form> -->
+				
 				<form name="loginform" id="loginform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
 					<div id="mc_embed_signup_scroll">
 						<div class="mc-field-group form-group">
