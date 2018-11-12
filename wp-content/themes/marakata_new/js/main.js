@@ -32,7 +32,7 @@ function formStylization(){
 //Main Menu
 function mainMenu(){
 	var menu   = $('.main-menu'),
-			link   = $('.main-menu a, .go-section'),
+			link   = $('.main-menu a.lc, .go-section'),
 			url    = window.location.href,
 			hash   = url.substring(url.indexOf('#')),
 			homeId = 'home';

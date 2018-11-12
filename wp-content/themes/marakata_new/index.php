@@ -62,7 +62,7 @@
 			<div id="main-menu" class="main-menu">
 				<ul>
 					<li>
-						<a href="#marakata">
+						<a class="lc" href="#marakata">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">MARAKATA</i>
 								MARAKATA
@@ -73,7 +73,7 @@
 						</a>
 					</li><!--
 			--> <li>
-						<a href="#deviatochka">
+						<a class="lc" href="#deviatochka">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">Девяточка</i>
 								Девяточка
@@ -98,7 +98,7 @@
 			<div id="main-menu" class="main-menu pull-right">
 				<ul>
 					<li>
-						<a href="#contact">
+						<a class="lc" href="#contact">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">О проекте</i>
 								О проекте
