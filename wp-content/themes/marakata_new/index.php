@@ -89,7 +89,7 @@
 						<?php } ?>
 					<?php } else { ?>
 						<li>
-							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "MARAKATA"'>
+							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарешистрированным пользователям.'>
 								<span class="hidden-xs hidden-sm">
 									<i class="hover-label">MARAKATA</i>
 									MARAKATA
@@ -115,7 +115,7 @@
 							</li>
 						<?php } else { ?>
 							<li>
-								<a class="lc lc_mar" href="#deviatochka" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "9"'>
+								<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "9"'>
 									<span class="hidden-xs hidden-sm">
 										<i class="hover-label">Девяточка</i>
 										Девяточка
@@ -128,7 +128,7 @@
 						<?php } ?>
 					<?php } else { ?>
 						<li>
-							<a class="lc lc_mar" href="#deviatochka" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "9"'>
+							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарешистрированным пользователям.'>
 								<span class="hidden-xs hidden-sm">
 									<i class="hover-label">Девяточка</i>
 									Девяточка
