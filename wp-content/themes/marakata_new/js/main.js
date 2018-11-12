@@ -499,9 +499,6 @@ $(document).ready(function(){
 	formStylization();
 	mainMenu();
 	mapBox();
-	youtubeVideoBg();
-	sendEmail();
-	contactForm();
 	backgroundSlider();
 
 	//Functions(load)
