@@ -30,6 +30,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <?php wp_head(); ?> 
 </head>
 
 <body>
@@ -98,8 +99,8 @@
 					<li>
 						<a href="#contact">
 							<span class="hidden-xs hidden-sm">
-								<i class="hover-label">О программе</i>
-								О программе
+								<i class="hover-label">О проекте</i>
+								О проекте
 							</span>
 							<span class="hidden-md hidden-lg icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="//www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve" width="25" height="25">
@@ -157,8 +158,11 @@
 									data-animation-delay="300"
 									data-out-animation="fadeOutUp"
 									data-out-animation-delay="300">
-									Внешний вид и предназначение предметов. Существуют две версии магической игры Marakata. Одна версия представляет собой интерактивный веб-проект, а другая представлена «в реале». Ниже пойдет речь о версии, представленной «в реале».<br>
-									Игра представлена двумя основными компонентами: 1.Смысловое игровое поле (также выполняет функцию обложки для хранения органических флюидических носителей); выполнено из натуральной кожи высокого качества; Лицевая сторона имеет надпись «MARAKATA»; задняя сторона имеет надписи - краткие правила игры: «Проявленный мир исходит изнутри тебя. Измени себя - изменится проявленный мир»; «Сохраняй гармонию частей и получай удовольствие от происходящего»; 1. интерактивный веб-проект www.marakata.ru
+									Психодинамическая игра для путешествия по нашим внутренним мирам, снам и интроектам с целью поиска ограничений и напряжений нашего ума и тела, родовых и кармических дисфункций, пересмотру проблем личной истории и переработке найденных напряжений в ресурс жизненной силы.<br>
+									Тема ориентирована на пользователей различных профессий - психологов, бизнесменов, медиков и прочих «вольных художников»...<br>
+
+									Формат игры включает в себя комплект Marakata в реале, а также подключение к одноименному интерактивному веб- проекту.<br>
+									<span class="anno">Отрывок главы о игре "Marakata" из книги Юрия Чикурова "Биологическое Центирирование"</span>
 								</p>
 							</div>
 						</div>
@@ -366,7 +370,7 @@
 						data-animation="fadeInDown"
 						data-animation-delay="100"
 						data-out-animation="fadeOutUp"
-						data-out-animation-delay="100">Ицифратор для игры</h2>
+						data-out-animation-delay="100">Оцифратор для игры</h2>
 					
 					<div class="row section-description text-center no_padding_wrap"
 								data-animation="fadeInDown"
@@ -405,7 +409,19 @@
 									data-animation="fadeInDown"
 									data-animation-delay="900"
 									data-out-animation="fadeOutUp"
-									data-out-animation-delay="100">Contact</h2>
+									data-out-animation-delay="100">О проете "Marakata"</h2>
+
+								<p class="lead"
+									data-animation="fadeInDown"
+									data-animation-delay="900"
+									data-out-animation="fadeOutUp"
+									data-out-animation-delay="300">
+									Существуют две части магической игры Marakata. Одна часть представляет собой интерактивный веб-проект, а другая представлена «в реале». Ниже пойдет речь о версии, представленной «в реале».<br>
+									Игра представлена двумя основными компонентами:<br> 
+									1. Смысловое игровое поле (также выполняет функцию обложки для хранения органических флюидических носителей); выполнено из натуральной кожи высокого качества; Лицевая сторона имеет надпись «MARAKATA»; на оборотной сторне краткие правила игры: «Проявленный мир исходит изнутри тебя. Измени себя - изменится проявленный мир»; «Сохраняй гармонию частей и получай удовольствие от происходящего».<br>
+									2. Игровые фишки. Черная игровая фишка выполнена из рога буйвола и для хранения располагается исключительно в кармашке с надписью «утилизатор». Она может иметь природные белесоватые артефакты на своей поверхности - это нормально. Белая игровая фишка выполнена из высококачественной сердцевины бивня мамонта и для хранения располагается исключительно в кармашке с надписью «усилитель». Менять игровые фишки местами категорически недопустимо!<br>
+									Больше о игре "Marakata" Вы можете узнать из одноименной главы в книге Юрия Чикурова "Биологическое Центрирование".
+								</p>
 							
 								<form class="contact-form" method="post">
 									<div class="row">
@@ -611,7 +627,7 @@
 		</div>
   </div>
 </div>
-
+<?php wp_footer(); ?>
 <!--[if (!IE)|(gt IE 8)]><!-->
   <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.3.min.js"></script>
 <!--<![endif]-->
@@ -631,6 +647,33 @@
 <script src="<?php bloginfo('template_url'); ?>/js/froogaloop2.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter35230195 = new Ya.Metrika({
+                    id:35230195,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
 
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/35230195" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </body>
 </html>
