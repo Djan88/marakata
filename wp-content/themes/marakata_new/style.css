@@ -209,11 +209,11 @@ span.hidden-md.hidden-lg.icon
 {
   color: #d94f5c;
 }
-.ls.ls_mar
+.site-header .header-wrap .header-box .main-menu ul li a.ls.ls_mar
 {
   cursor: default;
 }
-.ls.ls_mar span i
+.site-header .header-wrap .header-box .main-menu ul li a.ls.ls_mar span i
 {
   color: rgba(152, 152, 152, 0.3);
 }
