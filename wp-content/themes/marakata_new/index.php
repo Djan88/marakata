@@ -114,7 +114,7 @@
 						</a>
 					</li><!--
 					--><li>
-						<a href="#enter" id="enter"
+						<span id="enter"
 							data-toggle="modal"
 							data-target="#notify-my">
 							<span class="hidden-xs hidden-sm">
@@ -129,7 +129,7 @@
 									c0.2,0.2,0.3,0.5,0.3,0.8v12.9c0,0.3-0.1,0.6-0.3,0.8l-8.5-6.5l-0.8,0.7l8.4,6.5c-0.1,0-0.3,0.1-0.4,0.1H2.6L2.6,17z"/>
 								</svg>
 							</span>
-						</a>
+						</span>
 					</li>
 				</ul>
 			</div>
