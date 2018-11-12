@@ -258,7 +258,7 @@
   </section><!-- #home.section -->
   
   <?php if(is_user_logged_in()){ ?>
-  	<?php if(is_user_role('subscriber') || is_user_role('administrator') || is_user_role('author')) { ?>
+  	<?php if(is_user_role('contributor') || is_user_role('administrator') || is_user_role('author')) { ?>
 		  <section id="marakata" class="section">
 				<div class="section-wrap">
 					<div class="section-content">
