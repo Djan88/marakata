@@ -1,34 +1,6 @@
 "use strict";
 var $ = jQuery;
 
-//Form Stylization
-function formStylization(){
-	var radio    = 'input[type="radio"]',
-			checkbox = 'input[type="checkbox"]';
-
-	$(radio).wrap('<div class="new-radio"></div>').closest('.new-radio').append('<span></span>');
-	$(checkbox).wrap('<div class="new-checkbox"></div>').closest('.new-checkbox').append('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13 11" enable-background="new 0 0 13 11" xml:space="preserve"><polyline points="0.2,4.6 1,4 5,9 12,0 12.8,0.6 5.8,9.6 5,10.6 4.2,9.6 0.2,4.6 "/></svg>');
-	$(checkbox + ':checked').parent('.new-checkbox').addClass('checked');
-	$(radio + ':checked').parent('.new-radio').addClass('checked');
-	$(checkbox + ':disabled').closest('.checkbox').addClass('disabled');
-	$(radio + ':disabled').closest('.radio').addClass('disabled');
-
-	$('body').on('click', function(){
-		$(radio).parent('.new-radio').removeClass('checked');
-		$(radio + ':checked').parent('.new-radio').addClass('checked');
-		$(checkbox).parent('.new-checkbox').removeClass('checked');
-		$(checkbox + ':checked').parent('.new-checkbox').addClass('checked');
-		$(radio).closest('.radio').removeClass('disabled');
-		$(checkbox).closest('.checkbox').removeClass('disabled');
-		$(radio + ':disabled').closest('.radio').addClass('disabled');
-		$(checkbox + ':disabled').closest('.checkbox').addClass('disabled');
-	});
-
-	if($.fn.selectpicker){
-		$('select:not(".without-styles")').selectpicker();
-	}
-}
-
 //Main Menu
 function mainMenu(){
 	var menu   = $('.main-menu'),
@@ -188,78 +160,6 @@ function animateFinish(){
 	});
 }
 
-//Carousels
-function carousels(){
-	var carouselBox = $('.carousel-box');
-
-	carouselBox.each(function(){
-		var thisBox      = $(this),
-				carousel     = $(this).find('.carousel'),
-				animation    = 'zoomIn',
-				animationOut = 'zoomOut',
-				items        = {0 : {items : 1}, 768 : { items : 3}};
-
-		if (thisBox.data('carouselAnimation')){
-			animation = thisBox.data('carouselAnimation');
-		}
-
-		if (thisBox.data('carouselOutAnimation')){
-			animationOut = thisBox.data('carouselOutAnimation');
-		}
-
-		carousel.owlCarousel({
-			loop            : true,
-			margin          : 20,
-			pullDrag        : false,
-			responsiveClass : true,
-			responsive      : items,
-			mouseDrag       : false,
-			touchDrag       : false,
-			navRewind       : false,
-			dots            : false
-		}).touchwipe({
-			wipeLeft: function(){
-				thisBox.find('.carousel-controls .next').trigger('click');
-			},
-			wipeRight: function(){
-				thisBox.find('.carousel-controls .prev').trigger('click');
-			},
-			preventDefaultEvents: false
-		});
-
-		carousel.closest('.carousel-box').on('click', '.nav-item', function(e){
-			var item = carousel.find('.owl-item .item');
-
-			e.preventDefault();
-
-			item.css('animation-delay', '1ms');
-
-			item.each(function(){
-				var $this = $(this);
-
-				if ($this.data('animation')){
-					$this.removeClass($this.data('animation'));
-				}
-
-				$this.addClass(animationOut);
-			});
-
-			var event = 'next';
-
-			if ($(this).hasClass('prev')) {
-				event = 'prev';
-			}
-
-			setTimeout(function(){
-				carousel.trigger(event + '.owl.carousel');
-			}, 400);
-
-			setTimeout(function(){
-				item.removeClass(animationOut).addClass(animation);
-			}, 800);
-		});
-	});
-}
 
 
 //Slider Background
@@ -353,7 +253,6 @@ $(document).ready(function(){
 	});
 
 	//Functions
-	formStylization();
 	mainMenu();
 	backgroundSlider();
 
