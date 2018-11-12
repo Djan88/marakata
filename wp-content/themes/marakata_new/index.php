@@ -158,10 +158,10 @@
 									data-animation-delay="300"
 									data-out-animation="fadeOutUp"
 									data-out-animation-delay="300">
-									Психодинамическая игра для путешествия по нашим внутренним мирам, снам и интроектам с целью поиска ограничений и напряжений нашего ума и тела, родовых и кармических дисфункций, пересмотру проблем личной истории и переработке найденных напряжений в ресурс жизненной силы.<br>
+									...Психодинамическая игра для путешествия по нашим внутренним мирам, снам и интроектам с целью поиска ограничений и напряжений нашего ума и тела, родовых и кармических дисфункций, пересмотру проблем личной истории и переработке найденных напряжений в ресурс жизненной силы.<br>
 									Тема ориентирована на пользователей различных профессий - психологов, бизнесменов, медиков и прочих «вольных художников»...<br>
 
-									Формат игры включает в себя комплект Marakata в реале, а также подключение к одноименному интерактивному веб- проекту.<br>
+									...Формат игры включает в себя комплект Marakata в реале, а также подключение к одноименному интерактивному веб- проекту...<br>
 									<span class="anno">Отрывок главы о игре "Marakata" из книги Юрия Чикурова "Биологическое Центирирование"</span>
 								</p>
 							</div>
@@ -409,7 +409,7 @@
 									data-animation="fadeInDown"
 									data-animation-delay="900"
 									data-out-animation="fadeOutUp"
-									data-out-animation-delay="100">О проете "Marakata"</h2>
+									data-out-animation-delay="100">О проекте "Marakata"</h2>
 
 								<p class="lead"
 									data-animation="fadeInDown"
@@ -429,8 +429,13 @@
 										</div>
 									</div>
 								</p>
-							
-								<form class="contact-form" method="post">
+								<!-- <h2 class="text-center section-title"
+									data-animation="fadeInDown"
+									data-animation-delay="900"
+									data-out-animation="fadeOutUp"
+									data-out-animation-delay="100">Обратная связь.</h2> -->
+
+								<!-- <form class="contact-form" method="post">
 									<div class="row">
 										<div class="col-sm-6 form-group name">
 											<input type="text"
@@ -483,7 +488,7 @@
 											<span class="progress"></span>
 										</button>
 									</div>
-								</form>
+								</form> -->
 							
 								<div class="row">
 									<div class="col-sm-5 col-md-5">
