@@ -606,7 +606,7 @@
 				</form> -->
 				
 				<!-- MailChimp -->
-				<!-- <form action="" method="post" name="mc-embedded-subscribe-form" class="validate mailchimp" target="_blank" novalidate>
+				<form action="" method="post" name="mc-embedded-subscribe-form" class="validate mailchimp" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
 						<div class="mc-field-group form-group">
 							<input class="form-control email" type="text" name="login" placeholder="Логин">
@@ -618,7 +618,7 @@
 							<input type="submit" value="Войти" name="enter" id="mc-embedded-subscribe" class="button btn btn-default">
 						</div>
 					</div>
-				</form> -->
+				</form>
 			</div>
 		</div>
   </div>
