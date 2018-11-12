@@ -76,7 +76,7 @@
 							</li>
 						<?php } else { ?>
 							<li>
-								<a class="lc lc_mar" href="#locked">
+								<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "MARAKATA"'>
 									<span class="hidden-xs hidden-sm">
 										<i class="hover-label">MARAKATA</i>
 										MARAKATA
@@ -89,7 +89,7 @@
 						<?php } ?>
 					<?php } else { ?>
 						<li>
-							<a class="lc lc_mar" href="#locked">
+							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "MARAKATA"'>
 								<span class="hidden-xs hidden-sm">
 									<i class="hover-label">MARAKATA</i>
 									MARAKATA
