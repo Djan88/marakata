@@ -35,7 +35,8 @@
 
 <body>
 
-<div class="preloader"><span></span></div><!-- .preloader -->
+<!-- <div class="preloader"><span></span></div> -->
+<!-- .preloader -->
 
 <div class="background">
   <div class="layer background-image page-bg-1"></div>
@@ -639,7 +640,18 @@
   <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.3.min.js"></script>
 <!--<![endif]-->
 
-
+<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/bootstrap-select.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js"></script>
+<!-- <script src="<?php //bloginfo('template_url'); ?>/js/jquery.ajaxchimp.min.js"></script> -->
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.plugin.min.js"></script> 
+<!-- <script src="<?php //bloginfo('template_url'); ?>/js/jquery.countdown.min.js"></script> -->
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.mCustomScrollbar.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.touchwipe.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/included-plagins.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/froogaloop2.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {

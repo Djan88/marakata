@@ -63,43 +63,7 @@ function mainMenu(){
 			}
 		});
 
-		if (!$this.hasClass('open')) {
-			link.removeClass('open');
 
-			menu.find('[href="#'+ id +'"]').addClass('active').addClass('open');
-
-			$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
-				$('.section').removeClass('active');
-
-				$('#' + id).addClass('active');
-
-				$(this).fadeOut(400);
-
-				setTimeout(function(){
-					contentScroll();
-					animateStart();
-				}, 0);
-
-				document.location.hash = '#' + id;
-			});
-		} else {
-			$('body').find('.preloader').delay(duration + 500).fadeIn(400, function() {
-				link.removeClass('open');
-
-				$('.section').removeClass('active');
-
-				$('#' + homeId).addClass('active');
-
-				$(this).fadeOut(400);
-
-				setTimeout(function(){
-					contentScroll();
-					animateStart();
-				}, 0);
-
-				document.location.hash = '#' + homeId;
-			});
-		}
 	});
 
 	if (hash != '#')
@@ -612,7 +576,7 @@ $(document).ready(function(){
 		contentScroll();
 
 		//Preloader
-		$('body').delay(500).addClass('loaded').find('.preloader').fadeOut(400);
+		// $('body').delay(500).addClass('loaded').find('.preloader').fadeOut(400);
 	});
 
 	//Notify me (MailChimp)
