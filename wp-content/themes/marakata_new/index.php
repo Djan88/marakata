@@ -89,7 +89,7 @@
 						<?php } ?>
 					<?php } else { ?>
 						<li>
-							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарешистрированным пользователям.'>
+							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарегистрированным пользователям.'>
 								<span class="hidden-xs hidden-sm">
 									<i class="hover-label">MARAKATA</i>
 									MARAKATA
@@ -128,7 +128,7 @@
 						<?php } ?>
 					<?php } else { ?>
 						<li>
-							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарешистрированным пользователям.'>
+							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарегистрированным пользователям.'>
 								<span class="hidden-xs hidden-sm">
 									<i class="hover-label">Девяточка</i>
 									Девяточка
