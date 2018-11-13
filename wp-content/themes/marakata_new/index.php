@@ -530,7 +530,7 @@
 										<div class="col-xs-12 col-sm-4 col-md-4">
 											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/98.png"><img src="<?php bloginfo('template_url'); ?>/img/98.png" alt="field"></a>
 										</div>
-										<div class="col-xs-12col-sm-4 col-md-4">
+										<div class="col-xs-12 col-sm-4 col-md-4">
 											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/99.png"><img src="<?php bloginfo('template_url'); ?>/img/99.png" alt="icons"></a>
 										</div>
 									</div>
