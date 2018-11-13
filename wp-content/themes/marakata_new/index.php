@@ -525,13 +525,13 @@
 										data-out-animation="fadeOutUp"
 										data-out-animation-delay="500">
 										<div class="col-xs-12 col-sm-6 col-md-6">
-											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/98.png"><img src="<?php bloginfo('template_url'); ?>/img/98.png" alt="field"></a>
+											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/98.png"><img src="<?php bloginfo('template_url'); ?>/img/98.png" alt="Игровое поле"></a>
 										</div>
 										<div class="col-xs-12 col-sm-6 col-md-6">
-											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/99.png"><img src="<?php bloginfo('template_url'); ?>/img/99.png" alt="icons"></a>
+											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/99.png"><img src="<?php bloginfo('template_url'); ?>/img/99.png" alt="Фишки"></a>
 										</div>
 										<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
-											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/patent.png"><img src="<?php bloginfo('template_url'); ?>/img/patent.png" alt="field"></a>
+											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/patent.png"><img src="<?php bloginfo('template_url'); ?>/img/patent.png" alt="Патент"></a>
 										</div>
 									</div>
 								</p>
