@@ -231,6 +231,14 @@ span.anno
   color: #555;
   font-style: italic;
 }
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar 
+{
+  width: 10px;
+}
+.mCSB_scrollTools .mCSB_draggerRail
+{
+  width: 10px;
+}
 @media (min-width: 991px){
   .site-header .header-wrap .header-box .main-menu ul li a.active span.hidden-xs:before, 
   .site-header .header-wrap .header-box .main-menu ul li a.active span.hidden-sm:before, 
