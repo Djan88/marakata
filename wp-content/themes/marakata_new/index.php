@@ -32,7 +32,7 @@
         {
           display: none;
         }
-        html.mdl-js#html
+        html
         {
           margin-top: 0!important;
           padding-top: 0!important; 
