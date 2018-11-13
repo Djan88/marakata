@@ -31,7 +31,7 @@ jQuery(function() {
         page_h = jQuery("html").width();
         console.log(block_w);
         if (page_h > 1200) {
-            scroll_val = 1200;
+            scroll_val = 212.5;
         } else if (page_h < 1200 && page_h > 1000) {
             scroll_val = 167;
         } else if (page_h < 1000 && page_h > 768) {
