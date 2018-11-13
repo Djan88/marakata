@@ -524,11 +524,14 @@
 										data-animation-delay="900"
 										data-out-animation="fadeOutUp"
 										data-out-animation-delay="500">
-										<div class="col-xs-12 col-sm-6 col-md-6">
-											<img src="<?php bloginfo('template_url'); ?>/img/98.png" alt="field">
+										<div class="col-xs-12 col-sm-4 col-md-4">
+											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/patent.png"><img src="<?php bloginfo('template_url'); ?>/img/patent.png" alt="field"></a>
 										</div>
-										<div class="col-xs-12col-sm-6 col-md-6">
-											<img src="<?php bloginfo('template_url'); ?>/img/99.png" alt="icons">
+										<div class="col-xs-12 col-sm-4 col-md-4">
+											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/98.png"><img src="<?php bloginfo('template_url'); ?>/img/98.png" alt="field"></a>
+										</div>
+										<div class="col-xs-12col-sm-4 col-md-4">
+											<a target="_blank" href="<?php bloginfo('template_url'); ?>/img/99.png"><img src="<?php bloginfo('template_url'); ?>/img/99.png" alt="icons"></a>
 										</div>
 									</div>
 								</p>
