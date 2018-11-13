@@ -18,12 +18,12 @@ Tags: simple
 }
 header.site-header 
 {
-  padding-top: 0;
-  height: 90px;
+  padding: 0;
+  height: 80px;
 }
 .main
 {
-  padding-top: 90px;
+  padding-top: 80px;
 }
 .main .section .section-wrap .section-content
 {
@@ -48,7 +48,7 @@ body section p
 }
 .main .section.active
 {
-  height: calc(100% - 113px);
+  height: calc(100% - 80px);
 }
 .marakata_sim-wrap
 {
