@@ -95,6 +95,11 @@ body section p
 .section-title
 {
   margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.section-description 
+{
+  margin-bottom: 15px;
 }
 .section-title:before
 {
