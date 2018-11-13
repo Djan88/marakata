@@ -37,7 +37,7 @@ jQuery(function() {
       } else if (page_h < 1000 && page_h > 769) {
           scroll_val = 125.5;
       } else if (page_h < 768 && page_h > 600) {
-          scroll_val =  block_w * 1.255382417582418;
+          scroll_val =  block_w * 1.265382417582418;
           jQuery(".marakata_sim.marakata_sim_prot").css('height', scroll_val+'px');
           jQuery(".marakata_dot").css('height', scroll_val+'px');
       } else {
