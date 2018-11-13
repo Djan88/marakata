@@ -33,7 +33,7 @@ jQuery(function() {
       if (page_h > 1200) {
           scroll_val = 172;
       } else if (page_h < 1200 && page_h > 1001) {
-          scroll_val = 174.1;
+          scroll_val = 171.4;
       } else if (page_h < 1000 && page_h > 769) {
           scroll_val = 128.3;
       } else if (page_h < 768 && page_h > 600) {
