@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html style="margin-top: 0!important; padding-top: 0!important;">
 <head>
   <meta charset="utf-8">
   <title><?php wp_title(''); ?></title>
