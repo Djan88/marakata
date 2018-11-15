@@ -30,6 +30,11 @@ header.site-header
   padding-top: 10px;
   padding-bottom: 0;
 }
+.body_link
+{
+  color: #d94f5c;
+  text-decoration: none;
+}
 .site-header .header-wrap .header-box .main-menu ul li a.active span.hidden-md:before, 
 .site-header .header-wrap .header-box .main-menu ul li a.active span.hidden-lg:before, 
 .site-header .header-wrap .header-box .main-menu ul li a.active span.hidden-md:after,
