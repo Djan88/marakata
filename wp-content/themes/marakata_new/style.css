@@ -16,6 +16,10 @@ Tags: simple
 {
   color: #d94f5c;
 }
+h3
+{
+  line-height: 1.2;
+}
 header.site-header 
 {
   padding: 0;
