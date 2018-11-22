@@ -256,7 +256,7 @@ jQuery(function() {
             curTrY = 0;
           } else {
             max_time_game = max_time_game -1;
-            curTrY = curTrY-(scroll_game*max_time_game);
+            curTrY = -(scroll_game*max_time_game);
           }
           console.log(jQuery(this));
           jQuery(this).css('backgroundPositionY', curTrY+'px');
