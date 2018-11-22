@@ -216,7 +216,7 @@ span.hidden-md.hidden-lg.icon
   border-top: 2px solid rgba(99,99,99,0.3);
   border-bottom: 2px solid rgba(99,99,99,0.3);
 }
-.marakata_sim-active, .marakata_sim-active.marakata_game .marakata_sim
+.marakata_sim-active, .marakata_game .marakata_sim.marakata_sim-active
 {
   border-color: #d94f5c;
 }
