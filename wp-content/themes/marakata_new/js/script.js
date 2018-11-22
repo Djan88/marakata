@@ -258,8 +258,8 @@ jQuery(function() {
             max_time_game = max_time_game -1;
             curTrY = curTrY-(scroll_game*max_time_game);
           }
-          console.log(jQuery(this));
-          jQuery(this).css('backgroundPositionY', curTrY+'px');
+          console.log(curTrY);
+          jQuery('.marakata_sim_g').css('backgroundPositionY', curTrY+'px');
           game_counter += 1;
           jQuery('.marakata_sim').removeClass('marakata_sim-active');
           jQuery(this).removeClass('marakata_sim_game');
