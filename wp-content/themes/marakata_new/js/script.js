@@ -45,7 +45,7 @@ jQuery(function() {
           jQuery(".marakata_sim.marakata_sim_prot").css('height', scroll_val+'px');
           jQuery(".marakata_dot").css('height', scroll_val+'px');
       }
-      scroll_game = 412.875;
+      scroll_game = 395.6;
   };
   jQuery('.menu-proto').on('click', function(event) {
       hideAll();
