@@ -255,7 +255,7 @@ jQuery(function() {
           if (max_time_game <= 1) {
             curTrY = 0;
           } else {
-            max_time_game = max_time_game -1;
+            max_time_game = max_time_game;
             curTrY = -(scroll_game*max_time_game);
           }
           console.log(jQuery(this));
