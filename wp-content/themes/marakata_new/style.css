@@ -116,10 +116,6 @@ body section p
 {
   height: 0;
 }
-.marakata_sim-active
-{
-  border-color: #d94f5c;
-}
 .item 
 {
   height: 100px;
@@ -216,6 +212,13 @@ span.hidden-md.hidden-lg.icon
 .marakata_game .marakata_sim
 {
   height: 500px;
+  border: none;
+  border-top: 2px solid rgba(99,99,99,0.3);
+  border-bottom: 2px solid rgba(99,99,99,0.3);
+}
+.marakata_sim-active, .marakata_sim-active.marakata_game .marakata_sim
+{
+  border-color: #d94f5c;
 }
 .btn_game 
 {
