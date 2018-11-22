@@ -45,7 +45,7 @@ jQuery(function() {
           jQuery(".marakata_sim.marakata_sim_prot").css('height', scroll_val+'px');
           jQuery(".marakata_dot").css('height', scroll_val+'px');
       }
-      scroll_game = 405;
+      scroll_game = 506.2;
   };
   jQuery('.menu-proto').on('click', function(event) {
       hideAll();
@@ -255,8 +255,8 @@ jQuery(function() {
           if (max_time_game <= 1) {
             curTrY = 0;
           } else {
-            max_time_game = max_time_game;
-            curTrY = -(scroll_game*max_time_game);
+            max_time_game = max_time_game -1;
+            curTrY = curTrY-(scroll_game*max_time_game);
           }
           console.log(jQuery(this));
           jQuery(this).css('backgroundPositionY', curTrY+'px');
