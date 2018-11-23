@@ -91,18 +91,6 @@ body section p
 {
   background: #fff;
 }
-.marakata_sim:after, .marakata_dot:after 
-{
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  height: 250px;
-  width: 100%;
-  /*background: url(img/counter_front.png) -5px -40px/106% no-repeat;*/
-}
 .section-title
 {
   margin-bottom: 0;
