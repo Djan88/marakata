@@ -186,7 +186,7 @@ span.hidden-md.hidden-lg.icon
   /*overflow: hidden;*/
   width: 400px;
   height: 500px!important;
-  background: #fff;
+  /*background: #fff;*/
   /*background: url(img/counter_back.gif) 17px -30px/91% no-repeat;*/
 }
 #deviatochka .no_padding_wrap
