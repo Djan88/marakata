@@ -61,7 +61,7 @@ body section p
 {
   height: calc(100% - 80px);
 }
-.marakata_sim-wrap
+#marakata .marakata_sim-wrap
 {
   overflow: hidden;
   height: 180px;
@@ -183,6 +183,7 @@ span.hidden-md.hidden-lg.icon
   display: block;
   margin: auto;
   float: none;
+  overflow: hidden;
   width: 400px;
   /*background: url(img/counter_back.gif) 17px -30px/91% no-repeat;*/
 }
@@ -258,7 +259,7 @@ span.anno
   }
 }
 @media (max-width: 991px){
-  .marakata_sim-wrap
+  #marakata .marakata_sim-wrap
   {
     height: 130px;
   }
