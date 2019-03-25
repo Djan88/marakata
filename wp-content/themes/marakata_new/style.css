@@ -91,7 +91,7 @@ body section p
   width: 100%;
   font-size: 110px;
   position: relative;
-  z-index: 1;
+  /*z-index: 1;*/
   color: #000;
   margin-top: 0;
 }
@@ -186,7 +186,7 @@ span.hidden-md.hidden-lg.icon
   overflow: hidden;
   width: 400px;
   height: 500px!important;
-  background: url(img/numbers_game.png) top left/400px repeat-y;
+  background: #fff;
   /*background: url(img/counter_back.gif) 17px -30px/91% no-repeat;*/
 }
 #deviatochka .no_padding_wrap
@@ -195,7 +195,7 @@ span.hidden-md.hidden-lg.icon
 }
 .marakata_game .marakata_sim 
 {
-  
+  background: url(img/numbers_game.png) top left/400px repeat-y;
 }
 .game_number
 {
