@@ -86,7 +86,7 @@ body section p
   border-left: 2px solid rgba(99,99,99,0.3);
   border-right: 2px solid rgba(99,99,99,0.3);
   box-sizing: border-box;
-  border-radius: 6px;
+  /*border-radius: 6px;*/
   height: 1715px;
   width: 100%;
   font-size: 110px;
