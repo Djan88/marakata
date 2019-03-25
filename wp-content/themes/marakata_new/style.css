@@ -65,6 +65,7 @@ body section p
 {
   overflow: hidden;
   height: 180px;
+  background: #fff;
 }
 .marakata_sim
 {
@@ -78,7 +79,8 @@ body section p
 .marakata_sim, .marakata_dot 
 {
   text-align: center;
-  border: 2px solid rgba(99,99,99,0.3);
+  border-left: 2px solid rgba(99,99,99,0.3);
+  border-right: 2px solid rgba(99,99,99,0.3);
   box-sizing: border-box;
   border-radius: 6px;
   height: 1715px;
