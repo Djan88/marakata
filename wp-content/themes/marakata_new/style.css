@@ -258,7 +258,7 @@ span.anno
   }
 }
 @media (max-width: 991px){
-  .marakata_sim, .marakata_dot
+  .marakata_sim-wrap
   {
     height: 130px;
   }
