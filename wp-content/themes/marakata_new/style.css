@@ -196,7 +196,7 @@ span.hidden-md.hidden-lg.icon
 .marakata_sim_game
 {
   background: url(img/numbers_game.png) repeat-y;
-  height: 4543px;
+  height: 4543px!important;
   border: none;
   border-left: 2px solid rgba(99,99,99,0.3);
   border-right: 2px solid rgba(99,99,99,0.3);
