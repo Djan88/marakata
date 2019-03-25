@@ -213,8 +213,9 @@ span.hidden-md.hidden-lg.icon
 {
   height: 4550px;
   border: none;
-  border-top: 2px solid rgba(99,99,99,0.3);
-  border-bottom: 2px solid rgba(99,99,99,0.3);
+  overflow: visible;
+  border-left: 2px solid rgba(99,99,99,0.3);
+  border-right: 2px solid rgba(99,99,99,0.3);
 }
 .marakata_sim-active, .marakata_game .marakata_sim.marakata_sim-active
 {
