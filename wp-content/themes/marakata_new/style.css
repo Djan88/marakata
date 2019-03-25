@@ -185,6 +185,7 @@ span.hidden-md.hidden-lg.icon
   float: none;
   overflow: hidden;
   width: 400px;
+  height: 500px;
   /*background: url(img/counter_back.gif) 17px -30px/91% no-repeat;*/
 }
 #deviatochka .no_padding_wrap
@@ -209,7 +210,7 @@ span.hidden-md.hidden-lg.icon
 }
 .marakata_game .marakata_sim
 {
-  height: 500px;
+  height: 4550px;
   border: none;
   border-top: 2px solid rgba(99,99,99,0.3);
   border-bottom: 2px solid rgba(99,99,99,0.3);
