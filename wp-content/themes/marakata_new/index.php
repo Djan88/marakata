@@ -416,12 +416,36 @@
 										data-animation-delay="200"
 										data-out-animation="fadeOutUp"
 										data-out-animation-delay="200">
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-1 marakata_sim_from"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-2 marakata_sim_from"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-3 marakata_sim_from"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-4 marakata_sim_from"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-5 marakata_sim_from"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-1 marakata_sim_from"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-2 marakata_sim_from"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-3 marakata_sim_from"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-4 marakata_sim_from"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_dot">.</div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-5 marakata_sim_from"></div>
+									</div>
+								</div>
 							</div>
 							<h2 class="text-center section-title"
 								data-animation="fadeInDown"
@@ -433,12 +457,36 @@
 										data-animation-delay="400"
 										data-out-animation="fadeOutUp"
 										data-out-animation-delay="400">
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-6"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-7"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-8"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-9"></div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_dot">.</div></div>
-								<div class="col-md-2 col-xs-2 marakata_sim-wrap"><div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-10"></div></div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-6"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-7"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-8"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-9"></div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_dot">.</div>
+									</div>
+								</div>
+								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
+									<div class="marakata_sim-inner">
+										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-10"></div>
+									</div>
+								</div>
 							</div>
 							<div class="row" style="text-align: center;">
 							  <button type="button" class="btn btn-default btn-lg btn_reset btn_reset_prot">Начать с начала</button>
