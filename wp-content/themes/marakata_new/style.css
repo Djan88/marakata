@@ -71,9 +71,9 @@ body section p
   background: url(img/numbers.png) top left/100% repeat-y;
   color: transparent;
   background-position-y: 0px;
-  -webkit-transition: padding-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: padding-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: padding-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .marakata_sim, .marakata_dot 
 {
@@ -87,7 +87,7 @@ body section p
   position: relative;
   z-index: 1;
   color: #000;
-  padding-top: 0;
+  margin-top: 0;
 }
 .marakata_dot 
 {

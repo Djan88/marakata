@@ -61,67 +61,67 @@ jQuery(function() {
   var protocol_1 = function(){
     times = Math.round(Math.random() * (9 - 0));
     console.log(times);
-    curTrY = parseFloat(jQuery('.marakata_sim-1').css('paddingTop'));
+    curTrY = parseFloat(jQuery('.marakata_sim-1').css('marginTop'));
     curTrY = curTrY-(scroll_val*times);
-    jQuery('.marakata_sim-1').css('paddingTop', curTrY+'px');
+    jQuery('.marakata_sim-1').css('marginTop', curTrY+'px');
   }
   var protocol_2 = function(){
     times = Math.round(Math.random() * (9 - 0));
       console.log(times);
-    curTrY = parseFloat(jQuery('.marakata_sim-2').css('paddingTop'));
+    curTrY = parseFloat(jQuery('.marakata_sim-2').css('marginTop'));
     curTrY = curTrY-(scroll_val*times);
-    jQuery('.marakata_sim-2').css('paddingTop', curTrY+'px');
+    jQuery('.marakata_sim-2').css('marginTop', curTrY+'px');
   }
   var protocol_3 = function(){
     times = Math.round(Math.random() * (9 - 0));
       console.log(times);
-    curTrY = parseFloat(jQuery('.marakata_sim-3').css('paddingTop'));
+    curTrY = parseFloat(jQuery('.marakata_sim-3').css('marginTop'));
     curTrY = curTrY-(scroll_val*times);
-    jQuery('.marakata_sim-3').css('paddingTop', curTrY+'px');
+    jQuery('.marakata_sim-3').css('marginTop', curTrY+'px');
   }
   var protocol_4 = function(){
     times = Math.round(Math.random() * (9 - 0));
       console.log(times);
-    curTrY = parseFloat(jQuery('.marakata_sim-4').css('paddingTop'));
+    curTrY = parseFloat(jQuery('.marakata_sim-4').css('marginTop'));
     curTrY = curTrY-(scroll_val*times);
-    jQuery('.marakata_sim-4').css('paddingTop', curTrY+'px');
+    jQuery('.marakata_sim-4').css('marginTop', curTrY+'px');
   }
   var protocol_5 = function(){
     times = Math.round(Math.random() * (9 - 0));
       console.log(times);
-    curTrY = parseFloat(jQuery('.marakata_sim-5').css('paddingTop'));
+    curTrY = parseFloat(jQuery('.marakata_sim-5').css('marginTop'));
     curTrY = curTrY-(scroll_val*times);
-    jQuery('.marakata_sim-5').css('paddingTop', curTrY+'px');
+    jQuery('.marakata_sim-5').css('marginTop', curTrY+'px');
   }
   var result_1 = function(){
-    curY = parseFloat(jQuery('.marakata_sim-1').css('paddingTop'));
+    curY = parseFloat(jQuery('.marakata_sim-1').css('marginTop'));
     curTrY = 9 + (curY/scroll_val);
     resultY = (scroll_val*curTrY);
-    jQuery('.marakata_sim-6').css('paddingTop', -resultY+'px');
+    jQuery('.marakata_sim-6').css('marginTop', -resultY+'px');
   }
   var result_2 = function(){
-    curY = parseFloat(jQuery('.marakata_sim-2').css('paddingTop'));
+    curY = parseFloat(jQuery('.marakata_sim-2').css('marginTop'));
     curTrY = 9 + (curY/scroll_val);
     resultY = (scroll_val*curTrY);
-    jQuery('.marakata_sim-7').css('paddingTop', -resultY+'px');
+    jQuery('.marakata_sim-7').css('marginTop', -resultY+'px');
   }
   var result_3 = function(){
-    curY = parseFloat(jQuery('.marakata_sim-3').css('paddingTop'));
+    curY = parseFloat(jQuery('.marakata_sim-3').css('marginTop'));
     curTrY = 9 + (curY/scroll_val);
     resultY = (scroll_val*curTrY);
-    jQuery('.marakata_sim-8').css('paddingTop', -resultY+'px');
+    jQuery('.marakata_sim-8').css('marginTop', -resultY+'px');
   }
   var result_4 = function(){
-    curY = parseFloat(jQuery('.marakata_sim-4').css('paddingTop'));
+    curY = parseFloat(jQuery('.marakata_sim-4').css('marginTop'));
     curTrY = 9 + (curY/scroll_val);
     resultY = (scroll_val*curTrY);
-    jQuery('.marakata_sim-9').css('paddingTop', -resultY+'px');
+    jQuery('.marakata_sim-9').css('marginTop', -resultY+'px');
   }
   var result_5 = function(){
-    curY = parseFloat(jQuery('.marakata_sim-5').css('paddingTop'));
+    curY = parseFloat(jQuery('.marakata_sim-5').css('marginTop'));
     curTrY = 9 + (curY/scroll_val);
     resultY = (scroll_val*curTrY);
-    jQuery('.marakata_sim-10').css('paddingTop', -resultY+'px');
+    jQuery('.marakata_sim-10').css('marginTop', -resultY+'px');
   }
 
   jQuery('.start-prot').on('click', function(event) {
@@ -191,10 +191,10 @@ jQuery(function() {
         }
         counter += 1;
       } else {
-        curTrY = parseFloat(jQuery(this).css('paddingTop'));
+        curTrY = parseFloat(jQuery(this).css('marginTop'));
         curTrY = curTrY-(scroll_val*max_time);
         console.log(jQuery(this));
-        jQuery(this).css('paddingTop', curTrY+'px');
+        jQuery(this).css('marginTop', curTrY+'px');
         jQuery('.marakata_sim').removeClass('marakata_sim-active');
         jQuery(this).removeClass('marakata_sim_from');
         if (global_counter <= 2) {
@@ -250,7 +250,7 @@ jQuery(function() {
           }
           counter_game += 1;
         } else {
-          curTrY = parseFloat(jQuery(this).css('paddingTop'));
+          curTrY = parseFloat(jQuery(this).css('marginTop'));
           jQuery('.game_numbers').append(' <span class="game_number">'+max_time_game+'</span>')
           if (max_time_game <= 1) {
             curTrY = 0;
@@ -259,7 +259,7 @@ jQuery(function() {
             curTrY = curTrY-(scroll_game*max_time_game);
           }
           console.log(curTrY);
-          jQuery('.marakata_sim_g').css('paddingTop', curTrY+'px');
+          jQuery('.marakata_sim_g').css('marginTop', curTrY+'px');
           game_counter += 1;
           jQuery('.marakata_sim').removeClass('marakata_sim-active');
           jQuery(this).removeClass('marakata_sim_game');
@@ -294,12 +294,12 @@ jQuery(function() {
     jQuery('.game_numbers').text('');
     game_counter = 0;
     jQuery('.btn_reset').removeClass('hidden');
-    jQuery('.marakata_sim').css('paddingTop', '0px');
+    jQuery('.marakata_sim').css('marginTop', '0px');
     max_time_game = 1;
     jQuery('.marakata_sim_g').addClass('marakata_sim_game');
   });
   jQuery('.btn_reset, .menu-game').on('click', function(event) {
-    jQuery('.marakata_sim').css('paddingTop', '0px');
+    jQuery('.marakata_sim').css('marginTop', '0px');
     jQuery('.marakata_sim_m').addClass('marakata_sim_from')
     jQuery('.marakata_sim').removeClass('marakata_sim-active');
     jQuery('.marakata_sim-1').addClass('marakata_sim-active');
