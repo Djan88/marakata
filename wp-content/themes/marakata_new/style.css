@@ -64,15 +64,16 @@ body section p
 .marakata_sim-wrap
 {
   overflow: hidden;
+  height: 180px;
 }
 .marakata_sim
 {
   background: url(img/numbers.png) top left/100% repeat-y;
   color: transparent;
   background-position-y: 0px;
-  -webkit-transition: background-position-y 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition: background-position-y 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: background-position-y 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition: padding-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: padding-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: padding-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .marakata_sim, .marakata_dot 
 {
@@ -80,16 +81,18 @@ body section p
   border: 2px solid rgba(99,99,99,0.3);
   box-sizing: border-box;
   border-radius: 6px;
-  height: 180px;
+  height: 1715px;
   width: 100%;
   font-size: 110px;
   position: relative;
   z-index: 1;
   color: #000;
+  padding-top: 0;
 }
 .marakata_dot 
 {
   background: #fff;
+  height: 180px;
 }
 .section-title
 {
