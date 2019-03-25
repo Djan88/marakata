@@ -185,7 +185,7 @@ span.hidden-md.hidden-lg.icon
   float: none;
   overflow: hidden;
   width: 400px;
-  height: 500px;
+  height: 500px!important;
   background: #fff;
   /*background: url(img/counter_back.gif) 17px -30px/91% no-repeat;*/
 }
