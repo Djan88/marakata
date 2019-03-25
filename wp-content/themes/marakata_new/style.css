@@ -196,6 +196,10 @@ span.hidden-md.hidden-lg.icon
 .marakata_sim_game
 {
   background: url(img/numbers_game.png) top left/400px repeat-y;
+  height: 4550px;
+  border: none;
+  border-left: 2px solid rgba(99,99,99,0.3);
+  border-right: 2px solid rgba(99,99,99,0.3);
 }
 .game_number
 {
@@ -208,13 +212,6 @@ span.hidden-md.hidden-lg.icon
   padding-bottom: 7px;
   display: block;
   white-space: nowrap;
-}
-.marakata_game .marakata_sim
-{
-  height: 4550px;
-  border: none;
-  border-left: 2px solid rgba(99,99,99,0.3);
-  border-right: 2px solid rgba(99,99,99,0.3);
 }
 .marakata_sim-active, .marakata_game .marakata_sim.marakata_sim-active
 {
