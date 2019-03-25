@@ -183,10 +183,10 @@ span.hidden-md.hidden-lg.icon
   display: block;
   margin: auto;
   float: none;
-  /*overflow: hidden;*/
+  overflow: hidden;
   width: 400px;
   height: 500px!important;
-  /*background: #fff;*/
+  background: url(img/numbers_game.png) top left/400px repeat-y;
   /*background: url(img/counter_back.gif) 17px -30px/91% no-repeat;*/
 }
 #deviatochka .no_padding_wrap
@@ -195,7 +195,7 @@ span.hidden-md.hidden-lg.icon
 }
 .marakata_game .marakata_sim 
 {
-  background: url(img/numbers_game.png) top left/400px repeat-y;
+  
 }
 .game_number
 {
