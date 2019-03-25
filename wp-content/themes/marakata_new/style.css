@@ -64,6 +64,7 @@ body section p
 .marakata_sim-wrap
 {
   overflow: hidden;
+  height: 180px;
 }
 .marakata_sim-inner
 {
