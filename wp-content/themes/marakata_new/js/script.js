@@ -38,11 +38,11 @@ jQuery(function() {
           scroll_val = 125.5;
       } else if (page_h < 768 && page_h > 600) {
           scroll_val =  block_w * 1.220000017582418;
-          jQuery(".marakata_sim.marakata_sim_prot").css('height', scroll_val+'px');
+          jQuery(".marakata_sim-wrap").css('height', scroll_val+'px');
           jQuery(".marakata_dot").css('height', scroll_val+'px');
       } else {
           scroll_val =  block_w * 1.195377930902479;
-          jQuery(".marakata_sim.marakata_sim_prot").css('height', scroll_val+'px');
+          jQuery(".marakata_sim-wrap").css('height', scroll_val+'px');
           jQuery(".marakata_dot").css('height', scroll_val+'px');
       }
       scroll_game = 505.78;
