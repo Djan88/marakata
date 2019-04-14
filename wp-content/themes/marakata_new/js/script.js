@@ -32,11 +32,11 @@ jQuery(function() {
       console.log(block_w);
       if (page_h > 1200) {
           scroll_val = 171;
-      } else if (page_h < 1200 && page_h > 1001) {
+      } else if (page_h <= 1200 && page_h > 1001) {
           scroll_val = 171.4;
-      } else if (page_h < 1000 && page_h > 769) {
+      } else if (page_h <= 1000 && page_h > 769) {
           scroll_val = 125.5;
-      } else if (page_h < 768 && page_h > 600) {
+      } else if (page_h <= 768 && page_h > 600) {
           scroll_val =  block_w * 1.220000017582302;
           jQuery(".marakata_sim-wrap").css('height', scroll_val+'px');
           jQuery(".marakata_dot").css('height', scroll_val+'px');
