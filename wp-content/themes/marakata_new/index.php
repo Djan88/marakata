@@ -151,7 +151,7 @@
 						<?php } ?>
 					<?php } else { ?>
 						<li>
-							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарегистрированным пользователям.'>
+							<a class="lc lc_mar" target="_blank" href="https://deviatochka.ru" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Игра "Девяточка" теперь доступна отдельно. Кликните по этой ссылке чтоб узнать больше!'>
 								<span class="hidden-xs hidden-sm">
 									<i class="hover-label">Девяточка</i>
 									Девяточка
