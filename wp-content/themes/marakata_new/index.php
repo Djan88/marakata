@@ -511,7 +511,9 @@
 								data-animation-delay="100"
 								data-out-animation="fadeOutUp"
 								data-out-animation-delay="100">Оцифратор для игры</h2>
-							
+							<p>
+								Психофизическая трансформационная игра <span style="color: #d94f5c;">"ДЕВЯТОЧКА"</span> теперь доступна отдельно на <a target="_blank" href="https://deviatochka.ru">deviatochka.ru</a>. Существующие пользователи могут войти в программу с имеющимися логином и паролем. Оцифратор для игры на базе проекта <span style="color: #d94f5c;">"MARAKATA"</span> останется доступен пользователям до <span style="color: #d94f5c;">1 октября 2019</span> и в дальнейшем будет упразднен.
+							</p>
 							<div class="row section-description text-center no_padding_wrap"
 										data-animation="fadeInDown"
 										data-animation-delay="200"
