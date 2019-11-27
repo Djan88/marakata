@@ -84,84 +84,28 @@
 		<div class="col-sm-5 header-box">
 			<div id="main-menu" class="main-menu">
 				<ul>
-					<?php if(is_user_logged_in()){ ?>
-						<?php if(is_user_role('contributor') || is_user_role('administrator') || is_user_role('author')){ ?>
-							<li>
-								<a class="lc" href="#marakata">
-									<span class="hidden-xs hidden-sm">
-										<i class="hover-label">MARAKATA</i>
-										MARAKATA
-									</span>
-									<span class="hidden-md hidden-lg icon">
-										M
-									</span>
-								</a>
-							</li>
-						<?php } else { ?>
-							<li>
-								<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='На данный момент у Вас нет доступа к оцифратору "MARAKATA"'>
-									<span class="hidden-xs hidden-sm">
-										<i class="hover-label">MARAKATA</i>
-										MARAKATA
-									</span>
-									<span class="hidden-md hidden-lg icon">
-										M
-									</span>
-								</a>
-							</li>
-						<?php } ?>
-					<?php } else { ?>
-						<li>
-							<a class="lc lc_mar" href="#locked" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Этот раздел доступен только зарегистрированным пользователям.'>
-								<span class="hidden-xs hidden-sm">
-									<i class="hover-label">MARAKATA</i>
-									MARAKATA
-								</span>
-								<span class="hidden-md hidden-lg icon">
-									M
-								</span>
-							</a>
-						</li>
-					<?php } ?>
-					<?php if(is_user_logged_in()){ ?>
-						<?php if(is_user_role('subscriber') || is_user_role('administrator') || is_user_role('author')) { ?>
-							<li>
-								<a class="lc" href="#deviatochka">
-									<span class="hidden-xs hidden-sm">
-										<i class="hover-label">Девяточка</i>
-										Девяточка
-									</span>
-									<span class="hidden-md hidden-lg icon">
-										9
-									</span>
-								</a>
-							</li>
-						<?php } else { ?>
-							<li>
-								<a class="lc lc_mar" target="_blank" href="https://deviatochka.ru" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Игра "Девяточка" теперь доступна отдельно. Кликните по этой ссылке чтоб узнать больше!'>
-									<span class="hidden-xs hidden-sm">
-										<i class="hover-label">Девяточка</i>
-										Девяточка
-									</span>
-									<span class="hidden-md hidden-lg icon">
-										9
-									</span>
-								</a>
-							</li>
-						<?php } ?>
-					<?php } else { ?>
-						<li>
-							<a class="lc lc_mar" target="_blank" href="https://deviatochka.ru" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content='Игра "Девяточка" теперь доступна отдельно. Кликните по этой ссылке чтоб узнать больше!'>
-								<span class="hidden-xs hidden-sm">
-									<i class="hover-label">Девяточка</i>
-									Девяточка
-								</span>
-								<span class="hidden-md hidden-lg icon">
-									9
-								</span>
-							</a>
-						</li>
-					<?php } ?>
+					<li>
+						<a class="lc" href="/">
+							<span class="hidden-xs hidden-sm">
+								<i class="hover-label">MARAKATA</i>
+								MARAKATA
+							</span>
+							<span class="hidden-md hidden-lg icon">
+								M
+							</span>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" class="lc" href="https://deviatochka.ru">
+							<span class="hidden-xs hidden-sm">
+								<i class="hover-label">Девяточка</i>
+								Девяточка
+							</span>
+							<span class="hidden-md hidden-lg icon">
+								9
+							</span>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div><!-- .header-box -->
