@@ -85,7 +85,7 @@
 			<div id="main-menu" class="main-menu">
 				<ul>
 					<li>
-						<a class="lc" href="/">
+						<a href="/">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">MARAKATA</i>
 								MARAKATA
@@ -96,7 +96,7 @@
 						</a>
 					</li>
 					<li>
-						<a target="_blank" class="lc" href="https://deviatochka.ru">
+						<a target="_blank" href="https://deviatochka.ru">
 							<span class="hidden-xs hidden-sm">
 								<i class="hover-label">Девяточка</i>
 								Девяточка
