@@ -166,6 +166,52 @@
 </header><!-- .site-header -->
 
 <div class="main">
+  <?php if(!is_user_logged_in()){ ?>
+  	  <section id="home" class="section active">
+  			<div class="section-wrap">
+  				<div class="section-content">
+  					<div class="container">
+  						<div class="text-center">
+  							<div class="clearfix"></div>
+  							<h1 class="h1-section-title"
+  								data-animation="fadeInDown"
+  								data-out-animation="fadeOutUp"
+  								data-out-animation-delay="300">MARAKATA</h1>
+  							
+  							<div class="row section-description">
+  								<div class="col-sm-12">
+  									<h3 data-animation="fadeInDown"
+  										data-animation-delay="300"
+  										data-out-animation="fadeOutUp"
+  										data-out-animation-delay="300">
+  									Метод работы с напряжениями телесного подсознания</h3>
+  									<p class="lead"
+  										data-animation="fadeInDown"
+  										data-animation-delay="300"
+  										data-out-animation="fadeOutUp"
+  										data-out-animation-delay="300">
+  										Данная программа представляет собой цифровую составляющую проектов <span style="color: #d94f5c;">"MARAKATA"</span> и <span style="color: #d94f5c;">"ДЕВЯТОЧКА".</span>
+  										Пользователям доступны два нейрофизиологических оцифратора дисфункций, работающих на принципах феномена <span style="color: #d94f5c;">"Р300"</span>. Каждый из них предназначен для конкретного проекта и не может быть заменен другим.
+  									</p>
+  								</div>
+  							</div>
+  							<?php if(!is_user_logged_in()){ ?>
+  							<a href="#"
+  								class="btn btn-default btn-main"
+  								data-hover='В "MARAKATA"'
+  								data-animation="fadeInDown"
+  								data-animation-delay="600"
+  								data-out-animation="fadeOutUp"
+  								data-out-animation-delay="600"
+  								data-toggle="modal"
+  								data-target="#notify-my"><span class="button-label">ВОЙТИ</span></a>
+  							<?php } ?>
+  						</div>
+  					</div>
+  				</div><!-- .section-content -->
+  			</div><!-- .section-wrap -->
+  	  </section><!-- #home.section -->
+  <?php }?>
   <?php if(is_user_logged_in()){ ?>
   	<?php if(is_user_role('contributor') || is_user_role('administrator') || is_user_role('author')) { ?>
 		  <section id="marakata" class="section active">
@@ -395,51 +441,6 @@
 					</div><!-- .section-content -->
 				</div><!-- .section-wrap -->
 		  </section><!-- #marakata.section --> 
-  	<?php } else { ?>
-		  <section id="home" class="section active">
-				<div class="section-wrap">
-					<div class="section-content">
-						<div class="container">
-							<div class="text-center">
-								<div class="clearfix"></div>
-								<h1 class="h1-section-title"
-									data-animation="fadeInDown"
-									data-out-animation="fadeOutUp"
-									data-out-animation-delay="300">MARAKATA</h1>
-								
-								<div class="row section-description">
-									<div class="col-sm-12">
-										<h3 data-animation="fadeInDown"
-											data-animation-delay="300"
-											data-out-animation="fadeOutUp"
-											data-out-animation-delay="300">
-										Метод работы с напряжениями телесного подсознания</h3>
-										<p class="lead"
-											data-animation="fadeInDown"
-											data-animation-delay="300"
-											data-out-animation="fadeOutUp"
-											data-out-animation-delay="300">
-											Данная программа представляет собой цифровую составляющую проектов <span style="color: #d94f5c;">"MARAKATA"</span> и <span style="color: #d94f5c;">"ДЕВЯТОЧКА".</span>
-											Пользователям доступны два нейрофизиологических оцифратора дисфункций, работающих на принципах феномена <span style="color: #d94f5c;">"Р300"</span>. Каждый из них предназначен для конкретного проекта и не может быть заменен другим.
-										</p>
-									</div>
-								</div>
-								<?php if(!is_user_logged_in()){ ?>
-								<a href="#"
-									class="btn btn-default btn-main"
-									data-hover='В "MARAKATA"'
-									data-animation="fadeInDown"
-									data-animation-delay="600"
-									data-out-animation="fadeOutUp"
-									data-out-animation-delay="600"
-									data-toggle="modal"
-									data-target="#notify-my"><span class="button-label">ВОЙТИ</span></a>
-								<?php } ?>
-							</div>
-						</div>
-					</div><!-- .section-content -->
-				</div><!-- .section-wrap -->
-		  </section><!-- #home.section -->
   	<?php } ?>
   <?php } ?>
  
