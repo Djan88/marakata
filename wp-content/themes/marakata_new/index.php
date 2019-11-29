@@ -229,33 +229,16 @@
 							      </label>
 							    </div>
 							    <div class="personal hidden">
-							      <h2 class="text-center section-title"
-							      	data-animation="fadeInDown"
-							      	data-animation-delay="100"
-							      	data-out-animation="fadeOutUp"
-							      	data-out-animation-delay="100">Актуальность</h2>
-							      <div class="bs-example col-md-6 col-md-offset-3"
-							      	data-animation="fadeInDown"
-							      	data-animation-delay="200"
-							      	data-out-animation="fadeOutUp"
-							      	data-out-animation-delay="200">
+							      <h2 class="text-center section-title">Актуальность</h2>
+							      <div class="bs-example col-md-6 col-md-offset-3">
 							        <form role="form">
 							          <textarea class="form-control personal_history" rows="3"></textarea>
 							        </form>
 							      </div>
 							    </div>
 							    <div class="actuality">
-							      <h2 class="text-center section-title"
-							      	data-animation="fadeInDown"
-							      	data-animation-delay="100"
-							      	data-out-animation="fadeOutUp"
-							      	data-out-animation-delay="100">Личная история</h2>
-							      <div id="carousel-example-generic" class="carousel carousel_marakata slide"
-							       data-ride="carousel"
-							       data-animation="fadeInDown"
-							       data-animation-delay="200"
-							       data-out-animation="fadeOutUp"
-							       data-out-animation-delay="200">
+							      <h2 class="text-center section-title">Личная история</h2>
+							      <div id="carousel-example-generic" class="carousel carousel_marakata slide">
 							        <!-- Indicators -->
 							        <ol class="carousel-indicators">
 							          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -350,17 +333,9 @@
 							    </div>
 							  </div>
 							</div>
-							<h2 class="text-center section-title"
-								data-animation="fadeInDown"
-								data-animation-delay="100"
-								data-out-animation="fadeOutUp"
-								data-out-animation-delay="100">Исходные данные</h2>
+							<h2 class="text-center section-title">Исходные данные</h2>
 							
-							<div class="row section-description text-center no_padding_wrap"
-										data-animation="fadeInDown"
-										data-animation-delay="200"
-										data-out-animation="fadeOutUp"
-										data-out-animation-delay="200">
+							<div class="row section-description text-center no_padding_wrap">
 								<div class="col-md-2 col-xs-2 marakata_sim-wrap">
 									<div class="marakata_sim-inner">
 										<div class="marakata_sim marakata_sim_prot marakata_sim_m marakata_sim-1 marakata_sim_from"></div>
