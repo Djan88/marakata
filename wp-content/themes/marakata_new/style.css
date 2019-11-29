@@ -73,7 +73,7 @@ body section p
 }
 .marakata_sim
 {
-  background: url("img/mara.png") top left/100% repeat-y;
+  background: url("img/numbers.png") top left/100% no-repeat;
   color: transparent;
   background-position-y: 0px;
   -webkit-transition: margin-top 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
